@@ -81,7 +81,7 @@ int main(const int argc, const char** argv)
 	//(1) 行列の"要素"の積和演算AX + Bを計算するプログラムにおいて，行列積と和それぞれの実行時間をタイマーを挟むことで測定せよ．
 	//なお，デフォルトのサンプルコードには行列積の後，和をとるプログラムがサンプルとして書かれており，タイマーもすでに記述済みである．
 	//(2) また，１度目の計算時間は，２回目以降よりも統計的に遅いことを確認せよ．
-	if (exercise == 1)
+	if (exercise == 	1)
 	{
 		//慣れるためのの問題．timerをコメントアウトしてみたり行列の表示をしたりすることを習得する．
 		const int default_loop = 10;
@@ -102,16 +102,16 @@ int main(const int argc, const char** argv)
 		mat_zero(ret);
 
 		CalcTime t;
-		std::cout << "|time    |ms  |" << std::endl;
-		std::cout << "|--------|----|" << std::endl;
+		std::cout << "[time],[ms]" << std::endl;
+		// std::cout << "|--------|----|" << std::endl;
 		for (int i = 0; i < loop; i++)
 		{
 			t.start();	//時間計測開始
 			ret = mat_add(mat_mul(a, x), b);
 			t.end();	//時間計測終了
-			std::cout << "|time   " << i << "|" << t.getLastTime() << "|" << std::endl;
+			std::cout << "[time   " << i << "], $" << t.getLastTime() << "$" << std::endl;
 		}
-		std::cout << "|time avg|" << t.getAvgTime() << "|" << std::endl << std::endl;
+		std::cout << "[time avg], $" << t.getAvgTime() << "$" << std::endl << std::endl;
 
 		//行列の中身を表示．邪魔になったらコメントアウトすること．
 		a.show();
@@ -153,9 +153,9 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|option|time [ms]|" << std::endl;
-		std::cout << "|------|---------|" << std::endl;
-		std::cout << "|-Oxxxx|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[option], [time [ms]]" << std::endl;
+		// std::cout << "|------|---------|" << std::endl;
+		std::cout << "[-O], $" << t.getAvgTime() << "$" << std::endl;
 
 		return 0;
 	}
@@ -204,9 +204,9 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "before: time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|method|time [ms]|" << std::endl;
-		std::cout << "|------|---------|" << std::endl;
-		std::cout << "|before|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time [ms]]," << std::endl;
+		// std::cout << "|------|---------|" << std::endl;
+		std::cout << "[before], $" << t.getAvgTime() << "$," << std::endl;
 
 		//after
 		for (int k = 0; k < loop; k++)
@@ -219,12 +219,12 @@ int main(const int argc, const char** argv)
 			{
 				//計算 yに書き込み
 				const float v = x.data[i];
-				//y.data[i] = XXXXXXXX;
+				y.data[i] = 3.f * (v * v * v * (v * (v *(v + 1) + 1) + 1) + 1);
 			}
 			t.end();
-			//std::cout << "after : time: " << t.getLastTime() << " ms" << std::endl;
+			// std::cout << "after : time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|after |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[after], $" << t.getAvgTime() << "$," << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
 		std::cout << "default parameter: default_loop = " << default_loop << ", default_size = " << default_size << std::endl;
@@ -268,15 +268,15 @@ int main(const int argc, const char** argv)
 			for (int i = 0; i < s; i++)
 			{
 				//計算 ansに書き込み
-				//ans.data[i] = XXXXXXXX
+				ans.data[i] = (2 * M_PIf + sqrtf32(5) + 0.5 * 0.5) * x.data[i];
 			}
 
 			t.end();
 			//std::cout << "before: time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|method |time [ms]|" << std::endl;
-		std::cout << "|-------|---------|" << std::endl;
-		std::cout << "|inline |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time [ms]]," << std::endl;
+		// std::cout << "|-------|---------|" << std::endl;
+		std::cout << "[inline ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//after
 		for (int k = 0; k < loop; k++)
@@ -284,16 +284,16 @@ int main(const int argc, const char** argv)
 			//先に計算する場合
 			t.start();
 			const int s = x.rows * x.cols;
-			//XXXXXXXX //定数値を計算
+			float temp = 2 * M_PIf + sqrtf32(5) + 0.5 * 0.5;
 			for (int i = 0; i < s; i++)
 			{
 				//計算 yに書き込み
-				//y.data[i] = XXXXXXXX;
+				y.data[i] = temp * x.data[i];
 			}
 			t.end();
 			//std::cout << "after : time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|precomp|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[precomp], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -412,6 +412,8 @@ int main(const int argc, const char** argv)
 		mat_zero(y);
 
 		CalcTime t;
+		constexpr float pi = M_PIf;
+		constexpr float piinv = 1 / pi;
 		//before
 		for (int k = 0; k < loop; k++)
 		{
@@ -422,15 +424,15 @@ int main(const int argc, const char** argv)
 				for (int i = 0; i < x.cols; i++)
 				{
 					//計算 ansに書き込み
-					//ans.data[XXXXXXXX]=xxxx
+					ans.data[j * x.cols + i] = x.data[j * x.cols + i] / pi;
 				}
 			}
 			t.end();
 			//std::cout << "div: time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|method |time [ms]|" << std::endl;
-		std::cout << "|-------|---------|" << std::endl;
-		std::cout << "|div 2lp|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time[ms]], " << std::endl;
+//		std::cout << "|-------|---------|" << std::endl;
+		std::cout << "[div 2lp], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//after
 		for (int k = 0; k < loop; k++)
@@ -442,13 +444,13 @@ int main(const int argc, const char** argv)
 				for (int i = 0; i < x.cols; i++)
 				{
 					//計算
-					//y.data[XXXXXXXX]=xxxxx
+					y.data[j * x.cols + i] = x.data[j * x.cols + i] * piinv;
 				}
 			}
 			t.end();
 			//std::cout << "mul: time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|mul 2lp|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[mul 2lp], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//1重ループの場合
 		for (int k = 0; k < loop; k++)
@@ -459,12 +461,12 @@ int main(const int argc, const char** argv)
 			for (int i = 0; i < s; i++)
 			{
 				//計算
-				//ans.data[XXXXXXXX]=xxxx
+				ans.data[i] = x.data[i] / pi;
 			}
 			t.end();
 			//std::cout << "after : time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|div 1lp|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[div 1lp], $" << t.getAvgTime() << "$, " << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -474,12 +476,12 @@ int main(const int argc, const char** argv)
 			for (int i = 0; i < size; i++)
 			{
 				//計算
-				//y.data[XXXXXXXX]=xxxxx
+				y.data[i] = x.data[i] * piinv;
 			}
 			t.end();
 			//std::cout << "after : time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|mul 2lp|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[mul 2lp], $" << t.getAvgTime() << "$, " << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
 		std::cout << "default parameter: default_loop = " << default_loop << ", default_size = " << default_size << std::endl;
@@ -529,15 +531,15 @@ int main(const int argc, const char** argv)
 				for (int i = 0; i < ans.cols; i++)
 				{
 					//計算 ansに書き込み
-					//ans.data[XXXXXXXX]=xxxx
+					ans.data[j * ans.cols + i] = (a.data[j * a.cols + i] / b.data[j * b.cols + i]) * (c.data[j * c.cols + i] / d.data[j * d.cols + i]);
 				}
 			}
 			t.end();
 			//std::cout << "before: time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|method|time [ms]|" << std::endl;
-		std::cout << "|------|---------|" << std::endl;
-		std::cout << "|div x2|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time [ms]], " << std::endl;
+//		std::cout << "|------|---------|" << std::endl;
+		std::cout << "[div x2], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//after
 		for (int k = 0; k < loop; k++)
@@ -549,13 +551,13 @@ int main(const int argc, const char** argv)
 				for (int i = 0; i < ret.cols; i++)
 				{
 					//計算 retに書き込み
-					//ret.data[XXXXXXXX]=xxxx
+					ret.data[j * ret.cols + i] = (a.data[j * a.cols + i] * c.data[j * c.cols + i]) / (b.data[j * b.cols + i] * d.data[j * d.cols + i]);
 				}
 			}
 			t.end();
 			//std::cout << "after : time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|div x1|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[div x1], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -607,9 +609,9 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|method|time [ms]|" << std::endl;
-		std::cout << "|------|---------|" << std::endl;
-		std::cout << "|pow  2|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time [ms]], " << std::endl;
+//		std::cout << "|------|---------|" << std::endl;
+		std::cout << "[pow  2], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//2乗をmulで計算
 		for (int j = 0; j < loop; j++)
@@ -619,11 +621,11 @@ int main(const int argc, const char** argv)
 			for (int i = 0; i < s; i++)
 			{
 				//計算（retに入れる）
-				//ret.data[i] = xxxxx;
+				ret.data[i] = x.data[i] * x.data[i];
 			}
 			t.end();
 		}
-		std::cout << "|mul  2|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[mul  2], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		//3乗をpow計算
@@ -640,7 +642,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|pow  3|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[pow  3], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//3乗をmulで計算
 		for (int j = 0; j < loop; j++)
@@ -650,11 +652,11 @@ int main(const int argc, const char** argv)
 			for (int i = 0; i < s; i++)
 			{
 				//計算
-				//ret.data[i] = xxxx;
+				ret.data[i] = x.data[i] * x.data[i] * x.data[i];
 			}
 			t.end();
 		}
-		std::cout << "|mul  3|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[mul  3], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		//4乗をpow計算
@@ -671,7 +673,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|pow  4|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[pow  4], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//4乗をmulで計算
 		for (int j = 0; j < loop; j++)
@@ -681,11 +683,11 @@ int main(const int argc, const char** argv)
 			for (int i = 0; i < s; i++)
 			{
 				//計算
-				//ret.data[i] = xxxx;
+				ret.data[i] = x.data[i] * x.data[i] * x.data[i] * x.data[i];
 			}
 			t.end();
 		}
-		std::cout << "|mul  4|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[mul  4], $" << t.getAvgTime() << "$, " << std::endl;
 		//std::cout << "diff from ans: " << mat_diff(ans, ret) / double(ans.cols * ans.rows) << std::endl << std::endl;
 
 
@@ -703,7 +705,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|pow " << pow_n << "|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[pow " << pow_n << "], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//n乗をmulで計算（nは任意）
 		for (int j = 0; j < loop; j++)
@@ -712,11 +714,11 @@ int main(const int argc, const char** argv)
 			const int s = x.rows * x.cols;
 			for (int i = 0; i < s; i++)
 			{
-				//ret.data[i] = xxxx
+				ret.data[i] = x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i] * x.data[i];
 			}
 			t.end();
 		}
-		std::cout << "|mul " << pow_n << "|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[mul " << pow_n << "], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -753,8 +755,8 @@ int main(const int argc, const char** argv)
 		Mat_8S a_8s(a_8u);
 		Mat_8S b_8s(b_8u);
 		Mat_8S ret_8s(row, col);
-		mat_rand(a_8u, 0, 63);//64は64+64=128でcharがオーバーフロー
-		mat_rand(b_8u, 0, 63);//64は64+64=128でcharがオーバーフロー
+		mat_rand(a_8s, 0, 63);//64は64+64=128でcharがオーバーフロー
+		mat_rand(b_8s, 0, 63);//64は64+64=128でcharがオーバーフロー
 
 		Mat_16S a_16s(a_8u);
 		Mat_16S b_16s(b_8u);
@@ -782,31 +784,31 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout<< "time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|method|time [ms]|" << std::endl;
-		std::cout << "|------|---------|" << std::endl;
-		std::cout << "|8U    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time [ms]], " << std::endl;
+//		std::cout << "|------|---------|" << std::endl;
+		std::cout << "[8U], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//char
 		for (int i = 0; i < loop; i++)
 		{
 			t.start();
 			// char
-			//XXXXXXXX
+			mat_add(a_8s, b_8s, ret_8s);
 			t.end();
 			//std::cout<< "time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|8S    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[8S], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//short
 		for (int i = 0; i < loop; i++)
 		{
 			t.start();
 			//short
-			//XXXXXXXX
+			mat_add(a_16s, b_16s, ret_16s);
 			t.end();
 			//std::cout<< "time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|16S   |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[16S], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		//int
@@ -814,11 +816,11 @@ int main(const int argc, const char** argv)
 		{
 			t.start();
 			//int
-			//XXXXXXXX
+			mat_add(a_32s, b_32s, ret_32s);
 			t.end();
 			//std::cout<< "time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|32S   |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[32S], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		//float
@@ -826,11 +828,11 @@ int main(const int argc, const char** argv)
 		{
 			t.start();
 			//float
-			//XXXXXXXX
+			mat_add(a_32f, b_32f, ret_32f);
 			t.end();
 			//std::cout<< "time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|32F   |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[32F], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		//double
@@ -838,11 +840,11 @@ int main(const int argc, const char** argv)
 		{
 			t.start();
 			//double
-			//XXXXXXXX
+			mat_add(a_64f, b_64f, ret_64f);
 			t.end();
 			//std::cout<< "time: " << t.getLastTime() << " ms" << std::endl;
 		}
-		std::cout << "|64F   |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[64F], $" << t.getAvgTime() << "$, " << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
 		std::cout << "default parameter: default_loop = " << default_loop << ", default_size = " << default_size << std::endl;
@@ -896,13 +898,13 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				//XXXXXXXX ret_32s.data[i]=xxxx
+				ret_32s.data[i] *= 2;
 			}
 			t.end();
 		}
 		std::cout << "|method      |time [ms]|" << std::endl;
 		std::cout << "|------------|---------|" << std::endl;
-		std::cout << "|2 mul  (32S)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|2 mul  (32S)], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//2.0x mul
 		for (int k = 0; k < loop; k++)
@@ -911,12 +913,12 @@ int main(const int argc, const char** argv)
 			t.start();
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
-			{
-				//XXXXXXXX ret_32s.data[i] =xxx
+			{				
+				ret_32s.data[i] *= 2.f;
 			}
 			t.end();
 		}
-		std::cout << "|2 mul  (32F)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|2 mul  (32F)], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//2x bit shift
 		for (int k = 0; k < loop; k++)
@@ -926,11 +928,11 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				//XXXXXXXX ret_32s.data[i] =xxx
+				ret_32s.data[i] <<= 1;
 			}
 			t.end();
 		}
-		std::cout << "|1 shift(32S)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|1 shift(32S)], $" << t.getAvgTime() << "$, " << std::endl;
 		std::cout << "|------------|---------|" << std::endl;
 
 
@@ -942,11 +944,11 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				//XXXXXXXX ret_32s.data[i] =xxx
+				ret_32s.data[i] /= 2;
 			}
 			t.end();
 		}
-		std::cout << "|2 div  (32S)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|2 div  (32S)], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//1/2 div double
 		for (int k = 0; k < loop; k++)
@@ -956,11 +958,11 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				//XXXXXXXX ret_32s.data[i] =xxx
+				ret_32s.data[i] /=  2.0;
 			}
 			t.end();
 		}
-		std::cout << "|2 div  (64F)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|2 div  (64F)], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//1/2 -> mul 0.5
 		for (int k = 0; k < loop; k++)
@@ -970,11 +972,11 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				//XXXXXXXX ret_32s.data[i] =xxx
+				ret_32s.data[i] *= 0.5;
 			}
 			t.end();
 		}
-		std::cout << "|0.5 mul(64F)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|0.5 mul(64F)], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//1/2->bit shift
 		for (int k = 0; k < loop; k++)
@@ -984,11 +986,11 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				//XXXXXXXX ret_32s.data[i] =xxx
+				ret_32s.data[i] >>= 1;
 			}
 			t.end();
 		}
-		std::cout << "|1 shift(32S)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|1 shift(32S)], $" << t.getAvgTime() << "$, " << std::endl;
 		std::cout << "|------------|---------|" << std::endl;
 
 
@@ -1010,7 +1012,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|2 div  (32F)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|2 div  (32F)], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//1/2 -> mul 0.5
 		for (int k = 0; k < loop; k++)
@@ -1024,7 +1026,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|0.5 mul(32F)|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|0.5 mul(32F)], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -1071,7 +1073,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method     |time [ms]|" << std::endl;
 		std::cout << "|-----------|---------|" << std::endl;
-		std::cout << "|32F mul 32F|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|32F mul 32F], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		Mat_32S x_32s(row, col);
@@ -1089,7 +1091,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|32S mul 32F|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|32S mul 32F], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//int fix
 		for (int k = 0; k < loop; k++)
@@ -1103,7 +1105,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|32S mul fix|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|32S mul fix], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		Mat_16S x_16s(row, col);
@@ -1122,7 +1124,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|16S mul fix|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|16S mul fix], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -1172,9 +1174,9 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|method |time [ms]|" << std::endl;
-		std::cout << "|-------|---------|" << std::endl;
-		std::cout << "|add    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time[ms]], " << std::endl;
+//		std::cout << "|-------|---------|" << std::endl;
+		std::cout << "|add    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -1187,7 +1189,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|mul    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|mul    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -1200,7 +1202,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|div    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|div    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//sqrt
 		for (int k = 0; k < loop; k++)
@@ -1214,7 +1216,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|sqrt   |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|sqrt   ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//sin
 		for (int k = 0; k < loop; k++)
@@ -1228,7 +1230,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|sin    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|sin    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//cos
 		for (int k = 0; k < loop; k++)
@@ -1242,7 +1244,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|cos    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|cos    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//exp
 		for (int k = 0; k < loop; k++)
@@ -1256,7 +1258,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|exp    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|exp    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//log
 		for (int k = 0; k < loop; k++)
@@ -1270,7 +1272,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|log    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|log    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		float LUT[256];
@@ -1292,7 +1294,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|sqrtLUT|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|sqrtLUT], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//sin LUT
 		for (int i = 0; i < 256; i++)
@@ -1311,7 +1313,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|sin LUT|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|sin LUT], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//cos LUT
 		for (int i = 0; i < 256; i++)
@@ -1330,7 +1332,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|cos LUT|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|cos LUT], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//exp LUT
 		for (int i = 0; i < 256; i++)
@@ -1349,7 +1351,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|exp LUT|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|exp LUT], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//log LUT
 		for (int i = 0; i < 256; i++)
@@ -1368,7 +1370,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|log LUT|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|log LUT], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -1476,7 +1478,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method  |time [ms]|" << std::endl;
 		std::cout << "|--------|---------|" << std::endl;
-		std::cout << "|func    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|func    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//inline 関数呼び出し
 		for (int k = 0; k < loop; k++)
@@ -1489,7 +1491,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|inline  |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|inline  ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//べた書き（関数の中身をループないに書く）
 		for (int k = 0; k < loop; k++)
@@ -1503,7 +1505,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|hardcode|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|hardcode], $" << t.getAvgTime() << "$, " << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
 		std::cout << "default parameter: default_loop = " << default_loop << ", default_size = " << default_size << std::endl;
@@ -1544,9 +1546,9 @@ int main(const int argc, const char** argv)
 				}
 				t.end();
 			}
-			std::cout << "|method |time [ms]|" << std::endl;
-			std::cout << "|-------|---------|" << std::endl;
-			std::cout << "|alloc  |" << t.getAvgTime() << "|" << std::endl;
+			std::cout << "[method], [time[ms]], " << std::endl;
+	//		std::cout << "|-------|---------|" << std::endl;
+			std::cout << "|alloc  ], $" << t.getAvgTime() << "$, " << std::endl;
 		}
 
 		//a = a x b
@@ -1566,7 +1568,7 @@ int main(const int argc, const char** argv)
 				}
 				t.end();
 			}
-			std::cout << "|inplace|" << t.getAvgTime() << "|" << std::endl;
+			std::cout << "|inplace], $" << t.getAvgTime() << "$, " << std::endl;
 		}
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -1613,9 +1615,9 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|method |time [ms]|" << std::endl;
-		std::cout << "|-------|---------|" << std::endl;
-		std::cout << "|col-row|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time[ms]], " << std::endl;
+//		std::cout << "|-------|---------|" << std::endl;
+		std::cout << "|col-row], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//row, col
 		for (int k = 0; k < loop; k++)
@@ -1631,7 +1633,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|row-col|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|row-col], $" << t.getAvgTime() << "$, " << std::endl;
 		std::cout << std::endl << std::endl;
 
 
@@ -1681,9 +1683,9 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "time : " << t.getLastTime() << std::endl;
 		}
-		std::cout << "|method|time [ms]|" << std::endl;
-		std::cout << "|------|---------|" << std::endl;
-		std::cout << "|i-j-k |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time [ms]], " << std::endl;
+//		std::cout << "|------|---------|" << std::endl;
+		std::cout << "|i-j-k ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		if (mat_diff(ans, c) > 1)std::cout << "diff from ans: " << mat_diff(ans, c) << std::endl;
 
@@ -1712,7 +1714,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "time : " << t.getLastTime() << std::endl;
 		}
-		std::cout << "|i-k-j |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|i-k-j ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		if (mat_diff(ans, c) > 1)std::cout << "diff from ans: " << mat_diff(ans, c) << std::endl;
 
@@ -1739,7 +1741,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "time : " << t.getLastTime() << std::endl;
 		}
-		std::cout << "|j-i-k |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|j-i-k ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		if (mat_diff(ans, c) > 1)std::cout << "diff from ans: " << mat_diff(ans, c) << std::endl;
 
@@ -1767,7 +1769,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "time : " << t.getLastTime() << std::endl;
 		}
-		std::cout << "|j-k-i |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|j-k-i ], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, c) > 1)std::cout << "diff from ans: " << mat_diff(ans, c) << std::endl;
 
 		//k, i, j
@@ -1795,7 +1797,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "time : " << t.getLastTime() << std::endl;
 		}
-		std::cout << "|k-i-j |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|k-i-j ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		if (mat_diff(ans, c) > 1)std::cout << "diff from ans: " << mat_diff(ans, c) << std::endl;
 
@@ -1823,7 +1825,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			//std::cout << "time : " << t.getLastTime() << std::endl;
 		}
-		std::cout << "|k-i-j |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|k-i-j ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		if (mat_diff(ans, c) > 1)std::cout << "diff from ans: " << mat_diff(ans, c) << std::endl;
 
@@ -1872,7 +1874,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method   |time [ms]|" << std::endl;
 		std::cout << "|---------|---------|" << std::endl;
-		std::cout << "|no unroll|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|no unroll], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//unrolling 2
 		for (int j = 0; j < loop; j++)
@@ -1886,7 +1888,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll  2|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll  2], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//unrolling 4
 		for (int j = 0; j < loop; j++)
@@ -1902,7 +1904,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll  4|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll  4], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//unrolling 8
 		for (int j = 0; j < loop; j++)
@@ -1922,7 +1924,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll  8|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll  8], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//unrolling 16
 		for (int j = 0; j < loop; j++)
@@ -1950,7 +1952,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll 16|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll 16], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//unrolling 32
 		for (int j = 0; j < loop; j++)
@@ -1994,7 +1996,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll 32|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll 32], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//unrolling 64
 		for (int j = 0; j < loop; j++)
@@ -2070,7 +2072,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll 64|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll 64], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		delete[] x;
@@ -2130,7 +2132,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method   |time [ms]|" << std::endl;
 		std::cout << "|---------|---------|" << std::endl;
-		std::cout << "|original |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|original ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//Loop peeling
 		for (int j = 0; j < loop; j++)
@@ -2146,7 +2148,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|L-peeling|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|L-peeling], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		delete[] x;
@@ -2199,7 +2201,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method    |time [ms]|" << std::endl;
 		std::cout << "|----------|---------|" << std::endl;
-		std::cout << "|original  |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|original  ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		Mat_32S ma(data);
 		//loop collapse
@@ -2217,7 +2219,7 @@ int main(const int argc, const char** argv)
 
 			t.end();
 		}
-		std::cout << "|L-collapse|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|L-collapse], $" << t.getAvgTime() << "$, " << std::endl;
 
 		/*
 		//2次元配列の場合のsample code
@@ -2406,7 +2408,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|num_threads(8)|time [ms]|" << std::endl;
 		std::cout << "|--------------|---------|" << std::endl;
-		std::cout << "|xx            |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|xx            ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		std::cout << std::endl;
 
@@ -2444,7 +2446,7 @@ int main(const int argc, const char** argv)
 					}
 					t.end();
 				}
-				std::cout << "|set      " << nt << "|" << t.getAvgTime() << "|" << std::endl;
+				std::cout << "|set      " << nt << "], $" << t.getAvgTime() << "$, " << std::endl;
 			}
 		}
 
@@ -2596,9 +2598,9 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|method |time [ms]|" << std::endl;
-		std::cout << "|-------|---------|" << std::endl;
-		std::cout << "|mul-add|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time[ms]], " << std::endl;
+//		std::cout << "|-------|---------|" << std::endl;
+		std::cout << "|mul-add], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//fma
 		for (int j = 0; j < loop; j++)
@@ -2626,7 +2628,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|fma    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|fma    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		std::cout << "diff from ans: " << mat_diff(ans, c) << std::endl;
 
@@ -2703,7 +2705,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method    |time [ms]|" << std::endl;
 		std::cout << "|----------|---------|" << std::endl;
-		std::cout << "|div       |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|div       ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//rcp
 		for (int j = 0; j < loop; j++)
@@ -2722,7 +2724,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|rcp       |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|rcp       ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//sqrt
 		for (int j = 0; j < loop; j++)
@@ -2741,7 +2743,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|sqrt      |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|sqrt      ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//rsqrt+rcp
 		for (int j = 0; j < loop; j++)
@@ -2761,7 +2763,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|rsqrt+rcp |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|rsqrt+rcp ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//rsqrt+mul
 		for (int j = 0; j < loop; j++)
@@ -2780,7 +2782,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|rsqrt+mul |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|rsqrt+mul ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//abs(subとmaxを使って)
 		for (int j = 0; j < loop; j++)
@@ -2799,7 +2801,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|abs submax|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|abs submax], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//abs(subとnotを使って)
 		for (int j = 0; j < loop; j++)
@@ -2821,7 +2823,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|abs subnot|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|abs subnot], $" << t.getAvgTime() << "$, " << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
 		std::cout << "default parameter: default_loop = " << default_loop << ", default_size = " << default_size << std::endl;
@@ -2867,9 +2869,9 @@ int main(const int argc, const char** argv)
 			t.end();
 			ans_double = sum;
 		}
-		std::cout << "|method|time [ms]|total  |" << std::endl;
+		std::cout << "[method], [time [ms]], total  |" << std::endl;
 		std::cout << "|------|---------|-------|" << std::endl;
-		std::cout << "|double|" << t.getAvgTime() << "|" << ans_double << "|" << std::endl;
+		std::cout << "|double], $" << t.getAvgTime() << "$, " << ans_double << "|" << std::endl;
 		float ans = 0.f;
 		for (int i = 0; i < loop; i++)
 		{
@@ -2882,7 +2884,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			ans = sum;
 		}
-		std::cout << "|float |" << t.getAvgTime() << "|" << ans << "|" << std::endl;
+		std::cout << "|float ], $" << t.getAvgTime() << "$, " << ans << "|" << std::endl;
 
 		//hadd
 		float ans_hadd = 0.f;
@@ -2901,7 +2903,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			ans_hadd = sum;
 		}
-		std::cout << "|hadd  |" << t.getAvgTime() << "|" << ans_hadd << "|" << std::endl;
+		std::cout << "|hadd  ], $" << t.getAvgTime() << "$, " << ans_hadd << "|" << std::endl;
 		if (abs(ans - ans_hadd) > 1)std::cout << "total ans and_hadd " << ans << "," << ans_hadd << std::endl;
 
 		//dp
@@ -2921,7 +2923,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			ans_dp = sum;
 		}
-		std::cout << "|dp    |" << t.getAvgTime() << "|" << ans_dp << "|" << std::endl;
+		std::cout << "|dp    ], $" << t.getAvgTime() << "$, " << ans_dp << "|" << std::endl;
 		if (abs(ans - ans_dp) > 1)std::cout << "total ans and_dp " << ans << "," << ans_hadd << std::endl;
 
 
@@ -2966,9 +2968,9 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|method|time [ms]|" << std::endl;
-		std::cout << "|------|---------|" << std::endl;
-		std::cout << "|scalar|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "[method], [time [ms]], " << std::endl;
+//		std::cout << "|------|---------|" << std::endl;
+		std::cout << "|scalar], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		for (int i = 0; i < loop; i++)
@@ -2989,7 +2991,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|vector|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|vector], $" << t.getAvgTime() << "$, " << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
 		std::cout << "default parameter: default_loop = " << default_loop << ", default_size = " << default_size << std::endl;
@@ -3038,7 +3040,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method   |time [ms]|" << std::endl;
 		std::cout << "|---------|---------|" << std::endl;
-		std::cout << "|no unroll|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|no unroll], $" << t.getAvgTime() << "$, " << std::endl;
 
 		// unrolling 1: 埋めてある．強制的にベクトル化するのを排除している．_mm_sub_ssのssがそれ．
 		for (int j = 0; j < loop; j++)
@@ -3054,7 +3056,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll  1|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll  1], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		// unrolling 8: 埋めてある
@@ -3071,7 +3073,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll  8|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll  8], $" << t.getAvgTime() << "$, " << std::endl;
 
 
 		// unrolling 16
@@ -3093,7 +3095,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll 16|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll 16], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, c) > 1)std::cout << "invalid: diff=" << mat_diff(ans, c) << std::endl;
 
 		// unrolling 32
@@ -3125,7 +3127,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll 32|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll 32], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, c) > 1)std::cout << "invalid: diff=" << mat_diff(ans, c) << std::endl;
 
 		// unrolling 64
@@ -3177,7 +3179,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll 64|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll 64], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, c) > 1)std::cout << "invalid: diff=" << mat_diff(ans, c) << std::endl;
 
 		// unrolling 128
@@ -3269,7 +3271,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|unroll128|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|unroll128], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, c) > 1)std::cout << "invalid: diff=" << mat_diff(ans, c) << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -3509,7 +3511,7 @@ int main(const int argc, const char** argv)
 		}
 		std::cout << "|method    |time [ms]|" << std::endl;
 		std::cout << "|----------|---------|" << std::endl;
-		std::cout << "|scalar    |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|scalar    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -3525,7 +3527,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|scalar+omp|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|scalar+omp], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, b) > 1)std::cout << "invalid: diff = " << mat_diff(ans, b) << std::endl;
 
 		for (int k = 0; k < loop; k++)
@@ -3545,7 +3547,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|SIMD      |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|SIMD      ], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, b) > 1)std::cout << "invalid: diff = " << mat_diff(ans, b) << std::endl;
 
 		for (int k = 0; k < loop; k++)
@@ -3566,7 +3568,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|SIMD+omp  |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|SIMD+omp  ], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans, b) > 1)std::cout << "invalid: diff = " << mat_diff(ans, b) << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;
@@ -3648,7 +3650,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|8U add scalar |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|8U add scalar ], $" << t.getAvgTime() << "$, " << std::endl;
 		for (int l = 0; l < loop; l++)
 		{
 			t.start();
@@ -3660,7 +3662,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|8U add SIMD   |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|8U add SIMD   ], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans_8u, ret_8u) > 1)std::cout << "error is too big: " << mat_diff(ans_32f, ret_32f) << std::endl;
 
 		for (int l = 0; l < loop; l++)
@@ -3675,7 +3677,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|32F add scalar|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|32F add scalar], $" << t.getAvgTime() << "$, " << std::endl;
 
 		for (int l = 0; l < loop; l++)
 		{
@@ -3688,7 +3690,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|32F add SIMD  |" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|32F add SIMD  ], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans_32f, ret_32f) > 1)std::cout << "error is too big: " << mat_diff(ans_32f, ret_32f) << std::endl;
 
 		for (int l = 0; l < loop; l++)
@@ -3706,7 +3708,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|32F add SIMDx2|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|32F add SIMDx2], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans_32f, ret_32f) > 1)std::cout << "error is too big: " << mat_diff(ans_32f, ret_32f) << std::endl;
 
 		for (int l = 0; l < loop; l++)
@@ -3732,7 +3734,7 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "|32F add SIMDx4|" << t.getAvgTime() << "|" << std::endl;
+		std::cout << "|32F add SIMDx4], $" << t.getAvgTime() << "$, " << std::endl;
 		if (mat_diff(ans_32f, ret_32f) > 1)std::cout << "error is too big: " << mat_diff(ans_32f, ret_32f) << std::endl;
 
 		std::cout << std::endl << "info:" << std::endl;

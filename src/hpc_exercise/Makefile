@@ -2,10 +2,7 @@ PROGRAM=hpc_exercise
 OBJS=utils/mat.o utils/mat_util.o main.o
 
 CXX = g++
-CXXFLAGS = -std=c++0x -fopenmp -Wno-unused-result -march=native #-mtune=native #-O3
-#for Mac
-#CXX = clang++
-#CXXFLAGS = -std=c++0x -Xpreprocessor -fopenmp -lomp -Wno-unused-result -Ofast -march=native -mtune=native
+CXXFLAGS = -std=c++0x -fopenmp -Wno-unused-result -march=native -O2 #-mtune=native 
 
 .SUFFIXES: .cpp .o
 
