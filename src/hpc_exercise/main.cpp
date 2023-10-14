@@ -20,21 +20,21 @@
 // #define EX19
 // #define EX20
 // #define EX21
-#define EX22
-#define EX23
-#define EX24
-#define EX25
-#define EX26
-#define EX27
+// #define EX22
+// #define EX23
+// #define EX24	
+// #define EX25
+// #define EX26
+// #define EX27
 #define EX28
 #define EX29
 #define EX30
 
 #ifdef report
-// #define EX9
-// #define EX10
-// #define EX11
-// #define EX12
+#define EX9
+#define EX10
+#define EX11
+#define EX12
 #define EX13
 #define EX14
 #define EX15
@@ -2602,8 +2602,14 @@ int main(const int argc, const char** argv)
 
 				//mul,addを使って（結果はtempに入れること）
 				__m256 temp;
-				temp = 
-
+				temp = _mm256_mul_ps(ma, mx);
+				temp = _mm256_add_ps(temp, mb);
+				temp = _mm256_mul_ps(temp, mx);
+				temp = _mm256_add_ps(temp, mb);
+				temp = _mm256_mul_ps(temp, mx);
+				temp = _mm256_add_ps(temp, mb);
+				temp = _mm256_mul_ps(temp, mx);
+				temp = _mm256_add_ps(temp, mb);
 				_mm256_store_ps(pc + i, temp);
 			}
 			t.end();
@@ -2629,11 +2635,10 @@ int main(const int argc, const char** argv)
 
 				//fmaを使って（結果はtempに入れること）
 				__m256 temp;
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-
+				temp = _mm256_fmadd_ps(ma, mx, mb);
+				temp = _mm256_fmadd_ps(temp, mx, mb);
+				temp = _mm256_fmadd_ps(temp, mx, mb);
+				temp = _mm256_fmadd_ps(temp, mx, mb);
 				_mm256_store_ps(pc + i, temp);
 			}
 			t.end();
@@ -2704,17 +2709,13 @@ int main(const int argc, const char** argv)
 			{
 				const __m256 ma = _mm256_load_ps(a.data + i);
 				const __m256 mb = _mm256_load_ps(b.data + i);
-
-				__m256 temp;
-				//divを使って
-				//XXXXXXXX
-
+				__m256 temp = _mm256_div_ps(ma, mb);
 				_mm256_store_ps(c.data + i, temp);
 			}
 			t.end();
 		}
-		std::cout << "[method    |time [ms]|" << std::endl;
-		std::cout << "[----------|---------|" << std::endl;
+		std::cout << "[method    ], [time [ms]]" << std::endl;
+		// std::cout << "[----------|---------|" << std::endl;
 		std::cout << "[div       ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		//rcp
@@ -2725,11 +2726,7 @@ int main(const int argc, const char** argv)
 			{
 				const __m256 ma = _mm256_load_ps(a.data + i);
 				const __m256 mb = _mm256_load_ps(b.data + i);
-
-				__m256 temp;
-				//rcpとmulをつかって
-				//XXXXXXXX
-
+				__m256 temp = _mm256_mul_ps(ma, _mm256_rcp_ps(mb));
 				_mm256_store_ps(c.data + i, temp);
 			}
 			t.end();
@@ -2744,11 +2741,7 @@ int main(const int argc, const char** argv)
 			{
 				const __m256 ma = _mm256_load_ps(a.data + i);
 				const __m256 mb = _mm256_load_ps(b.data + i);
-
-				__m256 temp;
-				//sqrtを使って
-				//XXXXXXXX
-
+				__m256 temp = _mm256_sqrt_ps(ma);
 				_mm256_store_ps(c.data + i, temp);
 			}
 			t.end();
@@ -2763,12 +2756,7 @@ int main(const int argc, const char** argv)
 			{
 				const __m256 ma = _mm256_load_ps(a.data + i);
 				const __m256 mb = _mm256_load_ps(b.data + i);
-
-				__m256 temp;
-				//rsqrtとrcpを使って
-				//XXXXXXXX
-				temp = _mm256_rcp_ps(_mm256_rsqrt_ps(ma));
-
+				__m256 temp = _mm256_rcp_ps(_mm256_rsqrt_ps(ma));
 				_mm256_store_ps(c.data + i, temp);
 			}
 			t.end();
@@ -2783,11 +2771,7 @@ int main(const int argc, const char** argv)
 			{
 				const __m256 ma = _mm256_load_ps(a.data + i);
 				const __m256 mb = _mm256_load_ps(b.data + i);
-
-				__m256 temp;
-				//rsqrtとmulを使って（ルートの逆数は乗算で戻る）
-				//XXXXXXXX
-
+				__m256 temp = _mm256_mul_ps(ma, _mm256_rsqrt_ps(ma));
 				_mm256_store_ps(c.data + i, temp);
 			}
 			t.end();
@@ -2802,11 +2786,7 @@ int main(const int argc, const char** argv)
 			{
 				const __m256 ma = _mm256_load_ps(a.data + i);
 				const __m256 mb = _mm256_load_ps(b.data + i);
-
-				__m256 temp;
-				//subとmaxを使って
-				//XXXXXXXX
-
+				__m256 temp = _mm256_max_ps(_mm256_sub_ps(ma, mb), _mm256_sub_ps(mb, ma));
 				_mm256_store_ps(c.data + i, temp);
 			}
 			t.end();
@@ -2824,11 +2804,7 @@ int main(const int argc, const char** argv)
 			{
 				const __m256 ma = _mm256_load_ps(a.data + i);
 				const __m256 mb = _mm256_load_ps(b.data + i);
-
-				__m256 temp;
-				//subとnotを使って．notのマスクはabsmask
-				//XXXXXXXX
-
+				__m256 temp = _mm256_and_ps(_mm256_sub_ps(ma, mb), absmask);
 				_mm256_store_ps(c.data + i, temp);
 			}
 			t.end();
@@ -2879,9 +2855,9 @@ int main(const int argc, const char** argv)
 			t.end();
 			ans_double = sum;
 		}
-		std::cout << "[method], [time [ms]], total  |" << std::endl;
-		std::cout << "[------|---------|-------|" << std::endl;
-		std::cout << "[double], $" << t.getAvgTime() << "$, " << ans_double << "[" << std::endl;
+		std::cout << "[method], [time [ms]], [total  ]" << std::endl;
+		// std::cout << "[------|---------|-------|" << std::endl;
+		std::cout << "[double], $" << t.getAvgTime() << "$, $" << ans_double << "$" << std::endl;
 		float ans = 0.f;
 		for (int i = 0; i < loop; i++)
 		{
@@ -2894,7 +2870,7 @@ int main(const int argc, const char** argv)
 			t.end();
 			ans = sum;
 		}
-		std::cout << "[float ], $" << t.getAvgTime() << "$, " << ans << "[" << std::endl;
+		std::cout << "[float ], $" << t.getAvgTime() << "$, $" << ans << "$" << std::endl;
 
 		//hadd
 		float ans_hadd = 0.f;
@@ -2905,15 +2881,14 @@ int main(const int argc, const char** argv)
 			for (int i = 0; i < matsize; i += 8)
 			{
 				__m256 ma = _mm256_load_ps(a.data + i);
-				//haddを使って
-				//XXXXXXXX
-				//XXXXXXXX
-				//hint sum+= XXXXXXXX
+				ma = _mm256_hadd_ps(ma, ma);
+				ma = _mm256_hadd_ps(ma, ma);
+				sum += ((float*)&ma)[0] + ((float*)&ma)[4];
 			}
 			t.end();
 			ans_hadd = sum;
 		}
-		std::cout << "[hadd  ], $" << t.getAvgTime() << "$, " << ans_hadd << "[" << std::endl;
+		std::cout << "[hadd  ], $" << t.getAvgTime() << "$, $" << ans_hadd << "$" << std::endl;
 		if (abs(ans - ans_hadd) > 1)std::cout << "total ans and_hadd " << ans << "," << ans_hadd << std::endl;
 
 		//dp
@@ -2927,13 +2902,13 @@ int main(const int argc, const char** argv)
 			{
 				__m256 ma = _mm256_load_ps(a.data + i);
 				//dpを使って
-				//XXXXXXXX
-				//hint: sum+=XXXXXXXX
+				ma = _mm256_dp_ps(ma, _mm256_set1_ps(1.f), 0xFF);
+				sum += ((float*)&ma)[0] + ((float*)&ma)[4];
 			}
 			t.end();
 			ans_dp = sum;
 		}
-		std::cout << "[dp    ], $" << t.getAvgTime() << "$, " << ans_dp << "[" << std::endl;
+		std::cout << "[dp    ], $" << t.getAvgTime() << "$, $" << ans_dp << "$" << std::endl;
 		if (abs(ans - ans_dp) > 1)std::cout << "total ans and_dp " << ans << "," << ans_hadd << std::endl;
 
 
@@ -2993,9 +2968,8 @@ int main(const int argc, const char** argv)
 
 				__m256 temp;
 				//cmp, mul, blendvを使って（blendを使わずにビット演算でもできる）
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				temp = _mm256_cmp_ps(ma, mth, _CMP_GT_OQ);
+				temp = _mm256_blendv_ps(ma, _mm256_mul_ps(ma, _mm256_mul_ps(ma, ma)), temp);
 
 				_mm256_store_ps(b.data + i, temp);
 			}
@@ -3048,8 +3022,8 @@ int main(const int argc, const char** argv)
 			}
 			t.end();
 		}
-		std::cout << "[method   |time [ms]|" << std::endl;
-		std::cout << "[---------|---------|" << std::endl;
+		std::cout << "[method   ], [time [ms]]" << std::endl;
+		// std::cout << "[---------|---------|" << std::endl;
 		std::cout << "[no unroll], $" << t.getAvgTime() << "$, " << std::endl;
 
 		// unrolling 1: 埋めてある．強制的にベクトル化するのを排除している．_mm_sub_ssのssがそれ．
@@ -3093,15 +3067,15 @@ int main(const int argc, const char** argv)
 			// unrolling 16
 			for (int i = 0; i < matsize; i += 16)
 			{
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				__m256 ma = _mm256_load_ps(a.data + i);
+				__m256 mb = _mm256_load_ps(b.data + i);
+				__m256 temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 8);
+				mb = _mm256_load_ps(b.data + i + 8);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 8, _mm256_mul_ps(temp, temp));
 			}
 			t.end();
 		}
@@ -3115,25 +3089,25 @@ int main(const int argc, const char** argv)
 			// unrolling 32
 			for (int i = 0; i < matsize; i += 32)
 			{
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				__m256 ma = _mm256_load_ps(a.data + i);
+				__m256 mb = _mm256_load_ps(b.data + i);
+				__m256 temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 8);
+				mb = _mm256_load_ps(b.data + i + 8);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 8, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 16);
+				mb = _mm256_load_ps(b.data + i + 16);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 16, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 24);
+				mb = _mm256_load_ps(b.data + i + 24);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 24, _mm256_mul_ps(temp, temp));
 			}
 			t.end();
 		}
@@ -3147,45 +3121,45 @@ int main(const int argc, const char** argv)
 			// unrolling 64
 			for (int i = 0; i < matsize; i += 64)
 			{
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				__m256 ma = _mm256_load_ps(a.data + i);
+				__m256 mb = _mm256_load_ps(b.data + i);
+				__m256 temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 8);
+				mb = _mm256_load_ps(b.data + i + 8);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 8, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 16);
+				mb = _mm256_load_ps(b.data + i + 16);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 16, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 24);
+				mb = _mm256_load_ps(b.data + i + 24);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 24, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 32);
+				mb = _mm256_load_ps(b.data + i + 32);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 32, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 40);
+				mb = _mm256_load_ps(b.data + i + 40);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 40, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 48);
+				mb = _mm256_load_ps(b.data + i + 48);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 48, _mm256_mul_ps(temp, temp));
 
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
-				//XXXXXXXX
+				ma = _mm256_load_ps(a.data + i + 56);
+				mb = _mm256_load_ps(b.data + i + 56);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 56, _mm256_mul_ps(temp, temp));
 			}
 			t.end();
 		}
@@ -3199,85 +3173,85 @@ int main(const int argc, const char** argv)
 			// unrolling 128
 			for (int i = 0; i < matsize; i += 128)
 			{
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				__m256 ma = _mm256_load_ps(a.data + i);
+				__m256 mb = _mm256_load_ps(b.data + i);
+				__m256 temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 8);
+				mb = _mm256_load_ps(b.data + i + 8);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 8, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 16);
+				mb = _mm256_load_ps(b.data + i + 16);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 16, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 24);
+				mb = _mm256_load_ps(b.data + i + 24);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 24, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 32);
+				mb = _mm256_load_ps(b.data + i + 32);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 32, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 40);
+				mb = _mm256_load_ps(b.data + i + 40);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 40, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 48);
+				mb = _mm256_load_ps(b.data + i + 48);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 48, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 56);
+				mb = _mm256_load_ps(b.data + i + 56);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 56, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 64);
+				mb = _mm256_load_ps(b.data + i + 64);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 64, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 72);
+				mb = _mm256_load_ps(b.data + i + 72);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 72, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 80);
+				mb = _mm256_load_ps(b.data + i + 80);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 80, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 88);
+				mb = _mm256_load_ps(b.data + i + 88);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 88, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 96);
+				mb = _mm256_load_ps(b.data + i + 96);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 96, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 104);
+				mb = _mm256_load_ps(b.data + i + 104);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 104, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 112);
+				mb = _mm256_load_ps(b.data + i + 112);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 112, _mm256_mul_ps(temp, temp));
 
-				//XXXX
-				//XXXX
-				//XXXX
-				//XXXX
+				ma = _mm256_load_ps(a.data + i + 120);
+				mb = _mm256_load_ps(b.data + i + 120);
+				temp = _mm256_sub_ps(ma, mb);
+				_mm256_store_ps(c.data + i + 120, _mm256_mul_ps(temp, temp));
 			}
 			t.end();
 		}
@@ -3355,11 +3329,20 @@ int main(const int argc, const char** argv)
 
 			//転置
 			//作成する（行数は適当）
-			//XXXXXXXX
-			//XXXXXXXX
-			//XXXXXXXX
-			//XXXXXXXX
+			{
+				__m256d  tmp[4];
 
+				for (int i = 0; i < 4; i += 2)
+				{
+					tmp[i + 0] = _mm256_unpacklo_pd(ma[i], ma[i + 1]);
+					tmp[i + 1] = _mm256_unpackhi_pd(ma[i], ma[i + 1]);
+				}
+				for (int i = 0; i < 2; i++)
+				{
+					mb[i + 0] = _mm256_permute2f128_pd(tmp[i], tmp[i + 2], 0x20);
+					mb[i + 2] = _mm256_permute2f128_pd(tmp[i], tmp[i + 2], 0x31);
+				}
+			}
 			//転置結果の表示
 			std::cout << "transpose" << std::endl;
 			for (int i = 0; i < 4; i++)
@@ -3391,7 +3374,7 @@ int main(const int argc, const char** argv)
 		print_m256(m32f);
 
 		//cvtを使って
-		//XXXXXXXX
+		m32f = _mm256_cvtepu32_ps(m32i);
 
 		std::cout << "after convert" << std::endl;
 		print_m256(m32f);
