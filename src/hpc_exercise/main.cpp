@@ -3400,9 +3400,9 @@ int main(const int argc, const char** argv)
 		//aをfloatにキャストしてbへ書き込み
 		for (int i = 0; i < 32; i += 8)
 		{
-			//XXXXXXXX
-			//XXXXXXXX
-			//XXXXXXXX
+			__m128i ms = _mm_loadl_epi64((const __m128i*)&a[i]);
+			__m256i ms32 = _mm256_cvtepu8_epi32(ms);
+			_mm256_store_ps(b + i,  _mm256_cvtepi32_ps(ms32));
 		}
 
 		std::cout << "after convert: b" << std::endl;
@@ -3430,9 +3430,7 @@ int main(const int argc, const char** argv)
 		//SSEでの実装 cを入力として，dに書き込み
 		//ヒント：前半8個と後半8個に分けて8回処理する．packs_epi16で半分のサイズできる
 		//ヒント：下記のAVXの作りかけもヒントになる．
-		//XXXX 行数は任意
-		//XXXX
-		//XXXX
+		// d = _mm_packs_epi16((__m128i*)c);
 
 		//結果の表示
 		std::cout << "after convert: d (SSE)" << std::endl;
@@ -3443,8 +3441,14 @@ int main(const int argc, const char** argv)
 		__m256i mc2560 = _mm256_load_si256((__m256i*)c);
 		__m256i mc2561 = _mm256_load_si256((__m256i*)(c + 8));
 		__m256i temp256 = _mm256_packs_epi16(mc2560, mc2561);
-		//permuteをしていないため結果がおかしい
-		//XXXXXXXX temp256をpermute
+		std::cout << '\n';
+		print_m256i_u16(mc2560);
+		std::cout << '\n';
+		print_m256i_u16(mc2561);
+		std::cout << '\n';
+		print_m256i_u16(temp256);
+		std::cout << '\n';
+		temp256 = _mm256_permute4x64_epi64(temp256, _MM_SHUFFLE(3, 1, 2, 0));
 
 		_mm256_store_si256((__m256i*)d, temp256);
 

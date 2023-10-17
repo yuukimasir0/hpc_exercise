@@ -2,7 +2,7 @@ PROGRAM=hpc_exercise
 OBJS=utils/mat.o utils/mat_util.o main.o
 
 CXX = g++
-CXXFLAGS = -std=c++0x -fopenmp -Wno-unused-result -march=native -O0 #-mtune=native 
+CXXFLAGS = -std=c++0x -fsanitize=address -fopenmp -Wno-unused-result -march=native -O0 #-mtune=native 
 
 .SUFFIXES: .cpp .o
 
