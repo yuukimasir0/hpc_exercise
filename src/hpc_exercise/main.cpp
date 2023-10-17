@@ -27,8 +27,8 @@
 // #define EX26
 // #define EX27
 #define EX28
-#define EX29
-#define EX30
+// #define EX29
+// #define EX30
 
 #ifdef report
 #define EX9
@@ -3430,7 +3430,16 @@ int main(const int argc, const char** argv)
 		//SSEでの実装 cを入力として，dに書き込み
 		//ヒント：前半8個と後半8個に分けて8回処理する．packs_epi16で半分のサイズできる
 		//ヒント：下記のAVXの作りかけもヒントになる．
-		// d = _mm_packs_epi16((__m128i*)c);
+
+		__m128i mc1280 = _mm_load_si128((__m128i*) c);
+		__m128i mc1281 = _mm_load_si128((__m128i*) (c + 4));
+		__m128i mc1282 = _mm_load_si128((__m128i*) (c + 8));
+		__m128i mc1283 = _mm_load_si128((__m128i*) (c + 12));
+
+		mc1280 = _mm_packs_epi16(mc1280, mc1281);
+		mc1281 = _mm_packs_epi16(mc1282, mc1283);
+		_mm_store_si128((__m128i*)d, mc1280);
+		_mm_store_si128((__m128i*)(d + 8), mc1281);
 
 		//結果の表示
 		std::cout << "after convert: d (SSE)" << std::endl;
@@ -3441,15 +3450,7 @@ int main(const int argc, const char** argv)
 		__m256i mc2560 = _mm256_load_si256((__m256i*)c);
 		__m256i mc2561 = _mm256_load_si256((__m256i*)(c + 8));
 		__m256i temp256 = _mm256_packs_epi16(mc2560, mc2561);
-		std::cout << '\n';
-		print_m256i_u16(mc2560);
-		std::cout << '\n';
-		print_m256i_u16(mc2561);
-		std::cout << '\n';
-		print_m256i_u16(temp256);
-		std::cout << '\n';
 		temp256 = _mm256_permute4x64_epi64(temp256, _MM_SHUFFLE(3, 1, 2, 0));
-
 		_mm256_store_si256((__m256i*)d, temp256);
 
 		std::cout << "after convert: d (AVX)" << std::endl;
@@ -3501,25 +3502,27 @@ int main(const int argc, const char** argv)
 			{
 				for (int i = 0; i < size; i++)
 				{
-					//XXXXXXXX ans.data[j * size + i] = ここだけ，ansに書き込み
+					if(ans.data[j * size + i] > threshold) ans.data[j * size + i] = a.data[j * size + i] * a.data[j * size + i] * a.data[j * size + i];
+					else ans.data[j * size + i] = a.data[j * size + i];
 				}
 			}
 			t.end();
 		}
-		std::cout << "[method    |time [ms]|" << std::endl;
-		std::cout << "[----------|---------|" << std::endl;
+		std::cout << "[method    ], [time [ms]}" << std::endl;
+		// std::cout << "[----------|---------|" << std::endl;
 		std::cout << "[scalar    ], $" << t.getAvgTime() << "$, " << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
 			//スカラー，並列化実装
 			t.start();
-			//XXXXXXXX
+			#pragma omp parallel for
 			for (int j = 0; j < size; ++j)
 			{
 				for (int i = 0; i < size; i++)
 				{
-					//XXXXXXXX　= bに書き込み書き込み
+					if(b.data[j * size + i] > threshold) b.data[j * size + i] = a.data[j * size + i] * a.data[j * size + i] * a.data[j * size + i];
+					else b.data[j * size + i] = a.data[j * size + i];
 				}
 			}
 			t.end();
@@ -3531,15 +3534,16 @@ int main(const int argc, const char** argv)
 		{
 			//SIMD実装
 			t.start();
-			//XXXXXXXX（閾値のセット）
+			const __m256 mth = _mm256_set1_ps(threshold);
 			for (int j = 0; j < size; ++j)
 			{
 				for (int i = 0; i < size; i += 8)
 				{
-					//XXXXXXXX
-					//XXXXXXXX
-					//XXXXXXXX
-					//XXXXXXXX
+					const __m256 ma = _mm256_load_ps(a.data + j * size + i);
+					__m256 temp;
+					temp = _mm256_cmp_ps(ma, mth, _CMP_GT_OQ);
+					temp = _mm256_blendv_ps(ma, _mm256_mul_ps(ma, _mm256_mul_ps(ma, ma)), temp);
+					_mm256_store_ps(b.data + j * size + i, temp);
 				}
 			}
 			t.end();
@@ -3551,16 +3555,17 @@ int main(const int argc, const char** argv)
 		{
 			//SIMD，並列化実装
 			t.start();
-			//XXXXXXXX
+			const __m256 mth = _mm256_set1_ps(threshold);
+			#pragma omp parallel for simd safelen(256)
 			for (int j = 0; j < size; ++j)
 			{
-				//XXXXXXXX（閾値のセット）	
 				for (int i = 0; i < size; i += 8)
 				{
-					//XXXXXXXX
-					//XXXXXXXX
-					//XXXXXXXX
-					//XXXXXXXX
+					const __m256 ma = _mm256_load_ps(a.data + j * size + i);
+					__m256 temp;
+					temp = _mm256_cmp_ps(ma, mth, _CMP_GT_OQ);
+					temp = _mm256_blendv_ps(ma, _mm256_mul_ps(ma, _mm256_mul_ps(ma, ma)), temp);
+					_mm256_store_ps(b.data + j * size + i, temp);
 				}
 			}
 			t.end();
