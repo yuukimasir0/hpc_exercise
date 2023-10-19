@@ -7,6 +7,7 @@
 #include <cmath>
 #include <omp.h>
 #include <algorithm>
+#include <numeric>
 
 /////////////////////////////////
 // チュートリアル
@@ -49,7 +50,9 @@ int main(const int argc, const char** argv)
 	// チュートリアル
 	//////////////////////////////////////////////////////////////////////
 
-	if (false)
+	#if 1
+
+	if (0)
 	{
 		std::cout << "tutorial 1" << std::endl;
 		Image_8U img;
@@ -61,14 +64,13 @@ int main(const int argc, const char** argv)
 		return 0;
 	}
 
-	if (false)
+	if (0)
 	{
 		std::cout << "tutorial 2" << std::endl;
 		Image_8U img;
 		readPXM("img/lena.ppm", img);//カラー画像読み込み
 		Image_8U gray;
 		cvtColorGray(img, gray);//グレイに変換
-
 		for (int j = 0; j < img.rows; j++)
 		{
 			for (int i = 0; i < img.cols; i++)
@@ -84,7 +86,7 @@ int main(const int argc, const char** argv)
 		return 0;
 	}
 
-	if (false)
+	if (0)
 	{
 		std::cout << "tutorial 3" << std::endl;
 		Image_8U img;//入力画像
@@ -115,10 +117,10 @@ int main(const int argc, const char** argv)
 		merge(splitImg, 3, dst);
 		writePXM("imgout/lena_blue.ppm", dst);//カラー画像保存
 
-		return 0;
+		// return 0;
 	}
 
-	if (false)
+	if (0)
 	{
 		std::cout << "tutorial 4" << std::endl;
 		Image_8U img;//入力画像
@@ -142,8 +144,10 @@ int main(const int argc, const char** argv)
 		}
 		writePXM("imgout/lena_border.ppm", dst);//カラー画像保存
 
-		return 0;
+		// return 0;
 	}
+
+	#endif
 
 
 	//////////////////////////////////////////////////////////////////////
@@ -245,15 +249,15 @@ int main(const int argc, const char** argv)
 		readPXM("img/lena.ppm", src);
 
 		CalcTime t;
-		for (int k = 0; k < loop; k++)
-		{
-			t.start();
+		// for (int k = 0; k < loop; k++)
+		// {
+		// 	t.start();
 			GammaCorrection(src, reference, gamma);
-			t.end();
-		}
-		std::cout << "|method|time [ms]|PSNR [dB]|" << std::endl;
-		std::cout << "|------|---------|---------|" << std::endl;
-		std::cout << "|base  | " << t.getAvgTime() << "|---------|" << std::endl;
+		// 	t.end();
+		// }
+		// std::cout << "[method], [time [ms]], [PSNR [dB]]" << std::endl;
+		// // std::cout << "[------|---------|---------|" << std::endl;
+		// std::cout << "[base  ], $ " << t.getAvgTime() << "$" << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -262,7 +266,7 @@ int main(const int argc, const char** argv)
 			GammaCorrectionFast1(src, dest, gamma);
 			t.end();
 		}
-		std::cout << "|opt1. | " << t.getAvgTime() << "|" << calcPSNR(reference, dest) << "      |" << std::endl;
+		std::cout << "[opt1. ], $ " << t.getAvgTime() << "$, $" << calcPSNR(reference, dest) << "$" << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -271,7 +275,7 @@ int main(const int argc, const char** argv)
 			GammaCorrectionFast2(src, dest, gamma);
 			t.end();
 		}
-		std::cout << "|opt2. | " << t.getAvgTime() << "|" << calcPSNR(reference, dest) << "      |" << std::endl;
+		std::cout << "[opt2. ], $ " << t.getAvgTime() << "$, $" << calcPSNR(reference, dest) << "$" << std::endl;
 
 		writePXM("imgout/gamma.ppm", dest);
 		return 0;
@@ -477,19 +481,72 @@ void GammaCorrection(const Image_8U& src, Image_8U& dest, const float gamma)
 	}
 }
 
+__m512  _mm512_log_ps(__m512 x) {
+	return x;
+}
+
+__m512  _mm512_exp_ps(__m512 x) {
+	__m512 result =  _mm512_set1_ps(1.0f);
+    result = _mm512_add_ps(result, x);
+    __m512 powx = _mm512_mul_ps(x, x);
+    result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(2.0f)));
+    powx = _mm512_mul_ps(powx, x);
+    result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(6.0f)));
+    powx = _mm512_mul_ps(powx, x);
+    result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(24.0f)));
+    powx = _mm512_mul_ps(powx, x);
+    return  _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(120.0f)));
+}
+
+__m512 _mm512_pow_ps(__m512 x, __m512 y) {
+	__m512 result = _mm512_log_ps(x);
+	result = _mm512_mul_ps(result, y);
+	return _mm512_exp_ps(result);
+}
+
 void GammaCorrectionFast1(const Image_8U& src, Image_8U& dest, const float gamma)
 {
 	dest = Image_8U(src.rows, src.cols, src.channels);
-	const int cn = src.channels;
-	//ここを実装
-
+	int size = src.rows * src.cols * src.channels;
+	int table[256];
+	float lgt[256];
+	for (int i = 0; i < 256; i++) {
+		lgt[i] = log2f32(i);
+	}
+	float gammainv = 1.f / gamma;
+	float inv255 = pow(1.f / 255.f, gammainv) * 255.0f;
+	__m512 ma, mgamma;
+	float temp[16] = {gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv};
+	mgamma = _mm512_loadu_ps(temp);
+	for(int i = 0; i < 256; i+=16) {
+		ma = _mm512_cvtepi32_ps(_mm512_loadu_epi32(table + i));
+		ma = _mm512_log_ps(ma);
+		__m512i mb = _mm512_cvtps_epi32(ma);
+		_mm512_storeu_epi32(table + i, mb);
+	}
+	//超越関数，特にlogが誤り.
+	#pragma omp parallel for 
+	for (int i = 0; i < size; i += 1)
+	{
+		dest.data[i] = table[src.data[i]];
+	}
 }
 
 void GammaCorrectionFast2(const Image_8U& src, Image_8U& dest, const float gamma)
 {
 	dest = Image_8U(src.rows, src.cols, src.channels);
-	const int cn = src.channels;
-	//ここを実装
+	int size = src.rows * src.cols * src.channels;
+	unsigned char table[256];// = {0,16,23,28,32,36,39,42,45,48,50,53,55,58,60,62,64,66,68,70,71,73,75,77,78,80,81,83,84,86,87,89,90,92,93,94,96,97,98,100,101,102,103,105,106,107,108,109,111,112,113,114,115,116,117,118,119,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,135,136,137,138,139,140,141,142,143,144,145,145,146,147,148,149,150,151,151,152,153,154,155,156,156,157,158,159,160,160,161,162,163,164,164,165,166,167,167,168,169,170,170,171,172,173,173,174,175,176,176,177,178,179,179,180,181,181,182,183,183,184,185,186,186,187,188,188,189,190,190,191,192,192,193,194,194,195,196,196,197,198,198,199,199,200,201,201,202,203,203,204,204,205,206,206,207,208,208,209,209,210,211,211,212,212,213,214,214,215,215,216,217,217,218,218,219,220,220,221,221,222,222,223,224,224,225,225,226,226,227,228,228,229,229,230,230,231,231,232,233,233,234,234,235,235,236,236,237,237,238,238,239,240,240,241,241,242,242,243,243,244,244,245,245,246,246,247,247,248,248,249,249,250,250,251,251,252,252,253,253,254,254,255};
+	float gammainv = 1.f / gamma;
+	float inv255 = pow(1.f / 255.f, gammainv) * 255.0f;
+	for(int i = 0; i < 256; i++) {
+		table[i] = (unsigned char)(exp2f32(gammainv * log2f32(i)) * inv255 + 0.5f);
+	}
+	#pragma omp parallel for 
+	for (int i = 0; i < size; i += 1)
+	{
+		dest.data[i] = table[src.data[i]];
+	}
 }
 
 ///////////////////////
