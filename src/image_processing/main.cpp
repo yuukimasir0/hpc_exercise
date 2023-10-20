@@ -50,7 +50,7 @@ int main(const int argc, const char** argv)
 	// チュートリアル
 	//////////////////////////////////////////////////////////////////////
 
-	#if 1
+	#if 0
 
 	if (0)
 	{
@@ -481,54 +481,79 @@ void GammaCorrection(const Image_8U& src, Image_8U& dest, const float gamma)
 	}
 }
 
-__m512  _mm512_log_ps(__m512 x) {
-	return x;
+// __m512  _mm512_log_ps(__m512 x) {
+// 	return x;
+// }
+
+// __m512  _mm512_exp_ps(__m512 x) {
+// 	__m512 result =  _mm512_set1_ps(1.0f);
+//     result = _mm512_add_ps(result, x);
+//     __m512 powx = _mm512_mul_ps(x, x);
+//     result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(2.0f)));
+//     powx = _mm512_mul_ps(powx, x);
+//     result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(6.0f)));
+//     powx = _mm512_mul_ps(powx, x);
+//     result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(24.0f)));
+//     powx = _mm512_mul_ps(powx, x);
+//     return  _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(120.0f)));
+// }
+
+// __m512 _mm512_pow_ps(__m512 x, __m512 y) {
+// 	__m512 result = _mm512_log_ps(x);
+// 	result = _mm512_mul_ps(result, y);
+// 	return _mm512_exp_ps(result);
+// }
+
+__m256i _mm256_i32gather_u8(unsigned char * table, __m256i idx) {
+	__m256i lo = _mm256_unpacklo_epi8(idx, _mm256_setzero_si256());
+    __m256i hi = _mm256_unpackhi_epi8(idx, _mm256_setzero_si256());
+    __m256i idx0 = _mm256_unpacklo_epi16(lo, _mm256_setzero_si256());
+    __m256i idx1 = _mm256_unpackhi_epi16(lo, _mm256_setzero_si256());
+    __m256i idx2 = _mm256_unpacklo_epi16(hi, _mm256_setzero_si256());
+    __m256i idx3 = _mm256_unpackhi_epi16(hi, _mm256_setzero_si256());
+
+    const int* base = (const int*)(table - 3);
+    __m256i data0 = _mm256_i32gather_epi32(base, idx0, 1);
+    __m256i data1 = _mm256_i32gather_epi32(base, idx1, 1);
+    __m256i data2 = _mm256_i32gather_epi32(base, idx2, 1);
+    __m256i data3 = _mm256_i32gather_epi32(base, idx3, 1);
+
+    data0 = _mm256_srli_epi32(data0, 24);
+    data1 = _mm256_srli_epi32(data1, 24);
+    data2 = _mm256_srli_epi32(data2, 24);
+    data3 = _mm256_srli_epi32(data3, 24);
+
+    data0 = _mm256_packus_epi32(data0, data1);
+	data2 = _mm256_packus_epi32(data2, data3);
+    data0 = _mm256_packus_epi16(data0, data2);
+
+    return data0;
 }
 
-__m512  _mm512_exp_ps(__m512 x) {
-	__m512 result =  _mm512_set1_ps(1.0f);
-    result = _mm512_add_ps(result, x);
-    __m512 powx = _mm512_mul_ps(x, x);
-    result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(2.0f)));
-    powx = _mm512_mul_ps(powx, x);
-    result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(6.0f)));
-    powx = _mm512_mul_ps(powx, x);
-    result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(24.0f)));
-    powx = _mm512_mul_ps(powx, x);
-    return  _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(120.0f)));
-}
-
-__m512 _mm512_pow_ps(__m512 x, __m512 y) {
-	__m512 result = _mm512_log_ps(x);
-	result = _mm512_mul_ps(result, y);
-	return _mm512_exp_ps(result);
+inline __m512i _mm512_i32gather_u8(__m512i table0, __m512i table1, __m512i table2, __m512i table3, __m512i idx) {
+	return _mm512_mask_blend_epi8(
+		_mm512_movepi8_mask(idx),
+		_mm512_permutex2var_epi8(table0, idx, table1),
+		_mm512_permutex2var_epi8(table2, idx, table3)
+	);
 }
 
 void GammaCorrectionFast1(const Image_8U& src, Image_8U& dest, const float gamma)
 {
 	dest = Image_8U(src.rows, src.cols, src.channels);
 	int size = src.rows * src.cols * src.channels;
-	int table[256];
-	float lgt[256];
-	for (int i = 0; i < 256; i++) {
-		lgt[i] = log2f32(i);
-	}
+	unsigned char table[256];// = {0,16,23,28,32,36,39,42,45,48,50,53,55,58,60,62,64,66,68,70,71,73,75,77,78,80,81,83,84,86,87,89,90,92,93,94,96,97,98,100,101,102,103,105,106,107,108,109,111,112,113,114,115,116,117,118,119,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,135,136,137,138,139,140,141,142,143,144,145,145,146,147,148,149,150,151,151,152,153,154,155,156,156,157,158,159,160,160,161,162,163,164,164,165,166,167,167,168,169,170,170,171,172,173,173,174,175,176,176,177,178,179,179,180,181,181,182,183,183,184,185,186,186,187,188,188,189,190,190,191,192,192,193,194,194,195,196,196,197,198,198,199,199,200,201,201,202,203,203,204,204,205,206,206,207,208,208,209,209,210,211,211,212,212,213,214,214,215,215,216,217,217,218,218,219,220,220,221,221,222,222,223,224,224,225,225,226,226,227,228,228,229,229,230,230,231,231,232,233,233,234,234,235,235,236,236,237,237,238,238,239,240,240,241,241,242,242,243,243,244,244,245,245,246,246,247,247,248,248,249,249,250,250,251,251,252,252,253,253,254,254,255};
 	float gammainv = 1.f / gamma;
-	float inv255 = pow(1.f / 255.f, gammainv) * 255.0f;
-	__m512 ma, mgamma;
-	float temp[16] = {gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv, gammainv};
-	mgamma = _mm512_loadu_ps(temp);
-	for(int i = 0; i < 256; i+=16) {
-		ma = _mm512_cvtepi32_ps(_mm512_loadu_epi32(table + i));
-		ma = _mm512_log_ps(ma);
-		__m512i mb = _mm512_cvtps_epi32(ma);
-		_mm512_storeu_epi32(table + i, mb);
+	float inv255 = exp2f32(gammainv * log2f32(1.f / 255.f)) * 255.0f;
+	for(int i = 0; i < 256; i++) {
+		table[i] = (unsigned char)(exp2f32(gammainv * log2f32(i)) * inv255 + 0.5f);
 	}
-	//超越関数，特にlogが誤り.
-	#pragma omp parallel for 
-	for (int i = 0; i < size; i += 1)
+	#pragma omp parallel for
+	for (int i = 0; i < size; i += 32)
 	{
-		dest.data[i] = table[src.data[i]];
+		__m256i midx = _mm256_load_epi32(src.data + i);
+		__m256i temp = _mm256_i32gather_u8(table, midx);
+		_mm256_storeu_epi8(dest.data + i, temp);
 	}
 }
 
@@ -538,14 +563,21 @@ void GammaCorrectionFast2(const Image_8U& src, Image_8U& dest, const float gamma
 	int size = src.rows * src.cols * src.channels;
 	unsigned char table[256];// = {0,16,23,28,32,36,39,42,45,48,50,53,55,58,60,62,64,66,68,70,71,73,75,77,78,80,81,83,84,86,87,89,90,92,93,94,96,97,98,100,101,102,103,105,106,107,108,109,111,112,113,114,115,116,117,118,119,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,135,136,137,138,139,140,141,142,143,144,145,145,146,147,148,149,150,151,151,152,153,154,155,156,156,157,158,159,160,160,161,162,163,164,164,165,166,167,167,168,169,170,170,171,172,173,173,174,175,176,176,177,178,179,179,180,181,181,182,183,183,184,185,186,186,187,188,188,189,190,190,191,192,192,193,194,194,195,196,196,197,198,198,199,199,200,201,201,202,203,203,204,204,205,206,206,207,208,208,209,209,210,211,211,212,212,213,214,214,215,215,216,217,217,218,218,219,220,220,221,221,222,222,223,224,224,225,225,226,226,227,228,228,229,229,230,230,231,231,232,233,233,234,234,235,235,236,236,237,237,238,238,239,240,240,241,241,242,242,243,243,244,244,245,245,246,246,247,247,248,248,249,249,250,250,251,251,252,252,253,253,254,254,255};
 	float gammainv = 1.f / gamma;
-	float inv255 = pow(1.f / 255.f, gammainv) * 255.0f;
+	float inv255 = exp2f32(gammainv * log2f32(1.f / 255.f)) * 255.0f;
 	for(int i = 0; i < 256; i++) {
 		table[i] = (unsigned char)(exp2f32(gammainv * log2f32(i)) * inv255 + 0.5f);
 	}
-	#pragma omp parallel for 
-	for (int i = 0; i < size; i += 1)
+	__m512i table0 = _mm512_loadu_si512(table), table1 = _mm512_loadu_si512(table + 64), table2 = _mm512_loadu_si512(table + 128), table3 = _mm512_loadu_si512(table + 192);
+	#pragma omp parallel for
+	for (int i = 0; i < size; i += 128)
 	{
-		dest.data[i] = table[src.data[i]];
+		__m512i midx = _mm512_load_epi32(src.data + i);		
+		__m512i temp = _mm512_i32gather_u8(table0, table1, table2, table3, midx);
+		_mm512_storeu_epi8(dest.data + i, temp);
+		
+		midx = _mm512_load_epi32(src.data + i + 64);		
+		temp = _mm512_i32gather_u8(table0, table1, table2, table3, midx);
+		_mm512_storeu_epi8(dest.data + i + 64, temp);
 	}
 }
 
@@ -578,7 +610,7 @@ void MeanVarAccFloat(const Image_8U& src, float& mean, float& var)
 	float m = 0.f;//floatに保存．有効桁が少し足りない
 	float v = 0.f;//floatに保存．有効桁が足りない
 	const int cn = src.channels;
-
+	
 	for (int y = 0; y < src.rows; y++)
 	{
 		for (int x = 0; x < src.cols * cn; x++)
@@ -596,12 +628,53 @@ void MeanVarAccFloat(const Image_8U& src, float& mean, float& var)
 
 void MeanVarFast1(const Image_8U& src, float& mean, float& var)
 {
-	//ここに1つ目を実装する
+	double m = 0.f;
+	double v = 0.f;
+	const int size = src.rows * src.cols * src.channels;
+
+	#pragma omp parallel for simd reduction(+: m) reduction(+: v)
+	for (int i = 0; i < size; i+=8)
+	{
+		m += src.data[i];
+		v += src.data[i] * src.data[i];
+		m += src.data[i + 1];
+		v += src.data[i + 1] * src.data[i + 1];
+		m += src.data[i + 2];
+		v += src.data[i + 2] * src.data[i + 2];
+		m += src.data[i + 3];
+		v += src.data[i + 3] * src.data[i + 3];
+		m += src.data[i + 4];
+		v += src.data[i + 4] * src.data[i + 4];
+		m += src.data[i + 5];
+		v += src.data[i + 5] * src.data[i + 5];
+		m += src.data[i + 6];
+		v += src.data[i + 6] * src.data[i + 6];
+		m += src.data[i + 7];
+		v += src.data[i + 7] * src.data[i + 7];
+	}
+	m /= (double)(size);
+	(v /= (double)(size)) -= m * m;
+
+	mean = m;
+	var = v;
 }
 
 void MeanVarFast2(const Image_8U& src, float& mean, float& var)
 {
-	//ここに2つ目を実装する
+	double m = 0.f;
+	double v = 0.f;
+	const int size = src.rows * src.cols * src.channels;
+
+	#pragma omp parallel for reduction(+: m) reduction(+: v)
+	for (int i = 0; i < size; i+=8)
+	{
+		
+	}
+	m /= (double)(size);
+	(v /= (double)(size)) -= m * m;
+
+	mean = m;
+	var = v;
 }
 
 
