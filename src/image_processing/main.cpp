@@ -1,3 +1,5 @@
+#pragma region init
+
 #include "utils/image_util.h"
 #include "utils/simd_util.h"
 
@@ -33,6 +35,7 @@ void FIRFilter(const Image_8U& src, Image_8U& dest, const int r, float parameter
 void BilateralFilter(const Image_8U& src, Image_8U& dest, const int r, const float sigma_r, const float sigma_s);
 void NonLocalMeansFilter(const Image_8U& src, Image_8U& dest, const int template_r, const int search_r, const float h);
 
+#pragma endregion init
 
 int main(const int argc, const char** argv)
 {
@@ -249,15 +252,15 @@ int main(const int argc, const char** argv)
 		readPXM("img/lena.ppm", src);
 
 		CalcTime t;
-		// for (int k = 0; k < loop; k++)
-		// {
-		// 	t.start();
+		for (int k = 0; k < loop; k++)
+		{
+			t.start();
 			GammaCorrection(src, reference, gamma);
-		// 	t.end();
-		// }
-		// std::cout << "[method], [time [ms]], [PSNR [dB]]" << std::endl;
-		// // std::cout << "[------|---------|---------|" << std::endl;
-		// std::cout << "[base  ], $ " << t.getAvgTime() << "$" << std::endl;
+			t.end();
+		}
+		std::cout << "[method], [time [ms]], [PSNR [dB]]" << std::endl;
+		// std::cout << "[------|---------|---------|" << std::endl;
+		std::cout << "[base  ], $ " << t.getAvgTime() << "$" << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -293,25 +296,25 @@ int main(const int argc, const char** argv)
 
 		float mean, var;
 		CalcTime t;
-		for (int k = 0; k < loop; k++)
-		{
-			t.start();
+		// for (int k = 0; k < loop; k++)
+		// {
+		// 	t.start();
 			MeanVar(src, mean, var);
-			t.end();
-		}
+		// 	t.end();
+		// }
 
 		std::cout << "|method|time [ms]|mean   |var    |" << std::endl;
-		std::cout << "|------|---------|-------|-------|" << std::endl;
+		// std::cout << "|------|---------|-------|-------|" << std::endl;
 		std::cout << "|double| " << t.getAvgTime() << "|" << mean << "|" << var << "|" << std::endl;
 
 
-		for (int k = 0; k < loop; k++)
-		{
-			t.start();
-			MeanVarAccFloat(src, mean, var);
-			t.end();
-		}
-		std::cout << "|float | " << t.getAvgTime() << "|" << mean << "|" << var << "|" << std::endl;
+		// for (int k = 0; k < loop; k++)
+		// {
+		// 	t.start();
+		// 	MeanVarAccFloat(src, mean, var);
+		// 	t.end();
+		// }
+		// std::cout << "|float | " << t.getAvgTime() << "|" << mean << "|" << var << "|" << std::endl;
 
 		for (int k = 0; k < loop; k++)
 		{
@@ -481,29 +484,6 @@ void GammaCorrection(const Image_8U& src, Image_8U& dest, const float gamma)
 	}
 }
 
-// __m512  _mm512_log_ps(__m512 x) {
-// 	return x;
-// }
-
-// __m512  _mm512_exp_ps(__m512 x) {
-// 	__m512 result =  _mm512_set1_ps(1.0f);
-//     result = _mm512_add_ps(result, x);
-//     __m512 powx = _mm512_mul_ps(x, x);
-//     result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(2.0f)));
-//     powx = _mm512_mul_ps(powx, x);
-//     result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(6.0f)));
-//     powx = _mm512_mul_ps(powx, x);
-//     result = _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(24.0f)));
-//     powx = _mm512_mul_ps(powx, x);
-//     return  _mm512_add_ps(result, _mm512_div_ps(powx, _mm512_set1_ps(120.0f)));
-// }
-
-// __m512 _mm512_pow_ps(__m512 x, __m512 y) {
-// 	__m512 result = _mm512_log_ps(x);
-// 	result = _mm512_mul_ps(result, y);
-// 	return _mm512_exp_ps(result);
-// }
-
 __m256i _mm256_i32gather_u8(unsigned char * table, __m256i idx) {
 	__m256i lo = _mm256_unpacklo_epi8(idx, _mm256_setzero_si256());
     __m256i hi = _mm256_unpackhi_epi8(idx, _mm256_setzero_si256());
@@ -628,8 +608,8 @@ void MeanVarAccFloat(const Image_8U& src, float& mean, float& var)
 
 void MeanVarFast1(const Image_8U& src, float& mean, float& var)
 {
-	double m = 0.f;
-	double v = 0.f;
+	double m = 0.;
+	double v = 0.;
 	const int size = src.rows * src.cols * src.channels;
 
 	#pragma omp parallel for simd reduction(+: m) reduction(+: v)
@@ -661,14 +641,38 @@ void MeanVarFast1(const Image_8U& src, float& mean, float& var)
 
 void MeanVarFast2(const Image_8U& src, float& mean, float& var)
 {
-	double m = 0.f;
-	double v = 0.f;
+	double m = 0.;
+	double v = 0.;
 	const int size = src.rows * src.cols * src.channels;
 
+
+	__m256 mf, a;
 	#pragma omp parallel for reduction(+: m) reduction(+: v)
-	for (int i = 0; i < size; i+=8)
+	for (int i = 0; i < size; i+=32)
 	{
-		
+		mf = _mm256_cvtepi32_ps(_mm256_cvtepu8_epi32(_mm_loadl_epi64((const __m128i*)&src.data[i])));
+		a = _mm256_hadd_ps(mf, _mm256_mul_ps(mf, mf));
+		a = _mm256_hadd_ps(a, a);
+		m += ((float*)&a)[0]+((float*)&a)[4];
+		v += ((float*)&a)[1]+((float*)&a)[5];
+
+		mf = _mm256_cvtepi32_ps(_mm256_cvtepu8_epi32(_mm_loadl_epi64((const __m128i*)&src.data[i + 8])));
+		a = _mm256_hadd_ps(mf, _mm256_mul_ps(mf, mf));
+		a = _mm256_hadd_ps(a, a);
+		m += ((float*)&a)[0]+((float*)&a)[4];
+		v += ((float*)&a)[1]+((float*)&a)[5];
+
+		mf = _mm256_cvtepi32_ps(_mm256_cvtepu8_epi32(_mm_loadl_epi64((const __m128i*)&src.data[i + 16])));
+		a = _mm256_hadd_ps(mf, _mm256_mul_ps(mf, mf));
+		a = _mm256_hadd_ps(a, a);
+		m += ((float*)&a)[0]+((float*)&a)[4];
+		v += ((float*)&a)[1]+((float*)&a)[5];
+
+		mf = _mm256_cvtepi32_ps(_mm256_cvtepu8_epi32(_mm_loadl_epi64((const __m128i*)&src.data[i + 24])));
+		a = _mm256_hadd_ps(mf, _mm256_mul_ps(mf, mf));
+		a = _mm256_hadd_ps(a, a);
+		m += ((float*)&a)[0]+((float*)&a)[4];
+		v += ((float*)&a)[1]+((float*)&a)[5];
 	}
 	m /= (double)(size);
 	(v /= (double)(size)) -= m * m;
