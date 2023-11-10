@@ -438,12 +438,96 @@ void boxFilter_scalar_SoA_32F(const Image_32F& src, Image_32F& dest, const int r
 ////////////////////////////
 void boxFilter_scalar_SoA_32F_pixelParallelY(const Image_32F& src, Image_32F& dest, const int r)
 {
-	//演習1のコードを使って実装
+	Image_32F temp_32f;
+	//copyMakeboder
+	copyMakeBorder(src, temp_32f, r, r, r, r);
+
+	//重み合計
+	const float wsum = (float)((2 * r + 1) * (2 * r + 1));
+
+	if (src.channels == 3)
+	{
+		Image_32F splitImg[3];
+		split(temp_32f, splitImg);//AoS->SoA
+
+		//出力画像の初期化
+		Image_32F destSplitImg[3] = { Image_32F(src.rows, src.cols, 1), Image_32F(src.rows, src.cols, 1), Image_32F(src.rows, src.cols, 1) };
+
+#pragma omp parallel for
+		for (int y = 0; y < src.rows; y++)
+		{
+			for (int x = 0; x < src.cols; x++)
+			{
+				float sum[3] = { 0 };
+				for (int j = -r; j <= r; j++)
+				{
+					for (int i = -r; i <= r; i++)
+					{
+						sum[0] += splitImg[0].data[(y + r + j) * temp_32f.cols + (x + r + i)];
+						sum[1] += splitImg[1].data[(y + r + j) * temp_32f.cols + (x + r + i)];
+						sum[2] += splitImg[2].data[(y + r + j) * temp_32f.cols + (x + r + i)];
+					}
+				}
+				destSplitImg[0].data[y * dest.cols + x] = sum[0] / wsum;
+				destSplitImg[1].data[y * dest.cols + x] = sum[1] / wsum;
+				destSplitImg[2].data[y * dest.cols + x] = sum[2] / wsum;
+			}
+		}
+		merge(destSplitImg, 3, dest);//SoA->AoS
+	}
+	else if (src.channels == 1)
+	{
+		//gray image
+		std::cout << "not support gray image" << std::endl;
+		return;
+	}
 }
 
 void boxFilter_scalar_SoA_32F_pixelParallelX(const Image_32F& src, Image_32F& dest, const int r)
 {
-	//演習1のコードを使って実装
+	Image_32F temp_32f;
+	//copyMakeboder
+	copyMakeBorder(src, temp_32f, r, r, r, r);
+
+	//重み合計
+	const float wsum = (float)((2 * r + 1) * (2 * r + 1));
+
+	if (src.channels == 3)
+	{
+		Image_32F splitImg[3];
+		split(temp_32f, splitImg);//AoS->SoA
+
+		//出力画像の初期化
+		Image_32F destSplitImg[3] = { Image_32F(src.rows, src.cols, 1), Image_32F(src.rows, src.cols, 1), Image_32F(src.rows, src.cols, 1) };
+
+		for (int y = 0; y < src.rows; y++)
+		{
+#pragma omp parallel for
+			for (int x = 0; x < src.cols; x++)
+			{
+				float sum[3] = { 0 };
+				for (int j = -r; j <= r; j++)
+				{
+					for (int i = -r; i <= r; i++)
+					{
+						sum[0] += splitImg[0].data[(y + r + j) * temp_32f.cols + (x + r + i)];
+						sum[1] += splitImg[1].data[(y + r + j) * temp_32f.cols + (x + r + i)];
+						sum[2] += splitImg[2].data[(y + r + j) * temp_32f.cols + (x + r + i)];
+					}
+				}
+				destSplitImg[0].data[y * dest.cols + x] = sum[0] / wsum;
+				destSplitImg[1].data[y * dest.cols + x] = sum[1] / wsum;
+				destSplitImg[2].data[y * dest.cols + x] = sum[2] / wsum;
+			}
+		}
+		merge(destSplitImg, 3, dest);//SoA->AoS
+	}
+	else if (src.channels == 1)
+	{
+		//gray image
+		std::cout << "not support gray image" << std::endl;
+		return;
+	}
 }
 
 ////////////////////////////
@@ -553,14 +637,18 @@ void boxFilter_simd_SoA_32F_pixelParallel_pixelUnrolling(const Image_32F& src, I
 				{
 					for (int i = -r; i <= r; i++)
 					{
-						//sum処理
-						//ここを実装
+						__m256 temp0 = _mm256_loadu_ps(&splitImg[0].data[(y + r + j) * splitImg[0].cols + (x + r + i)]);
+						__m256 temp1 = _mm256_loadu_ps(&splitImg[1].data[(y + r + j) * splitImg[1].cols + (x + r + i)]);
+						__m256 temp2 = _mm256_loadu_ps(&splitImg[2].data[(y + r + j) * splitImg[2].cols + (x + r + i)]);
 
+						sum0 = _mm256_add_ps(temp0, sum0);
+						sum1 = _mm256_add_ps(temp1, sum1);
+						sum2 = _mm256_add_ps(temp2, sum2);
 					}
 				}
-				//store処理
-				//ここを実装
-
+				_mm256_store_ps(destSplitImg[0].data + (y * destSplitImg[0].cols + x), _mm256_div_ps(sum0, mwsum));
+				_mm256_store_ps(destSplitImg[1].data + (y * destSplitImg[1].cols + x), _mm256_div_ps(sum1, mwsum));
+				_mm256_store_ps(destSplitImg[2].data + (y * destSplitImg[2].cols + x), _mm256_div_ps(sum2, mwsum));
 			}
 			//余り処理
 			for (; x < src.cols; x++)
@@ -667,6 +755,7 @@ void boxFilter_simd_SoA_32F_pixelParallel_pixelUnrolling_separable(const Image_3
 {
 	//重み合計
 	const float wsum = (float)((2 * r + 1) * (2 * r + 1));
+	const __m256 mwsum = _mm256_set1_ps(wsum);
 
 	if (src.channels == 3)
 	{
@@ -695,12 +784,18 @@ void boxFilter_simd_SoA_32F_pixelParallel_pixelUnrolling_separable(const Image_3
 				__m256 sum2 = _mm256_setzero_ps();
 				for (int j = -r; j <= r; j++)
 				{
-					//sum処理
-					//ここを実装
+					__m256 temp0 = _mm256_loadu_ps(&splitImg[0].data[(y + r + j) * splitImg[0].cols + x]);
+					__m256 temp1 = _mm256_loadu_ps(&splitImg[1].data[(y + r + j) * splitImg[1].cols + x]);
+					__m256 temp2 = _mm256_loadu_ps(&splitImg[2].data[(y + r + j) * splitImg[2].cols + x]);
+
+					sum0 = _mm256_add_ps(temp0, sum0);
+					sum1 = _mm256_add_ps(temp1, sum1);
+					sum2 = _mm256_add_ps(temp2, sum2);
 
 				}
-				//store処理
-				//ここを実装
+				_mm256_store_ps(destSplitImg0[0].data + (y * destSplitImg0[0].cols + x), sum0);
+				_mm256_store_ps(destSplitImg0[1].data + (y * destSplitImg0[1].cols + x), sum1);
+				_mm256_store_ps(destSplitImg0[2].data + (y * destSplitImg0[2].cols + x), sum2);
 
 			}
 			//余り処理
@@ -734,15 +829,19 @@ void boxFilter_simd_SoA_32F_pixelParallel_pixelUnrolling_separable(const Image_3
 				__m256 sum0 = _mm256_setzero_ps();
 				__m256 sum1 = _mm256_setzero_ps();
 				__m256 sum2 = _mm256_setzero_ps();
-				for (int i = -r; i <= r; i++)
+				for (int j = -r; j <= r; j++)
 				{
-					//sum処理
-					//ここを実装
+					__m256 temp0 = _mm256_loadu_ps(&vfilterImg[0].data[y * vfilterImg[0].cols + (x + r + j)]);
+					__m256 temp1 = _mm256_loadu_ps(&vfilterImg[1].data[y * vfilterImg[1].cols + (x + r + j)]);
+					__m256 temp2 = _mm256_loadu_ps(&vfilterImg[2].data[y * vfilterImg[2].cols + (x + r + j)]);
 
+					sum0 = _mm256_add_ps(temp0, sum0);
+					sum1 = _mm256_add_ps(temp1, sum1);
+					sum2 = _mm256_add_ps(temp2, sum2);
 				}
-				//store処理
-				//ここを実装
-
+				_mm256_store_ps(destSplitImg1[0].data + (y * destSplitImg1[0].cols + x), _mm256_div_ps(sum0, mwsum));
+				_mm256_store_ps(destSplitImg1[1].data + (y * destSplitImg1[1].cols + x), _mm256_div_ps(sum1, mwsum));
+				_mm256_store_ps(destSplitImg1[2].data + (y * destSplitImg1[2].cols + x), _mm256_div_ps(sum2, mwsum));
 			}
 			for (; x < src.cols; x++)
 			{
