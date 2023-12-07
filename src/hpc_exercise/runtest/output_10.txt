@@ -1,0 +1,1414 @@
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87602|
+|32S mul 32F|1.98175|
+|32S mul fix|3.51715|
+|16S mul fix|3.61745|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89387|
+|32S mul 32F|2.00082|
+|32S mul fix|3.56242|
+|16S mul fix|3.66142|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.90087|
+|32S mul 32F|2.00396|
+|32S mul fix|3.55385|
+|16S mul fix|3.66419|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89496|
+|32S mul 32F|2.0156|
+|32S mul fix|3.5564|
+|16S mul fix|3.6545|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89244|
+|32S mul 32F|2.00074|
+|32S mul fix|3.55668|
+|16S mul fix|3.6603|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89239|
+|32S mul 32F|1.99741|
+|32S mul fix|3.56497|
+|16S mul fix|3.65706|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.90244|
+|32S mul 32F|2.01414|
+|32S mul fix|3.55936|
+|16S mul fix|3.66626|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89957|
+|32S mul 32F|2.00014|
+|32S mul fix|3.55787|
+|16S mul fix|3.65713|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88991|
+|32S mul 32F|1.99627|
+|32S mul fix|3.55873|
+|16S mul fix|3.65422|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89719|
+|32S mul 32F|2.01052|
+|32S mul fix|3.56016|
+|16S mul fix|3.65812|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.91403|
+|32S mul 32F|2.00538|
+|32S mul fix|3.55448|
+|16S mul fix|3.65566|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.91843|
+|32S mul 32F|2.01253|
+|32S mul fix|3.559|
+|16S mul fix|3.6588|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.9045|
+|32S mul 32F|1.99993|
+|32S mul fix|3.57118|
+|16S mul fix|3.65854|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89529|
+|32S mul 32F|2.01288|
+|32S mul fix|3.55973|
+|16S mul fix|3.66958|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89595|
+|32S mul 32F|2.01071|
+|32S mul fix|3.55853|
+|16S mul fix|3.66088|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.90019|
+|32S mul 32F|2.00943|
+|32S mul fix|3.55598|
+|16S mul fix|3.67037|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.8967|
+|32S mul 32F|2.00212|
+|32S mul fix|3.55223|
+|16S mul fix|3.66003|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89408|
+|32S mul 32F|2.00375|
+|32S mul fix|3.55771|
+|16S mul fix|3.66459|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89735|
+|32S mul 32F|1.99303|
+|32S mul fix|3.5227|
+|16S mul fix|3.6209|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.8772|
+|32S mul 32F|1.98224|
+|32S mul fix|3.53159|
+|16S mul fix|3.6281|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89184|
+|32S mul 32F|2.00352|
+|32S mul fix|3.55833|
+|16S mul fix|3.66102|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88597|
+|32S mul 32F|1.99567|
+|32S mul fix|3.52651|
+|16S mul fix|3.62849|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89266|
+|32S mul 32F|1.99498|
+|32S mul fix|3.52717|
+|16S mul fix|3.6341|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88512|
+|32S mul 32F|1.98349|
+|32S mul fix|3.52974|
+|16S mul fix|3.63368|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89369|
+|32S mul 32F|1.98493|
+|32S mul fix|3.52819|
+|16S mul fix|3.63135|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87273|
+|32S mul 32F|1.97813|
+|32S mul fix|3.51986|
+|16S mul fix|3.63285|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88313|
+|32S mul 32F|1.99272|
+|32S mul fix|3.52033|
+|16S mul fix|3.62765|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89913|
+|32S mul 32F|1.99175|
+|32S mul fix|3.52102|
+|16S mul fix|3.6211|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89329|
+|32S mul 32F|1.99932|
+|32S mul fix|3.55722|
+|16S mul fix|3.66052|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89422|
+|32S mul 32F|1.99701|
+|32S mul fix|3.55132|
+|16S mul fix|3.65149|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89174|
+|32S mul 32F|2.00895|
+|32S mul fix|3.55115|
+|16S mul fix|3.66214|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87789|
+|32S mul 32F|1.98154|
+|32S mul fix|3.51996|
+|16S mul fix|3.62514|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89334|
+|32S mul 32F|1.99159|
+|32S mul fix|3.52224|
+|16S mul fix|3.62111|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89809|
+|32S mul 32F|2.00052|
+|32S mul fix|3.55939|
+|16S mul fix|3.65572|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.90577|
+|32S mul 32F|1.99755|
+|32S mul fix|3.55693|
+|16S mul fix|3.6634|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89569|
+|32S mul 32F|2.00386|
+|32S mul fix|3.64024|
+|16S mul fix|3.77672|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89439|
+|32S mul 32F|1.98918|
+|32S mul fix|3.53388|
+|16S mul fix|3.63496|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88585|
+|32S mul 32F|1.99015|
+|32S mul fix|3.60871|
+|16S mul fix|3.68579|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.90143|
+|32S mul 32F|1.9999|
+|32S mul fix|3.5548|
+|16S mul fix|3.66048|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.9233|
+|32S mul 32F|2.02793|
+|32S mul fix|3.5659|
+|16S mul fix|3.66961|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88058|
+|32S mul 32F|2.004|
+|32S mul fix|3.53044|
+|16S mul fix|3.63069|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88835|
+|32S mul 32F|1.99728|
+|32S mul fix|3.56163|
+|16S mul fix|3.65428|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.90282|
+|32S mul 32F|2.00876|
+|32S mul fix|3.55297|
+|16S mul fix|3.65489|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89353|
+|32S mul 32F|1.99833|
+|32S mul fix|3.55442|
+|16S mul fix|3.65533|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88854|
+|32S mul 32F|2.00367|
+|32S mul fix|3.5593|
+|16S mul fix|3.657|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89141|
+|32S mul 32F|2.00075|
+|32S mul fix|3.55106|
+|16S mul fix|3.65216|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89493|
+|32S mul 32F|2.00029|
+|32S mul fix|3.55738|
+|16S mul fix|3.66276|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.9023|
+|32S mul 32F|1.98189|
+|32S mul fix|3.5283|
+|16S mul fix|3.62417|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87471|
+|32S mul 32F|1.98099|
+|32S mul fix|3.52683|
+|16S mul fix|3.62644|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89633|
+|32S mul 32F|1.99965|
+|32S mul fix|3.55184|
+|16S mul fix|3.6513|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88342|
+|32S mul 32F|1.98443|
+|32S mul fix|3.5202|
+|16S mul fix|3.62641|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87925|
+|32S mul 32F|1.98303|
+|32S mul fix|3.52804|
+|16S mul fix|3.63806|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88742|
+|32S mul 32F|2.0103|
+|32S mul fix|3.55225|
+|16S mul fix|3.65087|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89145|
+|32S mul 32F|1.99892|
+|32S mul fix|3.52203|
+|16S mul fix|3.62307|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87698|
+|32S mul 32F|1.98219|
+|32S mul fix|3.52458|
+|16S mul fix|3.62558|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88936|
+|32S mul 32F|1.9926|
+|32S mul fix|3.55712|
+|16S mul fix|3.65384|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89193|
+|32S mul 32F|2.00809|
+|32S mul fix|3.55179|
+|16S mul fix|3.65049|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87415|
+|32S mul 32F|1.98961|
+|32S mul fix|3.52124|
+|16S mul fix|3.62824|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87476|
+|32S mul 32F|1.98247|
+|32S mul fix|3.51794|
+|16S mul fix|3.62616|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89355|
+|32S mul 32F|2.0048|
+|32S mul fix|3.55596|
+|16S mul fix|3.65555|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87192|
+|32S mul 32F|1.98468|
+|32S mul fix|3.52266|
+|16S mul fix|3.6199|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87268|
+|32S mul 32F|1.99079|
+|32S mul fix|3.52213|
+|16S mul fix|3.61493|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89601|
+|32S mul 32F|1.97942|
+|32S mul fix|3.51628|
+|16S mul fix|3.61733|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87999|
+|32S mul 32F|1.97978|
+|32S mul fix|3.51751|
+|16S mul fix|3.62724|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88254|
+|32S mul 32F|1.97732|
+|32S mul fix|3.51763|
+|16S mul fix|3.61524|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88654|
+|32S mul 32F|1.97525|
+|32S mul fix|3.52002|
+|16S mul fix|3.61711|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87067|
+|32S mul 32F|1.97878|
+|32S mul fix|3.53142|
+|16S mul fix|3.61945|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87165|
+|32S mul 32F|1.9922|
+|32S mul fix|3.51721|
+|16S mul fix|3.61484|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87526|
+|32S mul 32F|1.9891|
+|32S mul fix|3.51664|
+|16S mul fix|3.61335|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88474|
+|32S mul 32F|1.98572|
+|32S mul fix|3.53489|
+|16S mul fix|3.62904|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87818|
+|32S mul 32F|1.99292|
+|32S mul fix|3.51834|
+|16S mul fix|3.62173|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88223|
+|32S mul 32F|1.98684|
+|32S mul fix|3.51562|
+|16S mul fix|3.6116|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.86826|
+|32S mul 32F|1.97633|
+|32S mul fix|3.51581|
+|16S mul fix|3.61279|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87168|
+|32S mul 32F|1.97626|
+|32S mul fix|3.51538|
+|16S mul fix|3.60956|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87406|
+|32S mul 32F|1.97586|
+|32S mul fix|3.55482|
+|16S mul fix|3.66121|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87948|
+|32S mul 32F|1.99517|
+|32S mul fix|3.53367|
+|16S mul fix|3.63365|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88701|
+|32S mul 32F|1.9887|
+|32S mul fix|3.52208|
+|16S mul fix|3.62242|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87548|
+|32S mul 32F|1.97779|
+|32S mul fix|3.51738|
+|16S mul fix|3.62218|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87206|
+|32S mul 32F|1.98129|
+|32S mul fix|3.5235|
+|16S mul fix|3.62428|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.90453|
+|32S mul 32F|1.97826|
+|32S mul fix|3.51912|
+|16S mul fix|3.61847|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88152|
+|32S mul 32F|1.98127|
+|32S mul fix|3.51624|
+|16S mul fix|3.62048|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88139|
+|32S mul 32F|1.98211|
+|32S mul fix|3.51875|
+|16S mul fix|3.62145|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87268|
+|32S mul 32F|1.9761|
+|32S mul fix|3.51604|
+|16S mul fix|3.61963|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88069|
+|32S mul 32F|1.98254|
+|32S mul fix|3.51886|
+|16S mul fix|3.61641|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88236|
+|32S mul 32F|1.98843|
+|32S mul fix|3.51724|
+|16S mul fix|3.619|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87791|
+|32S mul 32F|1.97616|
+|32S mul fix|3.51958|
+|16S mul fix|3.61942|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87197|
+|32S mul 32F|1.99044|
+|32S mul fix|3.51474|
+|16S mul fix|3.62047|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87747|
+|32S mul 32F|1.97558|
+|32S mul fix|3.51182|
+|16S mul fix|3.61882|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87786|
+|32S mul 32F|1.97827|
+|32S mul fix|3.51789|
+|16S mul fix|3.61728|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88961|
+|32S mul 32F|1.97502|
+|32S mul fix|3.51686|
+|16S mul fix|3.61179|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88256|
+|32S mul 32F|1.9801|
+|32S mul fix|3.51581|
+|16S mul fix|3.61905|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.86956|
+|32S mul 32F|1.99146|
+|32S mul fix|3.5139|
+|16S mul fix|3.61212|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88259|
+|32S mul 32F|1.97732|
+|32S mul fix|3.51605|
+|16S mul fix|3.61656|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87371|
+|32S mul 32F|1.97321|
+|32S mul fix|3.51699|
+|16S mul fix|3.61576|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.88677|
+|32S mul 32F|1.99855|
+|32S mul fix|3.54472|
+|16S mul fix|3.65497|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87045|
+|32S mul 32F|1.98135|
+|32S mul fix|3.51516|
+|16S mul fix|3.61861|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.8736|
+|32S mul 32F|1.98679|
+|32S mul fix|3.51253|
+|16S mul fix|3.61443|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89998|
+|32S mul 32F|1.97652|
+|32S mul fix|3.513|
+|16S mul fix|3.61441|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.87123|
+|32S mul 32F|1.98573|
+|32S mul fix|3.51664|
+|16S mul fix|3.61949|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.89384|
+|32S mul 32F|1.98363|
+|32S mul fix|3.5161|
+|16S mul fix|3.62414|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+
+exercise 10: loop = 1000, size = 1024
+
+|method     |time [ms]|
+|-----------|---------|
+|32F mul 32F|1.86927|
+|32S mul 32F|1.9768|
+|32S mul fix|3.51241|
+|16S mul fix|3.61554|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+32S diff from ans: inf
+16S diff from ans: inf
+

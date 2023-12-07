@@ -2,7 +2,7 @@
 
 mkdir runtest
 
-for i in `seq 9 1 30`
+for i in `seq 22 1 30`
 do
     for j in `seq 0 1 100`
     do

@@ -1,0 +1,1010 @@
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.071781|
+|vector|0.0104572|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.071293|
+|vector|0.0104202|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0718153|
+|vector|0.0106679|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708367|
+|vector|0.0104013|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710426|
+|vector|0.0104264|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707433|
+|vector|0.0103397|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0705613|
+|vector|0.0103911|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0704279|
+|vector|0.0103613|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710183|
+|vector|0.0151506|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.070687|
+|vector|0.0106244|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0703857|
+|vector|0.0106462|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0718939|
+|vector|0.0103649|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710906|
+|vector|0.0104148|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0720476|
+|vector|0.0105279|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0709265|
+|vector|0.0104792|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0714312|
+|vector|0.0103251|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0717701|
+|vector|0.0105616|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.070995|
+|vector|0.0104646|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.071612|
+|vector|0.0104083|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0705768|
+|vector|0.0104482|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708653|
+|vector|0.01042|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708227|
+|vector|0.0104065|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708921|
+|vector|0.0105664|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0714291|
+|vector|0.0105766|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0709399|
+|vector|0.0104387|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0709853|
+|vector|0.0106019|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711615|
+|vector|0.0104203|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708085|
+|vector|0.0104471|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710334|
+|vector|0.0104527|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0719171|
+|vector|0.0104771|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711774|
+|vector|0.0103786|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0703793|
+|vector|0.0104277|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0702331|
+|vector|0.0104186|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0705472|
+|vector|0.0104355|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0709007|
+|vector|0.01079|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0712025|
+|vector|0.0104784|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0709489|
+|vector|0.0104298|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0714078|
+|vector|0.010418|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.07086|
+|vector|0.0104231|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0712904|
+|vector|0.0103588|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711457|
+|vector|0.0105135|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0722071|
+|vector|0.0104828|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0714441|
+|vector|0.0104289|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0715483|
+|vector|0.0108164|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707135|
+|vector|0.0104414|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708123|
+|vector|0.010412|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0712413|
+|vector|0.0103355|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0719661|
+|vector|0.010503|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0719688|
+|vector|0.0103976|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0705726|
+|vector|0.0104587|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707303|
+|vector|0.0104364|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0712131|
+|vector|0.0104304|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0719512|
+|vector|0.0104314|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711773|
+|vector|0.0105384|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711252|
+|vector|0.010438|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0705995|
+|vector|0.0104319|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707309|
+|vector|0.0104244|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710557|
+|vector|0.0104192|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708228|
+|vector|0.0104733|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708824|
+|vector|0.0104643|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708156|
+|vector|0.0103938|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0705761|
+|vector|0.010526|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.070582|
+|vector|0.0105343|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708883|
+|vector|0.0105336|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0712351|
+|vector|0.0106215|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711988|
+|vector|0.0104668|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710832|
+|vector|0.0104759|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710252|
+|vector|0.0104345|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0716143|
+|vector|0.0104087|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711347|
+|vector|0.0104657|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0715789|
+|vector|0.0104662|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708151|
+|vector|0.0104408|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710036|
+|vector|0.0104302|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0706737|
+|vector|0.0104975|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707286|
+|vector|0.0105018|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710124|
+|vector|0.0104889|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0706768|
+|vector|0.0105048|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0714971|
+|vector|0.0105929|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0705957|
+|vector|0.0104109|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0709696|
+|vector|0.0104549|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.071116|
+|vector|0.0104428|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0713857|
+|vector|0.0104078|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.070834|
+|vector|0.0104456|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0713721|
+|vector|0.0104574|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0715703|
+|vector|0.0116435|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0719147|
+|vector|0.0104063|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707467|
+|vector|0.010439|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0709121|
+|vector|0.0104259|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0717375|
+|vector|0.0104282|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0706772|
+|vector|0.0104713|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707|
+|vector|0.0104668|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0711046|
+|vector|0.0107025|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707067|
+|vector|0.0104424|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0713395|
+|vector|0.0104173|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710576|
+|vector|0.0106262|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0717376|
+|vector|0.0104233|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0706676|
+|vector|0.0104955|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0710148|
+|vector|0.0104899|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0714611|
+|vector|0.0103971|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0707704|
+|vector|0.0104782|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0
+exercise 25: loop = 100000, size = 128
+
+|method|time [ms]|, 
+|------|---------|
+|scalar|0.0708279|
+|vector|0.0104536|
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+diff: 0

@@ -1,0 +1,1010 @@
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423439|
+|scalar+omp|0.0576088|
+|SIMD      |0.0484343|
+|SIMD+omp  |0.00754776|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421328|
+|scalar+omp|0.0571344|
+|SIMD      |0.0473222|
+|SIMD+omp  |0.0077341|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42152|
+|scalar+omp|0.0579093|
+|SIMD      |0.0480618|
+|SIMD+omp  |0.00757679|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.420967|
+|scalar+omp|0.0589558|
+|SIMD      |0.0478599|
+|SIMD+omp  |0.00749851|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422249|
+|scalar+omp|0.0573741|
+|SIMD      |0.0474548|
+|SIMD+omp  |0.0075929|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422823|
+|scalar+omp|0.0570163|
+|SIMD      |0.0477045|
+|SIMD+omp  |0.0075234|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424291|
+|scalar+omp|0.0580924|
+|SIMD      |0.0478462|
+|SIMD+omp  |0.00753593|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421884|
+|scalar+omp|0.0573632|
+|SIMD      |0.0472659|
+|SIMD+omp  |0.00754205|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423444|
+|scalar+omp|0.0572015|
+|SIMD      |0.0486612|
+|SIMD+omp  |0.00755742|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423064|
+|scalar+omp|0.0571532|
+|SIMD      |0.0479597|
+|SIMD+omp  |0.00755998|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421598|
+|scalar+omp|0.0569918|
+|SIMD      |0.0482871|
+|SIMD+omp  |0.00756839|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423358|
+|scalar+omp|0.0573196|
+|SIMD      |0.0477811|
+|SIMD+omp  |0.00753376|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423162|
+|scalar+omp|0.0571916|
+|SIMD      |0.0473224|
+|SIMD+omp  |0.00768602|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.420091|
+|scalar+omp|0.0573692|
+|SIMD      |0.0475981|
+|SIMD+omp  |0.00755432|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.419618|
+|scalar+omp|0.0571782|
+|SIMD      |0.0479376|
+|SIMD+omp  |0.00755177|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424643|
+|scalar+omp|0.0568556|
+|SIMD      |0.0474691|
+|SIMD+omp  |0.00762059|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.419237|
+|scalar+omp|0.0574112|
+|SIMD      |0.0482523|
+|SIMD+omp  |0.00767246|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423171|
+|scalar+omp|0.0572316|
+|SIMD      |0.0473396|
+|SIMD+omp  |0.0075463|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424301|
+|scalar+omp|0.0573216|
+|SIMD      |0.0476533|
+|SIMD+omp  |0.00758778|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424135|
+|scalar+omp|0.0574011|
+|SIMD      |0.0473183|
+|SIMD+omp  |0.00759343|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42501|
+|scalar+omp|0.0575472|
+|SIMD      |0.0489198|
+|SIMD+omp  |0.00764293|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422487|
+|scalar+omp|0.062866|
+|SIMD      |0.0477906|
+|SIMD+omp  |0.00753416|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422394|
+|scalar+omp|0.0571896|
+|SIMD      |0.0478316|
+|SIMD+omp  |0.00756|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421289|
+|scalar+omp|0.0572496|
+|SIMD      |0.0478647|
+|SIMD+omp  |0.00760429|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42142|
+|scalar+omp|0.0572015|
+|SIMD      |0.0471562|
+|SIMD+omp  |0.00752056|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423867|
+|scalar+omp|0.0572729|
+|SIMD      |0.0479283|
+|SIMD+omp  |0.00752927|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423815|
+|scalar+omp|0.0577158|
+|SIMD      |0.0483629|
+|SIMD+omp  |0.00754506|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423173|
+|scalar+omp|0.057102|
+|SIMD      |0.0475446|
+|SIMD+omp  |0.00757323|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422908|
+|scalar+omp|0.0571769|
+|SIMD      |0.047687|
+|SIMD+omp  |0.00765976|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.419547|
+|scalar+omp|0.0570602|
+|SIMD      |0.0482952|
+|SIMD+omp  |0.00753942|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423839|
+|scalar+omp|0.0571672|
+|SIMD      |0.0479228|
+|SIMD+omp  |0.0075921|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.4235|
+|scalar+omp|0.0582568|
+|SIMD      |0.0478302|
+|SIMD+omp  |0.00753159|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421945|
+|scalar+omp|0.0584044|
+|SIMD      |0.0477869|
+|SIMD+omp  |0.00754383|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422956|
+|scalar+omp|0.0576|
+|SIMD      |0.0478933|
+|SIMD+omp  |0.00756438|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423228|
+|scalar+omp|0.0574379|
+|SIMD      |0.0475435|
+|SIMD+omp  |0.00804605|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42311|
+|scalar+omp|0.0573962|
+|SIMD      |0.0481782|
+|SIMD+omp  |0.00764084|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423558|
+|scalar+omp|0.0585537|
+|SIMD      |0.0483387|
+|SIMD+omp  |0.00760243|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42107|
+|scalar+omp|0.0573019|
+|SIMD      |0.0479584|
+|SIMD+omp  |0.00752128|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423664|
+|scalar+omp|0.0579|
+|SIMD      |0.0480545|
+|SIMD+omp  |0.00754426|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422711|
+|scalar+omp|0.0568849|
+|SIMD      |0.0476653|
+|SIMD+omp  |0.00768461|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423518|
+|scalar+omp|0.0581131|
+|SIMD      |0.0473527|
+|SIMD+omp  |0.00764267|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422558|
+|scalar+omp|0.0572938|
+|SIMD      |0.0476933|
+|SIMD+omp  |0.00754124|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423691|
+|scalar+omp|0.0582565|
+|SIMD      |0.0481563|
+|SIMD+omp  |0.0079765|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423687|
+|scalar+omp|0.0571525|
+|SIMD      |0.0552006|
+|SIMD+omp  |0.00757007|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423976|
+|scalar+omp|0.0569533|
+|SIMD      |0.0481203|
+|SIMD+omp  |0.00757301|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423398|
+|scalar+omp|0.0570154|
+|SIMD      |0.0478578|
+|SIMD+omp  |0.00756716|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423478|
+|scalar+omp|0.0570757|
+|SIMD      |0.0478968|
+|SIMD+omp  |0.00754654|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423325|
+|scalar+omp|0.0577726|
+|SIMD      |0.0479094|
+|SIMD+omp  |0.00757221|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423577|
+|scalar+omp|0.0573762|
+|SIMD      |0.0481341|
+|SIMD+omp  |0.00759568|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.420722|
+|scalar+omp|0.0575894|
+|SIMD      |0.0477006|
+|SIMD+omp  |0.00759507|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423556|
+|scalar+omp|0.0571614|
+|SIMD      |0.0482976|
+|SIMD+omp  |0.00763194|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.425352|
+|scalar+omp|0.0571087|
+|SIMD      |0.047681|
+|SIMD+omp  |0.00754274|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423433|
+|scalar+omp|0.0584463|
+|SIMD      |0.0477818|
+|SIMD+omp  |0.00755867|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423497|
+|scalar+omp|0.0583276|
+|SIMD      |0.0482807|
+|SIMD+omp  |0.00755609|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423752|
+|scalar+omp|0.0585588|
+|SIMD      |0.0485842|
+|SIMD+omp  |0.00762235|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424116|
+|scalar+omp|0.0579612|
+|SIMD      |0.0490676|
+|SIMD+omp  |0.00762366|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422238|
+|scalar+omp|0.0572369|
+|SIMD      |0.0476413|
+|SIMD+omp  |0.007594|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424223|
+|scalar+omp|0.0572054|
+|SIMD      |0.0481374|
+|SIMD+omp  |0.0075959|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422959|
+|scalar+omp|0.0576772|
+|SIMD      |0.0483848|
+|SIMD+omp  |0.00756732|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424125|
+|scalar+omp|0.0570695|
+|SIMD      |0.0483416|
+|SIMD+omp  |0.0075865|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421948|
+|scalar+omp|0.0571177|
+|SIMD      |0.0468632|
+|SIMD+omp  |0.00755826|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422612|
+|scalar+omp|0.0575945|
+|SIMD      |0.0475667|
+|SIMD+omp  |0.00760959|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423895|
+|scalar+omp|0.0583212|
+|SIMD      |0.0475018|
+|SIMD+omp  |0.00764205|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.425518|
+|scalar+omp|0.0574208|
+|SIMD      |0.0485905|
+|SIMD+omp  |0.00755634|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42289|
+|scalar+omp|0.0578783|
+|SIMD      |0.04858|
+|SIMD+omp  |0.00755809|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422961|
+|scalar+omp|0.0582085|
+|SIMD      |0.0478639|
+|SIMD+omp  |0.00756071|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.419288|
+|scalar+omp|0.0571958|
+|SIMD      |0.0476775|
+|SIMD+omp  |0.00760839|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.418627|
+|scalar+omp|0.0575262|
+|SIMD      |0.0477213|
+|SIMD+omp  |0.00755909|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42265|
+|scalar+omp|0.0576408|
+|SIMD      |0.0479719|
+|SIMD+omp  |0.00754768|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421703|
+|scalar+omp|0.0636522|
+|SIMD      |0.0485545|
+|SIMD+omp  |0.00753673|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423945|
+|scalar+omp|0.057992|
+|SIMD      |0.0481782|
+|SIMD+omp  |0.00761621|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423165|
+|scalar+omp|0.0572098|
+|SIMD      |0.0482491|
+|SIMD+omp  |0.00750387|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423444|
+|scalar+omp|0.0572667|
+|SIMD      |0.0481127|
+|SIMD+omp  |0.00758815|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423516|
+|scalar+omp|0.0571112|
+|SIMD      |0.0480432|
+|SIMD+omp  |0.00754512|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424274|
+|scalar+omp|0.0573643|
+|SIMD      |0.0478749|
+|SIMD+omp  |0.00762988|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423801|
+|scalar+omp|0.0579745|
+|SIMD      |0.0473836|
+|SIMD+omp  |0.00784469|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42263|
+|scalar+omp|0.057136|
+|SIMD      |0.0479403|
+|SIMD+omp  |0.00758173|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423607|
+|scalar+omp|0.05748|
+|SIMD      |0.0497563|
+|SIMD+omp  |0.00751454|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423817|
+|scalar+omp|0.0571519|
+|SIMD      |0.0477291|
+|SIMD+omp  |0.00754602|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.419491|
+|scalar+omp|0.0570284|
+|SIMD      |0.0471092|
+|SIMD+omp  |0.00755059|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423629|
+|scalar+omp|0.0572186|
+|SIMD      |0.0479349|
+|SIMD+omp  |0.00752498|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424217|
+|scalar+omp|0.0761704|
+|SIMD      |0.0481105|
+|SIMD+omp  |0.00756232|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421386|
+|scalar+omp|0.0726809|
+|SIMD      |0.047629|
+|SIMD+omp  |0.00820406|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.426806|
+|scalar+omp|0.0583443|
+|SIMD      |0.0474104|
+|SIMD+omp  |0.00762351|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.42316|
+|scalar+omp|0.0646023|
+|SIMD      |0.0476511|
+|SIMD+omp  |0.00765586|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423293|
+|scalar+omp|0.0691192|
+|SIMD      |0.0477485|
+|SIMD+omp  |0.0121397|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.421707|
+|scalar+omp|0.0632895|
+|SIMD      |0.0506551|
+|SIMD+omp  |0.0138009|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424213|
+|scalar+omp|0.080863|
+|SIMD      |0.0580485|
+|SIMD+omp  |0.011904|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422425|
+|scalar+omp|0.0784412|
+|SIMD      |0.0472973|
+|SIMD+omp  |0.00942208|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.425642|
+|scalar+omp|0.0784045|
+|SIMD      |0.0484678|
+|SIMD+omp  |0.00782161|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424104|
+|scalar+omp|0.0719702|
+|SIMD      |0.0478323|
+|SIMD+omp  |0.00925281|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424004|
+|scalar+omp|0.11655|
+|SIMD      |0.0521808|
+|SIMD+omp  |0.00754022|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.422541|
+|scalar+omp|0.0637016|
+|SIMD      |0.0496376|
+|SIMD+omp  |0.0176198|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.44851|
+|scalar+omp|0.144336|
+|SIMD      |0.0485993|
+|SIMD+omp  |0.00814243|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.424245|
+|scalar+omp|0.07228|
+|SIMD      |0.0472723|
+|SIMD+omp  |0.0517402|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.418121|
+|scalar+omp|0.0588164|
+|SIMD      |0.0482128|
+|SIMD+omp  |0.00770144|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.427411|
+|scalar+omp|0.0621232|
+|SIMD      |0.0479961|
+|SIMD+omp  |0.0133394|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.448071|
+|scalar+omp|0.549091|
+|SIMD      |0.048013|
+|SIMD+omp  |0.00847657|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.429106|
+|scalar+omp|0.0878481|
+|SIMD      |0.0479217|
+|SIMD+omp  |0.00893812|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.423389|
+|scalar+omp|0.0647833|
+|SIMD      |0.0479821|
+|SIMD+omp  |0.00831771|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 29: loop = 10000, size = 256
+
+|method    [time [ms]}
+|scalar    |0.430207|
+|scalar+omp|0.171411|
+|SIMD      |0.0481608|
+|SIMD+omp  |0.00879837|
+
+info:
+default parameter: default_loop = 10000, default_size = 256

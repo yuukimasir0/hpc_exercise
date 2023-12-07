@@ -1,0 +1,1919 @@
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0217799|
+|row-col|0.0266217|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.90072|
+|i-k-j |9.36646|
+|j-i-k |10.5361|
+|j-k-i |7.26899|
+|k-i-j |9.58677|
+|k-i-j |7.22025|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216698|
+|row-col|0.0273587|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.89093|
+|i-k-j |9.36099|
+|j-i-k |10.5394|
+|j-k-i |7.27004|
+|k-i-j |9.58135|
+|k-i-j |7.21691|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205347|
+|row-col|0.0250321|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.88603|
+|i-k-j |9.36784|
+|j-i-k |10.5569|
+|j-k-i |7.26205|
+|k-i-j |9.60498|
+|k-i-j |7.23445|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212757|
+|row-col|0.0270528|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.01116|
+|i-k-j |9.50659|
+|j-i-k |10.6464|
+|j-k-i |7.42903|
+|k-i-j |9.72894|
+|k-i-j |7.39893|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206357|
+|row-col|0.0253171|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.96999|
+|i-k-j |9.44643|
+|j-i-k |10.5977|
+|j-k-i |7.35095|
+|k-i-j |9.65896|
+|k-i-j |7.32203|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0218919|
+|row-col|0.0278154|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.96389|
+|i-k-j |9.44899|
+|j-i-k |10.5947|
+|j-k-i |7.35014|
+|k-i-j |9.66574|
+|k-i-j |7.30523|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206072|
+|row-col|0.0252481|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.9544|
+|i-k-j |9.43839|
+|j-i-k |10.6113|
+|j-k-i |7.39135|
+|k-i-j |9.64455|
+|k-i-j |7.30807|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206061|
+|row-col|0.0248629|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.95022|
+|i-k-j |9.44303|
+|j-i-k |10.583|
+|j-k-i |7.34351|
+|k-i-j |9.66268|
+|k-i-j |7.29452|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0219435|
+|row-col|0.0273042|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.95291|
+|i-k-j |9.44126|
+|j-i-k |10.5881|
+|j-k-i |7.3305|
+|k-i-j |9.66718|
+|k-i-j |7.29873|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0207155|
+|row-col|0.0254598|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94628|
+|i-k-j |9.45251|
+|j-i-k |10.5882|
+|j-k-i |7.35116|
+|k-i-j |9.7086|
+|k-i-j |7.34258|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205617|
+|row-col|0.0249727|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85048|
+|i-k-j |9.35325|
+|j-i-k |10.5377|
+|j-k-i |7.22011|
+|k-i-j |9.6169|
+|k-i-j |7.18249|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.021352|
+|row-col|0.0268961|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85389|
+|i-k-j |9.35738|
+|j-i-k |10.5365|
+|j-k-i |7.18692|
+|k-i-j |9.61602|
+|k-i-j |7.19749|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211237|
+|row-col|0.0273252|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85034|
+|i-k-j |9.34326|
+|j-i-k |10.5331|
+|j-k-i |7.20969|
+|k-i-j |9.58467|
+|k-i-j |7.15763|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0210865|
+|row-col|0.0272755|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84936|
+|i-k-j |9.34177|
+|j-i-k |10.5606|
+|j-k-i |7.25066|
+|k-i-j |9.57573|
+|k-i-j |7.1702|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205679|
+|row-col|0.0249421|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85077|
+|i-k-j |9.34595|
+|j-i-k |10.5201|
+|j-k-i |7.21281|
+|k-i-j |9.57153|
+|k-i-j |7.17634|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211425|
+|row-col|0.0270013|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84631|
+|i-k-j |9.34059|
+|j-i-k |10.5265|
+|j-k-i |7.22374|
+|k-i-j |9.59417|
+|k-i-j |7.17173|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0204443|
+|row-col|0.0249166|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84824|
+|i-k-j |9.3521|
+|j-i-k |10.5372|
+|j-k-i |7.25936|
+|k-i-j |9.61171|
+|k-i-j |7.1713|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0210238|
+|row-col|0.0270725|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85697|
+|i-k-j |9.35644|
+|j-i-k |10.5461|
+|j-k-i |7.27287|
+|k-i-j |9.5912|
+|k-i-j |7.21094|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0213408|
+|row-col|0.0274716|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94488|
+|i-k-j |9.44565|
+|j-i-k |10.1677|
+|j-k-i |7.32441|
+|k-i-j |9.66451|
+|k-i-j |7.27009|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.021293|
+|row-col|0.0274219|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.95025|
+|i-k-j |9.46678|
+|j-i-k |10.6282|
+|j-k-i |7.32838|
+|k-i-j |9.73081|
+|k-i-j |7.30329|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216415|
+|row-col|0.0273365|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.01|
+|i-k-j |9.50623|
+|j-i-k |10.6723|
+|j-k-i |7.49879|
+|k-i-j |9.71063|
+|k-i-j |7.4504|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0210579|
+|row-col|0.0262466|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85305|
+|i-k-j |9.37981|
+|j-i-k |10.355|
+|j-k-i |7.22437|
+|k-i-j |9.6404|
+|k-i-j |7.18791|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.02048|
+|row-col|0.0245594|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.86839|
+|i-k-j |9.36214|
+|j-i-k |10.0924|
+|j-k-i |7.22909|
+|k-i-j |9.63225|
+|k-i-j |7.18312|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.020493|
+|row-col|0.0245628|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.88603|
+|i-k-j |9.39365|
+|j-i-k |10.587|
+|j-k-i |7.28213|
+|k-i-j |9.65937|
+|k-i-j |7.24603|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0207211|
+|row-col|0.0253836|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.96509|
+|i-k-j |9.48288|
+|j-i-k |10.6447|
+|j-k-i |7.35272|
+|k-i-j |9.71068|
+|k-i-j |7.29302|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206415|
+|row-col|0.0249386|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94567|
+|i-k-j |9.42736|
+|j-i-k |10.1506|
+|j-k-i |7.32969|
+|k-i-j |9.66036|
+|k-i-j |7.28879|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205575|
+|row-col|0.0252917|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94203|
+|i-k-j |9.4531|
+|j-i-k |10.5904|
+|j-k-i |7.3293|
+|k-i-j |9.69583|
+|k-i-j |7.31069|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0214477|
+|row-col|0.0273205|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94134|
+|i-k-j |9.41919|
+|j-i-k |10.4115|
+|j-k-i |7.29863|
+|k-i-j |9.62536|
+|k-i-j |7.25424|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205682|
+|row-col|0.025244|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94312|
+|i-k-j |9.41879|
+|j-i-k |10.5824|
+|j-k-i |7.30677|
+|k-i-j |9.62164|
+|k-i-j |7.25864|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211694|
+|row-col|0.0274734|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.944|
+|i-k-j |9.44189|
+|j-i-k |10.5809|
+|j-k-i |7.33289|
+|k-i-j |9.69098|
+|k-i-j |7.30249|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211368|
+|row-col|0.025614|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.98813|
+|i-k-j |9.46298|
+|j-i-k |10.6293|
+|j-k-i |7.34518|
+|k-i-j |9.66901|
+|k-i-j |7.31508|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0209952|
+|row-col|0.0253613|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94118|
+|i-k-j |9.43222|
+|j-i-k |10.578|
+|j-k-i |7.306|
+|k-i-j |9.63959|
+|k-i-j |7.26802|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0218869|
+|row-col|0.0276029|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.96083|
+|i-k-j |9.42871|
+|j-i-k |10.5962|
+|j-k-i |7.32838|
+|k-i-j |9.66933|
+|k-i-j |7.2938|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.021241|
+|row-col|0.0274897|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94169|
+|i-k-j |9.43905|
+|j-i-k |10.581|
+|j-k-i |7.31426|
+|k-i-j |9.62963|
+|k-i-j |7.2876|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212134|
+|row-col|0.0274225|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94632|
+|i-k-j |9.44124|
+|j-i-k |10.5815|
+|j-k-i |7.32321|
+|k-i-j |9.65734|
+|k-i-j |7.29521|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212732|
+|row-col|0.027171|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.95714|
+|i-k-j |9.44377|
+|j-i-k |10.5989|
+|j-k-i |7.35652|
+|k-i-j |9.64751|
+|k-i-j |7.30632|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212146|
+|row-col|0.0271891|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.95889|
+|i-k-j |9.44424|
+|j-i-k |10.3035|
+|j-k-i |7.35779|
+|k-i-j |9.65926|
+|k-i-j |7.31725|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211371|
+|row-col|0.0252173|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94437|
+|i-k-j |9.43182|
+|j-i-k |10.5821|
+|j-k-i |7.4074|
+|k-i-j |9.63058|
+|k-i-j |7.30586|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211788|
+|row-col|0.0273507|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94384|
+|i-k-j |9.42575|
+|j-i-k |10.5894|
+|j-k-i |7.32537|
+|k-i-j |9.6578|
+|k-i-j |7.35549|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0213872|
+|row-col|0.0270609|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.00843|
+|i-k-j |9.49322|
+|j-i-k |10.6352|
+|j-k-i |7.40473|
+|k-i-j |9.68714|
+|k-i-j |7.37619|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206442|
+|row-col|0.0253001|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.98315|
+|i-k-j |8.95176|
+|j-i-k |8.80662|
+|j-k-i |7.03396|
+|k-i-j |7.89937|
+|k-i-j |7.01348|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0217003|
+|row-col|0.0275731|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.99122|
+|i-k-j |9.47777|
+|j-i-k |10.6363|
+|j-k-i |7.31687|
+|k-i-j |9.64672|
+|k-i-j |7.27976|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206399|
+|row-col|0.0250198|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84465|
+|i-k-j |9.36052|
+|j-i-k |10.544|
+|j-k-i |7.23349|
+|k-i-j |9.61959|
+|k-i-j |7.1913|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0210764|
+|row-col|0.0268639|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84438|
+|i-k-j |9.36176|
+|j-i-k |10.5409|
+|j-k-i |7.23225|
+|k-i-j |9.62566|
+|k-i-j |7.17933|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205912|
+|row-col|0.0251534|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94593|
+|i-k-j |9.43176|
+|j-i-k |10.5847|
+|j-k-i |7.31603|
+|k-i-j |9.65458|
+|k-i-j |7.30117|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0214137|
+|row-col|0.0289237|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94084|
+|i-k-j |9.42349|
+|j-i-k |10.5796|
+|j-k-i |7.30941|
+|k-i-j |9.63013|
+|k-i-j |7.26098|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205906|
+|row-col|0.0253111|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94194|
+|i-k-j |9.43303|
+|j-i-k |10.5821|
+|j-k-i |7.32913|
+|k-i-j |9.68124|
+|k-i-j |7.3006|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212172|
+|row-col|0.0276783|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94214|
+|i-k-j |9.42736|
+|j-i-k |10.5889|
+|j-k-i |7.3385|
+|k-i-j |9.637|
+|k-i-j |7.2898|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216464|
+|row-col|0.0275962|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94543|
+|i-k-j |9.42763|
+|j-i-k |10.4246|
+|j-k-i |7.33039|
+|k-i-j |9.64822|
+|k-i-j |7.28918|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0213972|
+|row-col|0.0277706|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94409|
+|i-k-j |9.42477|
+|j-i-k |10.5761|
+|j-k-i |7.29925|
+|k-i-j |9.61448|
+|k-i-j |7.25167|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.021631|
+|row-col|0.0268712|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84579|
+|i-k-j |9.34771|
+|j-i-k |10.3542|
+|j-k-i |7.20582|
+|k-i-j |9.58352|
+|k-i-j |7.16558|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206572|
+|row-col|0.0253046|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.96728|
+|i-k-j |9.46055|
+|j-i-k |10.5911|
+|j-k-i |7.3434|
+|k-i-j |9.65494|
+|k-i-j |7.32804|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0204939|
+|row-col|0.0247468|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.86042|
+|i-k-j |9.37283|
+|j-i-k |10.5405|
+|j-k-i |7.22612|
+|k-i-j |9.6424|
+|k-i-j |7.19606|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205208|
+|row-col|0.0249063|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84581|
+|i-k-j |9.35941|
+|j-i-k |10.5408|
+|j-k-i |7.21626|
+|k-i-j |9.56958|
+|k-i-j |7.18465|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0213104|
+|row-col|0.0268597|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84985|
+|i-k-j |9.36097|
+|j-i-k |10.5578|
+|j-k-i |7.27625|
+|k-i-j |9.62909|
+|k-i-j |7.20154|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206642|
+|row-col|0.0249964|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84169|
+|i-k-j |9.35661|
+|j-i-k |10.5455|
+|j-k-i |7.22212|
+|k-i-j |9.61686|
+|k-i-j |7.18084|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0210945|
+|row-col|0.0273179|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84781|
+|i-k-j |9.34788|
+|j-i-k |10.5412|
+|j-k-i |7.21224|
+|k-i-j |9.61697|
+|k-i-j |7.16734|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0214959|
+|row-col|0.0280472|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84637|
+|i-k-j |9.35303|
+|j-i-k |10.5366|
+|j-k-i |7.19995|
+|k-i-j |9.60931|
+|k-i-j |7.16796|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0215235|
+|row-col|0.0268484|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84764|
+|i-k-j |9.35655|
+|j-i-k |10.5294|
+|j-k-i |7.20718|
+|k-i-j |9.61671|
+|k-i-j |7.1825|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205137|
+|row-col|0.0246341|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85381|
+|i-k-j |9.36162|
+|j-i-k |10.362|
+|j-k-i |7.22058|
+|k-i-j |9.60979|
+|k-i-j |7.19473|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0217636|
+|row-col|0.0273067|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84315|
+|i-k-j |9.34336|
+|j-i-k |10.0739|
+|j-k-i |7.20342|
+|k-i-j |9.58692|
+|k-i-j |7.15793|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216457|
+|row-col|0.0267147|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.84917|
+|i-k-j |9.36448|
+|j-i-k |10.5449|
+|j-k-i |7.24335|
+|k-i-j |9.61574|
+|k-i-j |7.18274|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0231039|
+|row-col|0.029086|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94547|
+|i-k-j |9.44272|
+|j-i-k |10.459|
+|j-k-i |7.30626|
+|k-i-j |9.71868|
+|k-i-j |7.29293|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216174|
+|row-col|0.0266766|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.8819|
+|i-k-j |9.37922|
+|j-i-k |10.572|
+|j-k-i |7.21186|
+|k-i-j |9.61082|
+|k-i-j |7.16901|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.020524|
+|row-col|0.0250272|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.86002|
+|i-k-j |9.34595|
+|j-i-k |10.5694|
+|j-k-i |7.21722|
+|k-i-j |9.61624|
+|k-i-j |7.19783|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211508|
+|row-col|0.0269124|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.94225|
+|i-k-j |9.42238|
+|j-i-k |10.5986|
+|j-k-i |7.26393|
+|k-i-j |9.63826|
+|k-i-j |7.21771|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.021102|
+|row-col|0.0271532|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.25707|
+|i-k-j |9.61325|
+|j-i-k |10.7399|
+|j-k-i |7.35657|
+|k-i-j |9.7877|
+|k-i-j |7.22874|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212688|
+|row-col|0.0270155|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.90904|
+|i-k-j |9.39406|
+|j-i-k |10.1292|
+|j-k-i |7.24929|
+|k-i-j |9.66917|
+|k-i-j |7.29408|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211942|
+|row-col|0.028713|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.10605|
+|i-k-j |9.66423|
+|j-i-k |10.9153|
+|j-k-i |7.41217|
+|k-i-j |9.77416|
+|k-i-j |7.28749|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0218677|
+|row-col|0.027687|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.00238|
+|i-k-j |9.48025|
+|j-i-k |10.468|
+|j-k-i |7.36071|
+|k-i-j |9.6905|
+|k-i-j |7.34392|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0213217|
+|row-col|0.0274916|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.11328|
+|i-k-j |9.63834|
+|j-i-k |10.6785|
+|j-k-i |7.33998|
+|k-i-j |8.00717|
+|k-i-j |7.29854|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0254198|
+|row-col|0.0306781|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.28685|
+|i-k-j |9.64689|
+|j-i-k |10.7453|
+|j-k-i |7.4346|
+|k-i-j |9.68757|
+|k-i-j |7.32765|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206591|
+|row-col|0.0252709|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.93787|
+|i-k-j |9.47842|
+|j-i-k |10.5771|
+|j-k-i |7.1851|
+|k-i-j |7.8622|
+|k-i-j |7.07709|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216333|
+|row-col|0.0278869|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.00891|
+|i-k-j |9.54691|
+|j-i-k |10.6522|
+|j-k-i |7.34571|
+|k-i-j |9.70761|
+|k-i-j |7.33795|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0214646|
+|row-col|0.0274823|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.01896|
+|i-k-j |9.26583|
+|j-i-k |10.1226|
+|j-k-i |7.33536|
+|k-i-j |9.27232|
+|k-i-j |7.25606|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0214764|
+|row-col|0.0277946|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.95671|
+|i-k-j |9.4783|
+|j-i-k |10.2149|
+|j-k-i |7.359|
+|k-i-j |9.65166|
+|k-i-j |7.30521|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0205518|
+|row-col|0.0248847|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.85559|
+|i-k-j |9.35454|
+|j-i-k |10.543|
+|j-k-i |7.21439|
+|k-i-j |9.60828|
+|k-i-j |7.18309|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0213448|
+|row-col|0.0271467|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.88483|
+|i-k-j |9.37127|
+|j-i-k |10.544|
+|j-k-i |7.26541|
+|k-i-j |9.64044|
+|k-i-j |7.22314|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0210935|
+|row-col|0.0273497|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.88105|
+|i-k-j |9.3677|
+|j-i-k |10.0673|
+|j-k-i |7.26994|
+|k-i-j |9.61564|
+|k-i-j |7.22048|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216343|
+|row-col|0.0273671|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.91672|
+|i-k-j |9.39418|
+|j-i-k |10.6795|
+|j-k-i |7.43219|
+|k-i-j |8.91921|
+|k-i-j |7.23271|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0225002|
+|row-col|0.0278815|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.12389|
+|i-k-j |9.56772|
+|j-i-k |10.8978|
+|j-k-i |7.47763|
+|k-i-j |8.02544|
+|k-i-j |7.12417|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0218426|
+|row-col|0.0281234|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.99036|
+|i-k-j |9.62026|
+|j-i-k |10.1699|
+|j-k-i |7.37795|
+|k-i-j |9.28708|
+|k-i-j |7.30364|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0209772|
+|row-col|0.0256597|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.05656|
+|i-k-j |9.68512|
+|j-i-k |9.19364|
+|j-k-i |7.19093|
+|k-i-j |8.09581|
+|k-i-j |7.29502|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0220651|
+|row-col|0.0283217|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.07076|
+|i-k-j |9.58767|
+|j-i-k |9.91728|
+|j-k-i |7.21695|
+|k-i-j |8.40127|
+|k-i-j |7.2554|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0215843|
+|row-col|0.0273981|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.98052|
+|i-k-j |9.37497|
+|j-i-k |10.5331|
+|j-k-i |7.30489|
+|k-i-j |9.60785|
+|k-i-j |7.19607|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212427|
+|row-col|0.0273348|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.89884|
+|i-k-j |9.48771|
+|j-i-k |10.5849|
+|j-k-i |7.3167|
+|k-i-j |9.62534|
+|k-i-j |7.05308|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212464|
+|row-col|0.0272964|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.98859|
+|i-k-j |9.47024|
+|j-i-k |10.2075|
+|j-k-i |7.34149|
+|k-i-j |9.66718|
+|k-i-j |7.33014|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0212091|
+|row-col|0.0274625|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.99451|
+|i-k-j |9.52642|
+|j-i-k |10.8873|
+|j-k-i |7.60351|
+|k-i-j |9.80738|
+|k-i-j |7.42261|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.020687|
+|row-col|0.0252772|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.91842|
+|i-k-j |9.54986|
+|j-i-k |10.5934|
+|j-k-i |7.52465|
+|k-i-j |9.68182|
+|k-i-j |7.34058|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0214128|
+|row-col|0.0274831|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.09396|
+|i-k-j |9.67316|
+|j-i-k |9.32914|
+|j-k-i |7.03392|
+|k-i-j |7.89418|
+|k-i-j |7.00722|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.021159|
+|row-col|0.027445|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.8285|
+|i-k-j |9.15762|
+|j-i-k |10.3866|
+|j-k-i |7.27836|
+|k-i-j |9.48744|
+|k-i-j |7.28611|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216524|
+|row-col|0.0275192|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.95092|
+|i-k-j |9.42919|
+|j-i-k |10.668|
+|j-k-i |7.30709|
+|k-i-j |9.70733|
+|k-i-j |7.25256|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.020581|
+|row-col|0.0250842|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.93548|
+|i-k-j |9.38659|
+|j-i-k |10.4496|
+|j-k-i |7.34646|
+|k-i-j |9.22378|
+|k-i-j |7.24335|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206458|
+|row-col|0.0253062|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.02066|
+|i-k-j |9.53375|
+|j-i-k |10.8148|
+|j-k-i |7.18583|
+|k-i-j |8.08485|
+|k-i-j |7.12025|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0206998|
+|row-col|0.0254056|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.04187|
+|i-k-j |9.50505|
+|j-i-k |10.7926|
+|j-k-i |7.37086|
+|k-i-j |9.77985|
+|k-i-j |7.46088|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0217614|
+|row-col|0.029951|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.35429|
+|i-k-j |9.87142|
+|j-i-k |11.015|
+|j-k-i |8.31404|
+|k-i-j |8.28351|
+|k-i-j |7.56932|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0218457|
+|row-col|0.0271368|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.98859|
+|i-k-j |9.52359|
+|j-i-k |10.783|
+|j-k-i |7.51324|
+|k-i-j |8.26615|
+|k-i-j |7.12188|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0211116|
+|row-col|0.02592|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |6.9656|
+|i-k-j |9.30402|
+|j-i-k |10.5835|
+|j-k-i |7.20206|
+|k-i-j |8.0834|
+|k-i-j |7.13846|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0214823|
+|row-col|0.0279436|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.12875|
+|i-k-j |9.79045|
+|j-i-k |10.7698|
+|j-k-i |7.47368|
+|k-i-j |9.75506|
+|k-i-j |7.44336|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0220663|
+|row-col|0.0275002|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.20834|
+|i-k-j |9.59925|
+|j-i-k |10.7538|
+|j-k-i |7.57698|
+|k-i-j |9.81318|
+|k-i-j |7.5425|
+
+info:
+default parameter: default_loop = 1000, default_size = 128
+exercise 14: loop = 1000, size = 128
+
+|method|time[ms]|
+|-------|---------|
+|col-row|0.0216647|
+|row-col|0.0276503|
+
+
+|method|time [ms]|, 
+|------|---------|
+|i-j-k |7.25266|
+|i-k-j |9.71514|
+|j-i-k |10.9438|
+|j-k-i |7.44744|
+|k-i-j |9.65984|
+|k-i-j |7.04777|
+
+info:
+default parameter: default_loop = 1000, default_size = 128

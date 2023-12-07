@@ -1,0 +1,2020 @@
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.516333|
+|mul    |0.535027|
+|div    |0.518256|
+|sqrt   |0.70021|
+|sin    |3.70607|
+|cos    |3.79892|
+|exp    |3.81432|
+|log    |1.11957|
+|sqrtLUT|0.771359|
+|sin LUT|0.768654|
+|cos LUT|0.769767|
+|exp LUT|0.765416|
+|log LUT|0.770116|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.516043|
+|mul    |0.531805|
+|div    |0.517568|
+|sqrt   |0.756303|
+|sin    |3.6611|
+|cos    |3.77389|
+|exp    |3.78565|
+|log    |1.11042|
+|sqrtLUT|0.765429|
+|sin LUT|0.75662|
+|cos LUT|0.75768|
+|exp LUT|0.76095|
+|log LUT|0.758891|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.511648|
+|mul    |0.53193|
+|div    |0.516863|
+|sqrt   |0.696788|
+|sin    |3.68111|
+|cos    |3.76949|
+|exp    |3.78534|
+|log    |1.11295|
+|sqrtLUT|0.765234|
+|sin LUT|0.75811|
+|cos LUT|0.758987|
+|exp LUT|0.765074|
+|log LUT|0.76401|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.514298|
+|mul    |0.531681|
+|div    |0.514837|
+|sqrt   |0.79801|
+|sin    |3.65923|
+|cos    |3.76865|
+|exp    |3.78888|
+|log    |1.14931|
+|sqrtLUT|0.764285|
+|sin LUT|0.762094|
+|cos LUT|0.761906|
+|exp LUT|0.762876|
+|log LUT|0.764363|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512596|
+|mul    |0.531466|
+|div    |0.515244|
+|sqrt   |0.695828|
+|sin    |3.67863|
+|cos    |3.76727|
+|exp    |3.78918|
+|log    |1.11248|
+|sqrtLUT|0.765751|
+|sin LUT|0.759929|
+|cos LUT|0.764492|
+|exp LUT|0.75877|
+|log LUT|0.76406|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513598|
+|mul    |0.533422|
+|div    |0.515058|
+|sqrt   |0.695826|
+|sin    |3.67656|
+|cos    |3.76665|
+|exp    |3.79026|
+|log    |1.10917|
+|sqrtLUT|0.763577|
+|sin LUT|0.768896|
+|cos LUT|0.760071|
+|exp LUT|0.762144|
+|log LUT|0.763543|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513364|
+|mul    |0.53084|
+|div    |0.516209|
+|sqrt   |0.696538|
+|sin    |3.67946|
+|cos    |3.76932|
+|exp    |3.78317|
+|log    |1.10911|
+|sqrtLUT|0.763607|
+|sin LUT|0.763258|
+|cos LUT|0.759099|
+|exp LUT|0.761174|
+|log LUT|0.762392|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518794|
+|mul    |0.537384|
+|div    |0.52093|
+|sqrt   |0.702831|
+|sin    |3.72194|
+|cos    |3.81247|
+|exp    |3.82992|
+|log    |1.12465|
+|sqrtLUT|0.774753|
+|sin LUT|0.770573|
+|cos LUT|0.77393|
+|exp LUT|0.770004|
+|log LUT|0.772442|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.517768|
+|mul    |0.542652|
+|div    |0.521025|
+|sqrt   |0.702972|
+|sin    |3.70216|
+|cos    |3.81244|
+|exp    |3.82786|
+|log    |1.12336|
+|sqrtLUT|0.776229|
+|sin LUT|0.775497|
+|cos LUT|0.775265|
+|exp LUT|0.766976|
+|log LUT|0.765886|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.521363|
+|mul    |0.53585|
+|div    |0.523407|
+|sqrt   |0.752689|
+|sin    |3.70184|
+|cos    |3.81749|
+|exp    |3.82911|
+|log    |1.11902|
+|sqrtLUT|0.774344|
+|sin LUT|0.764162|
+|cos LUT|0.764362|
+|exp LUT|0.767375|
+|log LUT|0.76729|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518551|
+|mul    |0.536236|
+|div    |0.521564|
+|sqrt   |0.702103|
+|sin    |3.72368|
+|cos    |3.81572|
+|exp    |3.83055|
+|log    |1.12518|
+|sqrtLUT|0.771212|
+|sin LUT|0.774442|
+|cos LUT|0.774087|
+|exp LUT|0.774248|
+|log LUT|0.773428|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518256|
+|mul    |0.536302|
+|div    |0.522582|
+|sqrt   |0.70213|
+|sin    |3.7303|
+|cos    |3.81607|
+|exp    |3.8272|
+|log    |1.11927|
+|sqrtLUT|0.773126|
+|sin LUT|0.774914|
+|cos LUT|0.769512|
+|exp LUT|0.771538|
+|log LUT|0.771906|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.519301|
+|mul    |0.535856|
+|div    |0.522643|
+|sqrt   |0.701983|
+|sin    |3.72174|
+|cos    |3.8143|
+|exp    |3.82729|
+|log    |1.11662|
+|sqrtLUT|0.773132|
+|sin LUT|0.770832|
+|cos LUT|0.772675|
+|exp LUT|0.771123|
+|log LUT|0.772286|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.517645|
+|mul    |0.536134|
+|div    |0.520809|
+|sqrt   |0.701471|
+|sin    |3.72088|
+|cos    |3.81222|
+|exp    |3.82633|
+|log    |1.12286|
+|sqrtLUT|0.773077|
+|sin LUT|0.802607|
+|cos LUT|0.771551|
+|exp LUT|0.766555|
+|log LUT|0.772539|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.521116|
+|mul    |0.536978|
+|div    |0.524116|
+|sqrt   |0.75196|
+|sin    |3.73608|
+|cos    |3.82|
+|exp    |3.8366|
+|log    |1.12706|
+|sqrtLUT|0.770292|
+|sin LUT|0.765065|
+|cos LUT|0.764879|
+|exp LUT|0.773671|
+|log LUT|0.763067|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.517087|
+|mul    |0.535776|
+|div    |0.52163|
+|sqrt   |0.753926|
+|sin    |3.83081|
+|cos    |3.92827|
+|exp    |3.94658|
+|log    |1.15649|
+|sqrtLUT|0.773274|
+|sin LUT|0.773892|
+|cos LUT|0.772909|
+|exp LUT|0.764602|
+|log LUT|0.77265|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.51392|
+|mul    |0.53315|
+|div    |0.518537|
+|sqrt   |0.697773|
+|sin    |3.68887|
+|cos    |3.78463|
+|exp    |3.79537|
+|log    |1.11869|
+|sqrtLUT|0.769384|
+|sin LUT|0.769669|
+|cos LUT|0.768759|
+|exp LUT|0.765474|
+|log LUT|0.766701|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518474|
+|mul    |0.536653|
+|div    |0.522614|
+|sqrt   |0.702118|
+|sin    |3.70425|
+|cos    |3.81604|
+|exp    |3.82905|
+|log    |1.11794|
+|sqrtLUT|0.774703|
+|sin LUT|0.773997|
+|cos LUT|0.773826|
+|exp LUT|0.766782|
+|log LUT|0.774102|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518632|
+|mul    |0.538524|
+|div    |0.521344|
+|sqrt   |0.701946|
+|sin    |3.72021|
+|cos    |3.81347|
+|exp    |3.82608|
+|log    |1.11964|
+|sqrtLUT|0.772072|
+|sin LUT|0.774214|
+|cos LUT|0.779078|
+|exp LUT|0.767864|
+|log LUT|0.773101|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518651|
+|mul    |0.53809|
+|div    |0.520368|
+|sqrt   |0.702678|
+|sin    |3.72453|
+|cos    |3.81809|
+|exp    |3.83121|
+|log    |1.11834|
+|sqrtLUT|0.773325|
+|sin LUT|0.771095|
+|cos LUT|0.768841|
+|exp LUT|0.769197|
+|log LUT|0.774248|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.521301|
+|mul    |0.537355|
+|div    |0.52416|
+|sqrt   |0.752861|
+|sin    |3.71298|
+|cos    |3.81988|
+|exp    |3.8402|
+|log    |1.12592|
+|sqrtLUT|0.773988|
+|sin LUT|0.765072|
+|cos LUT|0.765126|
+|exp LUT|0.763713|
+|log LUT|0.767408|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518771|
+|mul    |0.535764|
+|div    |0.521072|
+|sqrt   |0.70085|
+|sin    |3.72129|
+|cos    |3.8139|
+|exp    |3.82897|
+|log    |1.11696|
+|sqrtLUT|0.773826|
+|sin LUT|0.771764|
+|cos LUT|0.773093|
+|exp LUT|0.773942|
+|log LUT|0.772729|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.52002|
+|mul    |0.534749|
+|div    |0.525601|
+|sqrt   |0.750804|
+|sin    |3.7056|
+|cos    |3.81768|
+|exp    |3.83681|
+|log    |1.12553|
+|sqrtLUT|0.770701|
+|sin LUT|0.765991|
+|cos LUT|0.765952|
+|exp LUT|0.771833|
+|log LUT|0.767416|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518349|
+|mul    |0.53843|
+|div    |0.521013|
+|sqrt   |0.702745|
+|sin    |3.72188|
+|cos    |3.81593|
+|exp    |3.83117|
+|log    |1.12558|
+|sqrtLUT|0.774011|
+|sin LUT|0.774105|
+|cos LUT|0.773543|
+|exp LUT|0.76881|
+|log LUT|0.772873|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518309|
+|mul    |0.536594|
+|div    |0.52194|
+|sqrt   |0.701067|
+|sin    |3.72175|
+|cos    |3.8127|
+|exp    |3.83717|
+|log    |1.11924|
+|sqrtLUT|0.773485|
+|sin LUT|0.773199|
+|cos LUT|0.771351|
+|exp LUT|0.771707|
+|log LUT|0.774287|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.517804|
+|mul    |0.537202|
+|div    |0.522934|
+|sqrt   |0.702579|
+|sin    |3.73776|
+|cos    |3.82202|
+|exp    |3.8326|
+|log    |1.12252|
+|sqrtLUT|0.773758|
+|sin LUT|0.770481|
+|cos LUT|0.773082|
+|exp LUT|0.768014|
+|log LUT|0.77329|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513575|
+|mul    |0.5311|
+|div    |0.515228|
+|sqrt   |0.696535|
+|sin    |3.69083|
+|cos    |3.77172|
+|exp    |3.79508|
+|log    |1.11295|
+|sqrtLUT|0.764069|
+|sin LUT|0.762579|
+|cos LUT|0.762973|
+|exp LUT|0.762337|
+|log LUT|0.764185|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513476|
+|mul    |0.530996|
+|div    |0.516046|
+|sqrt   |0.697067|
+|sin    |3.68159|
+|cos    |3.77025|
+|exp    |3.7845|
+|log    |1.1092|
+|sqrtLUT|0.765314|
+|sin LUT|0.758104|
+|cos LUT|0.764109|
+|exp LUT|0.764673|
+|log LUT|0.763193|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.5158|
+|mul    |0.53022|
+|div    |0.516242|
+|sqrt   |0.6961|
+|sin    |3.68206|
+|cos    |3.77039|
+|exp    |3.7886|
+|log    |1.11491|
+|sqrtLUT|0.764411|
+|sin LUT|0.763003|
+|cos LUT|0.764043|
+|exp LUT|0.765198|
+|log LUT|0.763114|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513483|
+|mul    |0.53015|
+|div    |0.514901|
+|sqrt   |0.696042|
+|sin    |3.68178|
+|cos    |3.77339|
+|exp    |3.78541|
+|log    |1.11589|
+|sqrtLUT|0.763931|
+|sin LUT|0.758382|
+|cos LUT|0.763613|
+|exp LUT|0.763669|
+|log LUT|0.763247|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512023|
+|mul    |0.531108|
+|div    |0.514959|
+|sqrt   |0.695924|
+|sin    |3.68017|
+|cos    |3.76779|
+|exp    |3.78292|
+|log    |1.1119|
+|sqrtLUT|0.76377|
+|sin LUT|0.761608|
+|cos LUT|0.762988|
+|exp LUT|0.761147|
+|log LUT|0.762614|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513195|
+|mul    |0.531395|
+|div    |0.515304|
+|sqrt   |0.696256|
+|sin    |3.67772|
+|cos    |3.76915|
+|exp    |3.78116|
+|log    |1.11052|
+|sqrtLUT|0.765073|
+|sin LUT|0.763397|
+|cos LUT|0.763677|
+|exp LUT|0.75809|
+|log LUT|0.76277|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512327|
+|mul    |0.532533|
+|div    |0.514616|
+|sqrt   |0.695849|
+|sin    |3.68167|
+|cos    |3.77239|
+|exp    |3.7822|
+|log    |1.11364|
+|sqrtLUT|0.764769|
+|sin LUT|0.76456|
+|cos LUT|0.759282|
+|exp LUT|0.764808|
+|log LUT|0.762038|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.515136|
+|mul    |0.531679|
+|div    |0.516578|
+|sqrt   |0.74352|
+|sin    |3.67894|
+|cos    |3.76929|
+|exp    |3.7814|
+|log    |1.11363|
+|sqrtLUT|0.76471|
+|sin LUT|0.756158|
+|cos LUT|0.755764|
+|exp LUT|0.757408|
+|log LUT|0.756535|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513281|
+|mul    |0.532433|
+|div    |0.515661|
+|sqrt   |0.696524|
+|sin    |3.65902|
+|cos    |3.76694|
+|exp    |3.78345|
+|log    |1.11318|
+|sqrtLUT|0.76533|
+|sin LUT|0.760319|
+|cos LUT|0.765359|
+|exp LUT|0.766615|
+|log LUT|0.763815|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513948|
+|mul    |0.532129|
+|div    |0.515986|
+|sqrt   |0.695864|
+|sin    |3.68974|
+|cos    |3.79647|
+|exp    |3.79656|
+|log    |1.11115|
+|sqrtLUT|0.764013|
+|sin LUT|0.764091|
+|cos LUT|0.763916|
+|exp LUT|0.762159|
+|log LUT|0.760774|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513029|
+|mul    |0.531206|
+|div    |0.513968|
+|sqrt   |0.747742|
+|sin    |3.66075|
+|cos    |3.76671|
+|exp    |3.78723|
+|log    |1.14806|
+|sqrtLUT|0.765285|
+|sin LUT|0.764059|
+|cos LUT|0.763013|
+|exp LUT|0.765434|
+|log LUT|0.763315|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.515897|
+|mul    |0.532551|
+|div    |0.516974|
+|sqrt   |0.745663|
+|sin    |3.68439|
+|cos    |3.76946|
+|exp    |3.78898|
+|log    |1.11091|
+|sqrtLUT|0.765681|
+|sin LUT|0.757491|
+|cos LUT|0.758419|
+|exp LUT|0.756122|
+|log LUT|0.760339|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512727|
+|mul    |0.529385|
+|div    |0.558241|
+|sqrt   |0.697508|
+|sin    |3.6798|
+|cos    |3.76847|
+|exp    |3.78353|
+|log    |1.11578|
+|sqrtLUT|0.763978|
+|sin LUT|0.763543|
+|cos LUT|0.763243|
+|exp LUT|0.762559|
+|log LUT|0.758317|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.511957|
+|mul    |0.529117|
+|div    |0.514908|
+|sqrt   |0.69596|
+|sin    |3.68403|
+|cos    |3.77038|
+|exp    |3.78579|
+|log    |1.11136|
+|sqrtLUT|0.764603|
+|sin LUT|0.760817|
+|cos LUT|0.758497|
+|exp LUT|0.762137|
+|log LUT|0.763531|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.517367|
+|mul    |0.535456|
+|div    |0.518969|
+|sqrt   |0.699986|
+|sin    |3.7061|
+|cos    |3.80341|
+|exp    |3.81499|
+|log    |1.12425|
+|sqrtLUT|0.771708|
+|sin LUT|0.768276|
+|cos LUT|0.768386|
+|exp LUT|0.764545|
+|log LUT|0.771369|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.514319|
+|mul    |0.531898|
+|div    |0.514182|
+|sqrt   |0.69661|
+|sin    |3.68931|
+|cos    |3.76931|
+|exp    |3.78789|
+|log    |1.11735|
+|sqrtLUT|0.765135|
+|sin LUT|0.760881|
+|cos LUT|0.762234|
+|exp LUT|0.760273|
+|log LUT|0.762224|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.51192|
+|mul    |0.532343|
+|div    |0.51502|
+|sqrt   |0.696057|
+|sin    |3.68072|
+|cos    |3.76888|
+|exp    |3.78807|
+|log    |1.11351|
+|sqrtLUT|0.763565|
+|sin LUT|0.761259|
+|cos LUT|0.760244|
+|exp LUT|0.763495|
+|log LUT|0.763809|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.51637|
+|mul    |0.535474|
+|div    |0.518141|
+|sqrt   |0.751456|
+|sin    |3.71776|
+|cos    |3.80591|
+|exp    |3.8205|
+|log    |1.1183|
+|sqrtLUT|0.770252|
+|sin LUT|0.769111|
+|cos LUT|0.769187|
+|exp LUT|0.764291|
+|log LUT|0.766419|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.516774|
+|mul    |0.529779|
+|div    |0.518892|
+|sqrt   |0.747956|
+|sin    |3.68344|
+|cos    |3.77196|
+|exp    |3.78995|
+|log    |1.11477|
+|sqrtLUT|0.765021|
+|sin LUT|0.757009|
+|cos LUT|0.763982|
+|exp LUT|0.761924|
+|log LUT|0.756458|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512514|
+|mul    |0.530851|
+|div    |0.515176|
+|sqrt   |0.696079|
+|sin    |3.69852|
+|cos    |3.77967|
+|exp    |3.79567|
+|log    |1.10975|
+|sqrtLUT|0.763929|
+|sin LUT|0.761762|
+|cos LUT|0.760099|
+|exp LUT|0.761876|
+|log LUT|0.763693|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.511927|
+|mul    |0.52984|
+|div    |0.5153|
+|sqrt   |0.695618|
+|sin    |3.69149|
+|cos    |3.77631|
+|exp    |3.79507|
+|log    |1.1087|
+|sqrtLUT|0.76352|
+|sin LUT|0.759627|
+|cos LUT|0.761594|
+|exp LUT|0.760745|
+|log LUT|0.76213|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.515827|
+|mul    |0.532985|
+|div    |0.516608|
+|sqrt   |0.695973|
+|sin    |3.67936|
+|cos    |3.76805|
+|exp    |3.78544|
+|log    |1.10894|
+|sqrtLUT|0.76355|
+|sin LUT|0.763514|
+|cos LUT|0.763894|
+|exp LUT|0.76347|
+|log LUT|0.763055|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512604|
+|mul    |0.532903|
+|div    |0.515191|
+|sqrt   |0.779743|
+|sin    |3.66008|
+|cos    |3.77146|
+|exp    |3.78632|
+|log    |1.16686|
+|sqrtLUT|0.765029|
+|sin LUT|0.764153|
+|cos LUT|0.759418|
+|exp LUT|0.758353|
+|log LUT|0.76053|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513163|
+|mul    |0.532908|
+|div    |0.514987|
+|sqrt   |0.756551|
+|sin    |3.68133|
+|cos    |3.7691|
+|exp    |3.78224|
+|log    |1.11087|
+|sqrtLUT|0.76384|
+|sin LUT|0.763324|
+|cos LUT|0.760768|
+|exp LUT|0.771494|
+|log LUT|0.764555|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512776|
+|mul    |0.529838|
+|div    |0.516842|
+|sqrt   |0.695704|
+|sin    |3.68001|
+|cos    |3.77086|
+|exp    |3.78532|
+|log    |1.11283|
+|sqrtLUT|0.765598|
+|sin LUT|0.764055|
+|cos LUT|0.761391|
+|exp LUT|0.762667|
+|log LUT|0.763164|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512246|
+|mul    |0.53243|
+|div    |0.514853|
+|sqrt   |0.696606|
+|sin    |3.66391|
+|cos    |3.77395|
+|exp    |3.79108|
+|log    |1.11382|
+|sqrtLUT|0.765295|
+|sin LUT|0.7588|
+|cos LUT|0.764806|
+|exp LUT|0.759347|
+|log LUT|0.764376|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.515792|
+|mul    |0.533367|
+|div    |0.515938|
+|sqrt   |0.696607|
+|sin    |3.67903|
+|cos    |3.77014|
+|exp    |3.78413|
+|log    |1.11742|
+|sqrtLUT|0.765621|
+|sin LUT|0.764494|
+|cos LUT|0.764361|
+|exp LUT|0.763094|
+|log LUT|0.763528|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512641|
+|mul    |0.531568|
+|div    |0.515072|
+|sqrt   |0.69588|
+|sin    |3.7283|
+|cos    |3.81014|
+|exp    |3.83813|
+|log    |1.11175|
+|sqrtLUT|0.764344|
+|sin LUT|0.759343|
+|cos LUT|0.758894|
+|exp LUT|0.763096|
+|log LUT|0.759689|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513794|
+|mul    |0.531451|
+|div    |0.515342|
+|sqrt   |0.696028|
+|sin    |3.68241|
+|cos    |3.76966|
+|exp    |3.78581|
+|log    |1.11079|
+|sqrtLUT|0.76481|
+|sin LUT|0.764688|
+|cos LUT|0.764033|
+|exp LUT|0.763726|
+|log LUT|0.76591|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513268|
+|mul    |0.531501|
+|div    |0.515522|
+|sqrt   |0.697053|
+|sin    |3.69201|
+|cos    |3.78074|
+|exp    |3.7943|
+|log    |1.11156|
+|sqrtLUT|0.76571|
+|sin LUT|0.76434|
+|cos LUT|0.765085|
+|exp LUT|0.765317|
+|log LUT|0.764629|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513137|
+|mul    |0.53151|
+|div    |0.516329|
+|sqrt   |0.791441|
+|sin    |3.66093|
+|cos    |3.76623|
+|exp    |3.7891|
+|log    |1.1899|
+|sqrtLUT|0.763136|
+|sin LUT|0.763262|
+|cos LUT|0.763544|
+|exp LUT|0.761702|
+|log LUT|0.762375|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.515405|
+|mul    |0.53364|
+|div    |0.517771|
+|sqrt   |0.744649|
+|sin    |3.68186|
+|cos    |3.76875|
+|exp    |3.78119|
+|log    |1.11588|
+|sqrtLUT|0.763522|
+|sin LUT|0.756737|
+|cos LUT|0.757284|
+|exp LUT|0.759909|
+|log LUT|0.761834|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512022|
+|mul    |0.531822|
+|div    |0.515204|
+|sqrt   |0.695794|
+|sin    |3.68182|
+|cos    |3.76715|
+|exp    |3.78821|
+|log    |1.11608|
+|sqrtLUT|0.764371|
+|sin LUT|0.763544|
+|cos LUT|0.761529|
+|exp LUT|0.763388|
+|log LUT|0.761483|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513844|
+|mul    |0.533188|
+|div    |0.550867|
+|sqrt   |0.715419|
+|sin    |3.6885|
+|cos    |3.78088|
+|exp    |3.79634|
+|log    |1.11869|
+|sqrtLUT|0.767925|
+|sin LUT|0.79536|
+|cos LUT|0.766505|
+|exp LUT|0.759956|
+|log LUT|0.765003|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.519944|
+|mul    |0.535456|
+|div    |0.5217|
+|sqrt   |0.702646|
+|sin    |3.71943|
+|cos    |3.81075|
+|exp    |3.82663|
+|log    |1.12137|
+|sqrtLUT|0.773629|
+|sin LUT|0.773839|
+|cos LUT|0.774079|
+|exp LUT|0.770959|
+|log LUT|0.770991|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513512|
+|mul    |0.534093|
+|div    |0.516753|
+|sqrt   |0.697359|
+|sin    |3.68793|
+|cos    |3.77954|
+|exp    |3.79271|
+|log    |1.11465|
+|sqrtLUT|0.767314|
+|sin LUT|0.767488|
+|cos LUT|0.761535|
+|exp LUT|0.766974|
+|log LUT|0.766285|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518288|
+|mul    |0.536898|
+|div    |0.521196|
+|sqrt   |0.701436|
+|sin    |3.72023|
+|cos    |3.80941|
+|exp    |3.82621|
+|log    |1.12349|
+|sqrtLUT|0.773639|
+|sin LUT|0.773352|
+|cos LUT|0.770225|
+|exp LUT|0.773331|
+|log LUT|0.77093|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518534|
+|mul    |0.534752|
+|div    |0.523527|
+|sqrt   |0.75376|
+|sin    |3.7035|
+|cos    |3.81603|
+|exp    |3.83068|
+|log    |1.16317|
+|sqrtLUT|0.774104|
+|sin LUT|0.772273|
+|cos LUT|0.772398|
+|exp LUT|0.773077|
+|log LUT|0.772124|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.521178|
+|mul    |0.539091|
+|div    |0.521936|
+|sqrt   |0.701929|
+|sin    |3.71747|
+|cos    |3.81604|
+|exp    |3.83086|
+|log    |1.12736|
+|sqrtLUT|0.773929|
+|sin LUT|0.770242|
+|cos LUT|0.772284|
+|exp LUT|0.767637|
+|log LUT|0.773069|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518703|
+|mul    |0.540886|
+|div    |0.521058|
+|sqrt   |0.703117|
+|sin    |3.72441|
+|cos    |3.8191|
+|exp    |3.83159|
+|log    |1.11821|
+|sqrtLUT|0.773419|
+|sin LUT|0.772817|
+|cos LUT|0.770033|
+|exp LUT|0.769784|
+|log LUT|0.7725|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518006|
+|mul    |0.535216|
+|div    |0.521822|
+|sqrt   |0.701844|
+|sin    |3.72133|
+|cos    |3.8144|
+|exp    |3.82825|
+|log    |1.11657|
+|sqrtLUT|0.772259|
+|sin LUT|0.77264|
+|cos LUT|0.767835|
+|exp LUT|0.773087|
+|log LUT|0.772024|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518263|
+|mul    |0.538409|
+|div    |0.520524|
+|sqrt   |0.702921|
+|sin    |3.72402|
+|cos    |3.81666|
+|exp    |3.83114|
+|log    |1.1217|
+|sqrtLUT|0.774927|
+|sin LUT|0.775543|
+|cos LUT|0.77545|
+|exp LUT|0.774442|
+|log LUT|0.774554|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518765|
+|mul    |0.537252|
+|div    |0.521554|
+|sqrt   |0.702387|
+|sin    |3.73434|
+|cos    |3.81091|
+|exp    |3.83129|
+|log    |1.1351|
+|sqrtLUT|0.775263|
+|sin LUT|0.774515|
+|cos LUT|0.774776|
+|exp LUT|0.773261|
+|log LUT|0.774786|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512789|
+|mul    |0.531902|
+|div    |0.515664|
+|sqrt   |0.697464|
+|sin    |3.66915|
+|cos    |3.77883|
+|exp    |3.79313|
+|log    |1.11111|
+|sqrtLUT|0.767172|
+|sin LUT|0.766734|
+|cos LUT|0.762459|
+|exp LUT|0.758748|
+|log LUT|0.768075|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518565|
+|mul    |0.536972|
+|div    |0.520429|
+|sqrt   |0.702542|
+|sin    |3.70925|
+|cos    |3.81739|
+|exp    |3.83105|
+|log    |1.1196|
+|sqrtLUT|0.773325|
+|sin LUT|0.772625|
+|cos LUT|0.773668|
+|exp LUT|0.773718|
+|log LUT|0.772629|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.520034|
+|mul    |0.536977|
+|div    |0.521561|
+|sqrt   |0.719765|
+|sin    |3.70432|
+|cos    |3.81547|
+|exp    |3.83364|
+|log    |1.12132|
+|sqrtLUT|0.774226|
+|sin LUT|0.770923|
+|cos LUT|0.772143|
+|exp LUT|0.773164|
+|log LUT|0.771274|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518867|
+|mul    |0.538012|
+|div    |0.524215|
+|sqrt   |0.702528|
+|sin    |3.72413|
+|cos    |3.81616|
+|exp    |3.83077|
+|log    |1.12285|
+|sqrtLUT|0.774749|
+|sin LUT|0.774453|
+|cos LUT|0.773145|
+|exp LUT|0.768425|
+|log LUT|0.773338|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518603|
+|mul    |0.535737|
+|div    |0.521961|
+|sqrt   |0.702381|
+|sin    |3.7233|
+|cos    |3.82343|
+|exp    |3.82903|
+|log    |1.12499|
+|sqrtLUT|0.771482|
+|sin LUT|0.772307|
+|cos LUT|0.772373|
+|exp LUT|0.768587|
+|log LUT|0.770521|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.517922|
+|mul    |0.536993|
+|div    |0.522856|
+|sqrt   |0.723889|
+|sin    |3.7222|
+|cos    |3.81322|
+|exp    |3.82895|
+|log    |1.12075|
+|sqrtLUT|0.7741|
+|sin LUT|0.774185|
+|cos LUT|0.774197|
+|exp LUT|0.767779|
+|log LUT|0.772381|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.521814|
+|mul    |0.537427|
+|div    |0.521543|
+|sqrt   |0.701519|
+|sin    |3.72247|
+|cos    |3.81492|
+|exp    |3.83364|
+|log    |1.12483|
+|sqrtLUT|0.772722|
+|sin LUT|0.769569|
+|cos LUT|0.773754|
+|exp LUT|0.773066|
+|log LUT|0.773104|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518176|
+|mul    |0.537464|
+|div    |0.522003|
+|sqrt   |0.702924|
+|sin    |3.70493|
+|cos    |3.81505|
+|exp    |3.8294|
+|log    |1.12603|
+|sqrtLUT|0.772851|
+|sin LUT|0.774211|
+|cos LUT|0.775178|
+|exp LUT|0.774554|
+|log LUT|0.769188|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518451|
+|mul    |0.536217|
+|div    |0.52122|
+|sqrt   |0.701269|
+|sin    |3.71963|
+|cos    |3.81517|
+|exp    |3.83127|
+|log    |1.12371|
+|sqrtLUT|0.774196|
+|sin LUT|0.773806|
+|cos LUT|0.774091|
+|exp LUT|0.779359|
+|log LUT|0.77132|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.519209|
+|mul    |0.538347|
+|div    |0.520446|
+|sqrt   |0.754186|
+|sin    |3.70242|
+|cos    |3.81334|
+|exp    |3.83343|
+|log    |1.15643|
+|sqrtLUT|0.774855|
+|sin LUT|0.770002|
+|cos LUT|0.767941|
+|exp LUT|0.773914|
+|log LUT|0.772098|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518478|
+|mul    |0.537635|
+|div    |0.520809|
+|sqrt   |0.701868|
+|sin    |3.70808|
+|cos    |3.81411|
+|exp    |3.83498|
+|log    |1.12119|
+|sqrtLUT|0.774043|
+|sin LUT|0.77034|
+|cos LUT|0.773451|
+|exp LUT|0.768314|
+|log LUT|0.77358|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.519062|
+|mul    |0.538575|
+|div    |0.521824|
+|sqrt   |0.701669|
+|sin    |3.72092|
+|cos    |3.81056|
+|exp    |3.82981|
+|log    |1.11954|
+|sqrtLUT|0.773094|
+|sin LUT|0.769571|
+|cos LUT|0.770681|
+|exp LUT|0.769528|
+|log LUT|0.771857|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.516746|
+|mul    |0.535802|
+|div    |0.520855|
+|sqrt   |0.702577|
+|sin    |3.72236|
+|cos    |3.80721|
+|exp    |3.82758|
+|log    |1.12739|
+|sqrtLUT|0.772005|
+|sin LUT|0.771874|
+|cos LUT|0.769835|
+|exp LUT|0.772601|
+|log LUT|0.771631|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518155|
+|mul    |0.535702|
+|div    |0.52069|
+|sqrt   |0.701283|
+|sin    |3.71969|
+|cos    |3.80679|
+|exp    |3.82887|
+|log    |1.12133|
+|sqrtLUT|0.773733|
+|sin LUT|0.773513|
+|cos LUT|0.770423|
+|exp LUT|0.76734|
+|log LUT|0.772161|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518439|
+|mul    |0.536125|
+|div    |0.521661|
+|sqrt   |0.701531|
+|sin    |3.71685|
+|cos    |3.80519|
+|exp    |3.82159|
+|log    |1.11597|
+|sqrtLUT|0.773765|
+|sin LUT|0.763498|
+|cos LUT|0.77133|
+|exp LUT|0.767109|
+|log LUT|0.765684|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.516808|
+|mul    |0.536535|
+|div    |0.521168|
+|sqrt   |0.701569|
+|sin    |3.71978|
+|cos    |3.80858|
+|exp    |3.82902|
+|log    |1.12009|
+|sqrtLUT|0.773821|
+|sin LUT|0.767451|
+|cos LUT|0.773566|
+|exp LUT|0.77208|
+|log LUT|0.773253|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.521394|
+|mul    |0.536105|
+|div    |0.522638|
+|sqrt   |0.750523|
+|sin    |3.72096|
+|cos    |3.80913|
+|exp    |3.82583|
+|log    |1.12403|
+|sqrtLUT|0.774671|
+|sin LUT|0.765608|
+|cos LUT|0.765442|
+|exp LUT|0.770803|
+|log LUT|0.770283|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.519681|
+|mul    |0.536494|
+|div    |0.520379|
+|sqrt   |0.702123|
+|sin    |3.72082|
+|cos    |3.81044|
+|exp    |3.83069|
+|log    |1.12354|
+|sqrtLUT|0.774946|
+|sin LUT|0.771559|
+|cos LUT|0.773364|
+|exp LUT|0.767908|
+|log LUT|0.769464|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.518103|
+|mul    |0.539706|
+|div    |0.523732|
+|sqrt   |0.702386|
+|sin    |3.90416|
+|cos    |3.98672|
+|exp    |3.9505|
+|log    |1.13301|
+|sqrtLUT|0.775191|
+|sin LUT|0.770234|
+|cos LUT|0.769512|
+|exp LUT|0.773631|
+|log LUT|0.771997|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.5172|
+|mul    |0.53641|
+|div    |0.52358|
+|sqrt   |0.700374|
+|sin    |3.71357|
+|cos    |3.80527|
+|exp    |3.82228|
+|log    |1.129|
+|sqrtLUT|0.772027|
+|sin LUT|0.770749|
+|cos LUT|0.770887|
+|exp LUT|0.766267|
+|log LUT|0.772231|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.510863|
+|mul    |0.532759|
+|div    |0.514368|
+|sqrt   |0.692754|
+|sin    |3.65735|
+|cos    |3.74615|
+|exp    |3.76566|
+|log    |1.10926|
+|sqrtLUT|0.760074|
+|sin LUT|0.759941|
+|cos LUT|0.759824|
+|exp LUT|0.75451|
+|log LUT|0.760094|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.513666|
+|mul    |0.529686|
+|div    |0.515969|
+|sqrt   |0.74557|
+|sin    |3.63954|
+|cos    |3.749|
+|exp    |3.75983|
+|log    |1.10887|
+|sqrtLUT|0.76028|
+|sin LUT|0.752334|
+|cos LUT|0.75328|
+|exp LUT|0.756269|
+|log LUT|0.753949|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.510725|
+|mul    |0.530899|
+|div    |0.513512|
+|sqrt   |0.692764|
+|sin    |3.65522|
+|cos    |3.74748|
+|exp    |3.75945|
+|log    |1.10771|
+|sqrtLUT|0.760844|
+|sin LUT|0.756592|
+|cos LUT|0.756664|
+|exp LUT|0.759186|
+|log LUT|0.759272|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.511119|
+|mul    |0.531474|
+|div    |0.517652|
+|sqrt   |0.692636|
+|sin    |3.6603|
+|cos    |3.74771|
+|exp    |3.76315|
+|log    |1.10504|
+|sqrtLUT|0.76119|
+|sin LUT|0.760096|
+|cos LUT|0.757182|
+|exp LUT|0.760319|
+|log LUT|0.75934|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.509543|
+|mul    |0.52703|
+|div    |0.514976|
+|sqrt   |0.692122|
+|sin    |3.6553|
+|cos    |3.74873|
+|exp    |3.76345|
+|log    |1.10696|
+|sqrtLUT|0.760224|
+|sin LUT|0.759152|
+|cos LUT|0.757993|
+|exp LUT|0.754256|
+|log LUT|0.759106|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.511761|
+|mul    |0.528483|
+|div    |0.513506|
+|sqrt   |0.741308|
+|sin    |3.6352|
+|cos    |3.7457|
+|exp    |3.75821|
+|log    |1.13999|
+|sqrtLUT|0.759328|
+|sin LUT|0.753311|
+|cos LUT|0.755858|
+|exp LUT|0.75424|
+|log LUT|0.755996|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.512952|
+|mul    |0.528696|
+|div    |0.51592|
+|sqrt   |0.692918|
+|sin    |3.77966|
+|cos    |3.86439|
+|exp    |3.87679|
+|log    |1.10663|
+|sqrtLUT|0.761213|
+|sin LUT|0.755551|
+|cos LUT|0.755686|
+|exp LUT|0.761295|
+|log LUT|0.760352|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.511546|
+|mul    |0.528022|
+|div    |0.512736|
+|sqrt   |0.736696|
+|sin    |3.65597|
+|cos    |3.75008|
+|exp    |3.7609|
+|log    |1.10527|
+|sqrtLUT|0.762591|
+|sin LUT|0.755362|
+|cos LUT|0.760299|
+|exp LUT|0.756445|
+|log LUT|0.762529|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.510675|
+|mul    |0.526941|
+|div    |0.5131|
+|sqrt   |0.692529|
+|sin    |3.65564|
+|cos    |3.7486|
+|exp    |3.76073|
+|log    |1.11213|
+|sqrtLUT|0.759428|
+|sin LUT|0.753711|
+|cos LUT|0.758555|
+|exp LUT|0.757678|
+|log LUT|0.758115|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.510144|
+|mul    |0.528422|
+|div    |0.513375|
+|sqrt   |0.692524|
+|sin    |3.65562|
+|cos    |3.75009|
+|exp    |3.76386|
+|log    |1.11318|
+|sqrtLUT|0.76092|
+|sin LUT|0.760894|
+|cos LUT|0.760218|
+|exp LUT|0.760858|
+|log LUT|0.755379|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.51032|
+|mul    |0.530753|
+|div    |0.513785|
+|sqrt   |0.693243|
+|sin    |3.64366|
+|cos    |3.75024|
+|exp    |3.76269|
+|log    |1.11206|
+|sqrtLUT|0.762113|
+|sin LUT|0.756204|
+|cos LUT|0.761603|
+|exp LUT|0.762155|
+|log LUT|0.762099|
+
+info:
+default parameter: default_loop = 1000, default_size = 512
+exercise 11: loop = 1000, size = 512
+
+|method|time[ms]|
+|-------|---------|
+|add    |0.510722|
+|mul    |0.528941|
+|div    |0.514779|
+|sqrt   |0.693394|
+|sin    |3.65903|
+|cos    |3.75047|
+|exp    |3.76358|
+|log    |1.10952|
+|sqrtLUT|0.75481|
+|sin LUT|0.755902|
+|cos LUT|0.759821|
+|exp LUT|0.752158|
+|log LUT|0.760315|
+
+info:
+default parameter: default_loop = 1000, default_size = 512

@@ -1,0 +1,1010 @@
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.912586|
+|inline  |0.913391|
+|hardcode|0.197035|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.903858|
+|inline  |0.904235|
+|hardcode|0.193294|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.919198|
+|inline  |0.919477|
+|hardcode|0.245217|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.920838|
+|inline  |0.921323|
+|hardcode|0.244158|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.919654|
+|inline  |0.920717|
+|hardcode|0.244876|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.918617|
+|inline  |0.919197|
+|hardcode|0.244977|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.91892|
+|inline  |0.919224|
+|hardcode|0.245044|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.894156|
+|inline  |0.894754|
+|hardcode|0.193123|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.893463|
+|inline  |0.893499|
+|hardcode|0.193627|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.91103|
+|inline  |0.911798|
+|hardcode|0.196896|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.917893|
+|inline  |0.919538|
+|hardcode|0.1963|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.930513|
+|inline  |0.931028|
+|hardcode|0.249046|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.919147|
+|inline  |0.919727|
+|hardcode|0.195524|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.903111|
+|inline  |0.903384|
+|hardcode|0.194812|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.918082|
+|inline  |0.91846|
+|hardcode|0.196756|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.927915|
+|inline  |0.927981|
+|hardcode|0.249064|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.921646|
+|inline  |0.921971|
+|hardcode|0.244616|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.931428|
+|inline  |0.930408|
+|hardcode|0.248108|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.904859|
+|inline  |0.905096|
+|hardcode|0.195283|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.915039|
+|inline  |0.915297|
+|hardcode|0.196281|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |457.703|
+|inline  |0.931372|
+|hardcode|0.313399|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.889632|
+|inline  |0.887019|
+|hardcode|0.189108|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.886951|
+|inline  |0.887014|
+|hardcode|0.189754|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.902514|
+|inline  |0.903152|
+|hardcode|0.243354|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.884307|
+|inline  |0.883673|
+|hardcode|0.189531|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.887632|
+|inline  |0.89277|
+|hardcode|0.19106|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.911615|
+|inline  |0.911042|
+|hardcode|0.243559|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.967498|
+|inline  |0.927469|
+|hardcode|0.247027|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.897741|
+|inline  |0.905494|
+|hardcode|0.196802|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.914877|
+|inline  |0.910621|
+|hardcode|0.244812|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.939477|
+|inline  |0.920228|
+|hardcode|0.249145|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.917186|
+|inline  |0.926009|
+|hardcode|0.252143|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.919859|
+|inline  |0.910444|
+|hardcode|0.207666|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.930799|
+|inline  |0.926098|
+|hardcode|0.245274|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.922607|
+|inline  |0.928586|
+|hardcode|0.246042|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.935533|
+|inline  |0.92379|
+|hardcode|0.246377|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.920548|
+|inline  |0.925681|
+|hardcode|0.247726|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.924794|
+|inline  |0.924286|
+|hardcode|0.248564|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.93093|
+|inline  |0.936501|
+|hardcode|0.254158|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.907609|
+|inline  |0.901199|
+|hardcode|0.192292|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.927513|
+|inline  |0.92482|
+|hardcode|0.254504|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.920764|
+|inline  |0.903027|
+|hardcode|0.194085|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.948404|
+|inline  |0.936646|
+|hardcode|0.247958|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.979356|
+|inline  |0.980427|
+|hardcode|0.248675|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.943207|
+|inline  |0.950038|
+|hardcode|0.250067|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.92408|
+|inline  |0.917124|
+|hardcode|0.196214|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.921706|
+|inline  |0.91889|
+|hardcode|0.19837|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.925225|
+|inline  |0.920305|
+|hardcode|0.245889|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.928906|
+|inline  |0.928552|
+|hardcode|0.247665|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.947867|
+|inline  |0.948443|
+|hardcode|0.313411|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.903098|
+|inline  |0.899647|
+|hardcode|0.194006|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.930425|
+|inline  |0.93105|
+|hardcode|0.24945|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.92954|
+|inline  |0.932562|
+|hardcode|0.257933|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.927808|
+|inline  |0.922337|
+|hardcode|0.195416|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.896219|
+|inline  |0.906508|
+|hardcode|0.196582|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.923399|
+|inline  |0.908978|
+|hardcode|0.202278|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.925395|
+|inline  |0.929713|
+|hardcode|0.248079|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.939284|
+|inline  |0.937146|
+|hardcode|0.258079|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.952668|
+|inline  |0.9269|
+|hardcode|0.243574|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.907687|
+|inline  |0.915642|
+|hardcode|0.200927|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.934626|
+|inline  |0.93508|
+|hardcode|0.252233|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.918672|
+|inline  |0.909582|
+|hardcode|0.196557|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.895452|
+|inline  |0.895618|
+|hardcode|0.194088|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.906576|
+|inline  |0.931624|
+|hardcode|0.199982|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.946182|
+|inline  |0.946808|
+|hardcode|0.247967|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.907637|
+|inline  |0.905726|
+|hardcode|0.196279|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.919032|
+|inline  |0.925431|
+|hardcode|0.19664|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.920545|
+|inline  |0.909539|
+|hardcode|0.194674|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.925214|
+|inline  |0.910306|
+|hardcode|0.195934|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.913442|
+|inline  |0.917069|
+|hardcode|0.192889|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.942696|
+|inline  |0.937199|
+|hardcode|0.250958|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.906963|
+|inline  |0.916143|
+|hardcode|0.196286|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.916813|
+|inline  |0.910187|
+|hardcode|0.194891|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.895119|
+|inline  |0.90439|
+|hardcode|0.213741|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.935125|
+|inline  |0.937847|
+|hardcode|0.249009|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.932908|
+|inline  |0.941551|
+|hardcode|0.249028|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.904505|
+|inline  |0.903666|
+|hardcode|0.195372|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.892547|
+|inline  |0.890729|
+|hardcode|0.189915|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.950111|
+|inline  |0.931819|
+|hardcode|0.196773|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.921769|
+|inline  |0.926846|
+|hardcode|0.247407|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.929725|
+|inline  |0.928174|
+|hardcode|0.248139|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.925914|
+|inline  |0.926277|
+|hardcode|0.24524|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.926028|
+|inline  |0.927158|
+|hardcode|0.248097|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.90593|
+|inline  |0.906611|
+|hardcode|0.195579|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.92516|
+|inline  |0.925728|
+|hardcode|0.246236|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.9352|
+|inline  |0.936432|
+|hardcode|0.248241|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.935809|
+|inline  |0.938069|
+|hardcode|0.253534|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.92088|
+|inline  |0.914376|
+|hardcode|0.194679|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.932497|
+|inline  |0.932435|
+|hardcode|0.248931|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.943232|
+|inline  |0.940729|
+|hardcode|0.248897|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.916376|
+|inline  |0.918797|
+|hardcode|0.196268|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.931041|
+|inline  |0.931237|
+|hardcode|0.248564|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.935958|
+|inline  |0.935535|
+|hardcode|0.248849|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.91076|
+|inline  |0.90542|
+|hardcode|0.19633|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.958169|
+|inline  |0.935237|
+|hardcode|0.246911|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.937793|
+|inline  |0.942293|
+|hardcode|0.250059|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.901188|
+|inline  |0.90531|
+|hardcode|0.195495|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.900695|
+|inline  |0.903401|
+|hardcode|0.196462|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.927687|
+|inline  |0.914125|
+|hardcode|0.195465|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.915139|
+|inline  |0.917967|
+|hardcode|0.19872|
+
+info:
+default parameter: default_loop = 10000, default_size = 256
+exercise 12: loop = 10000, size = 256
+
+|method  |time [ms]|
+|--------|---------|
+|func    |0.932357|
+|inline  |0.929849|
+|hardcode|0.246986|
+
+info:
+default parameter: default_loop = 10000, default_size = 256

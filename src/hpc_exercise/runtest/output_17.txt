@@ -1,0 +1,1010 @@
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218186|
+|L-collapse|0.12192|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219022|
+|L-collapse|0.123349|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219464|
+|L-collapse|0.123022|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.224027|
+|L-collapse|0.122849|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221114|
+|L-collapse|0.122764|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220697|
+|L-collapse|0.123066|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220545|
+|L-collapse|0.122563|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.225335|
+|L-collapse|0.122873|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.224389|
+|L-collapse|0.124986|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.229338|
+|L-collapse|0.124267|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.225612|
+|L-collapse|0.123401|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.226262|
+|L-collapse|0.124778|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.23825|
+|L-collapse|0.124885|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.238994|
+|L-collapse|0.133549|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217616|
+|L-collapse|0.122068|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22094|
+|L-collapse|0.123057|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219432|
+|L-collapse|0.122475|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.223167|
+|L-collapse|0.122564|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218789|
+|L-collapse|0.123021|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220075|
+|L-collapse|0.123202|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218998|
+|L-collapse|0.123086|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22044|
+|L-collapse|0.122052|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.224413|
+|L-collapse|0.123507|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217321|
+|L-collapse|0.121205|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218913|
+|L-collapse|0.121423|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219898|
+|L-collapse|0.122054|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219331|
+|L-collapse|0.124267|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.223686|
+|L-collapse|0.123591|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.216429|
+|L-collapse|0.121445|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219292|
+|L-collapse|0.123145|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218967|
+|L-collapse|0.12209|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22445|
+|L-collapse|0.123499|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220666|
+|L-collapse|0.12191|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220264|
+|L-collapse|0.122676|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217408|
+|L-collapse|0.121581|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.215969|
+|L-collapse|0.120959|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217504|
+|L-collapse|0.121605|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217318|
+|L-collapse|0.122151|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218105|
+|L-collapse|0.12277|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.227758|
+|L-collapse|0.123838|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.229533|
+|L-collapse|0.123959|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.222468|
+|L-collapse|0.123221|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219636|
+|L-collapse|0.124173|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.21989|
+|L-collapse|0.122622|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220453|
+|L-collapse|0.123244|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.223705|
+|L-collapse|0.128826|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219126|
+|L-collapse|0.122273|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.222409|
+|L-collapse|0.124131|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.222214|
+|L-collapse|0.123649|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219815|
+|L-collapse|0.122606|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218921|
+|L-collapse|0.1222|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221883|
+|L-collapse|0.126968|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219004|
+|L-collapse|0.123161|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.224324|
+|L-collapse|0.12339|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221039|
+|L-collapse|0.122976|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220998|
+|L-collapse|0.122355|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.223062|
+|L-collapse|0.1227|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.224764|
+|L-collapse|0.122941|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220455|
+|L-collapse|0.122776|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220362|
+|L-collapse|0.123513|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.222448|
+|L-collapse|0.122982|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22|
+|L-collapse|0.122544|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22059|
+|L-collapse|0.122046|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.222756|
+|L-collapse|0.123144|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220573|
+|L-collapse|0.122806|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220552|
+|L-collapse|0.122745|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221646|
+|L-collapse|0.123517|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.218776|
+|L-collapse|0.122777|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220652|
+|L-collapse|0.123344|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219666|
+|L-collapse|0.123079|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.223353|
+|L-collapse|0.122581|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220803|
+|L-collapse|0.122905|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221591|
+|L-collapse|0.122732|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219777|
+|L-collapse|0.122639|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22052|
+|L-collapse|0.123347|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22003|
+|L-collapse|0.122855|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221096|
+|L-collapse|0.123612|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221199|
+|L-collapse|0.12296|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.225927|
+|L-collapse|0.122664|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219347|
+|L-collapse|0.122366|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219708|
+|L-collapse|0.123498|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.223273|
+|L-collapse|0.122753|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221649|
+|L-collapse|0.123535|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.226527|
+|L-collapse|0.124524|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217722|
+|L-collapse|0.121459|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.223619|
+|L-collapse|0.122688|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.22083|
+|L-collapse|0.123322|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217464|
+|L-collapse|0.122276|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221852|
+|L-collapse|0.123583|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220741|
+|L-collapse|0.122367|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220426|
+|L-collapse|0.122555|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217364|
+|L-collapse|0.122156|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.221583|
+|L-collapse|0.123415|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217299|
+|L-collapse|0.12172|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217641|
+|L-collapse|0.122722|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.219077|
+|L-collapse|0.12232|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.216738|
+|L-collapse|0.122052|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.220157|
+|L-collapse|0.122132|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217207|
+|L-collapse|0.120787|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.217747|
+|L-collapse|0.121468|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0
+exercise 17: loop = 1000, size = 256
+
+|method    |time [ms]|
+|----------|---------|
+|original  |0.222702|
+|L-collapse|0.12267|
+
+info:
+default parameter: default_loop = 1000, default_size = 256
+diff from ans: 0

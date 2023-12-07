@@ -1,0 +1,1414 @@
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.0027999|
+|rcp       |0.00343141|
+|sqrt      |0.00264608|
+|rsqrt+rcp |0.00271761|
+|rsqrt+mul |0.00346099|
+|abs submax|0.00323697|
+|abs subnot|0.00294296|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278401|
+|rcp       |0.00342275|
+|sqrt      |0.00263388|
+|rsqrt+rcp |0.00268961|
+|rsqrt+mul |0.00351052|
+|abs submax|0.00329043|
+|abs subnot|0.00293394|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00283043|
+|rcp       |0.00407988|
+|sqrt      |0.00277422|
+|rsqrt+rcp |0.00272115|
+|rsqrt+mul |0.0033552|
+|abs submax|0.0032888|
+|abs subnot|0.00297969|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276951|
+|rcp       |0.00345917|
+|sqrt      |0.00262836|
+|rsqrt+rcp |0.00269019|
+|rsqrt+mul |0.00348991|
+|abs submax|0.00323079|
+|abs subnot|0.0029255|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275437|
+|rcp       |0.00361406|
+|sqrt      |0.00261748|
+|rsqrt+rcp |0.00269199|
+|rsqrt+mul |0.00319167|
+|abs submax|0.00334948|
+|abs subnot|0.00291798|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00281761|
+|rcp       |0.00342562|
+|sqrt      |0.00265852|
+|rsqrt+rcp |0.00272052|
+|rsqrt+mul |0.00323996|
+|abs submax|0.00327989|
+|abs subnot|0.00299378|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.0027684|
+|rcp       |0.00706578|
+|sqrt      |0.00271418|
+|rsqrt+rcp |0.00266359|
+|rsqrt+mul |0.00324665|
+|abs submax|0.00321689|
+|abs subnot|0.00291707|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275174|
+|rcp       |0.00339218|
+|sqrt      |0.00261105|
+|rsqrt+rcp |0.00268357|
+|rsqrt+mul |0.00316771|
+|abs submax|0.00320671|
+|abs subnot|0.00292029|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278096|
+|rcp       |0.00353418|
+|sqrt      |0.0026263|
+|rsqrt+rcp |0.00268848|
+|rsqrt+mul |0.00333165|
+|abs submax|0.00326752|
+|abs subnot|0.00308921|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278619|
+|rcp       |0.0035232|
+|sqrt      |0.00264468|
+|rsqrt+rcp |0.002713|
+|rsqrt+mul |0.00333065|
+|abs submax|0.00326844|
+|abs subnot|0.00295422|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278211|
+|rcp       |0.00346603|
+|sqrt      |0.00261432|
+|rsqrt+rcp |0.00267354|
+|rsqrt+mul |0.00321463|
+|abs submax|0.00322512|
+|abs subnot|0.0029414|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275925|
+|rcp       |0.00357111|
+|sqrt      |0.00260967|
+|rsqrt+rcp |0.0026728|
+|rsqrt+mul |0.00331148|
+|abs submax|0.00323908|
+|abs subnot|0.00292094|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278308|
+|rcp       |0.00343709|
+|sqrt      |0.00264913|
+|rsqrt+rcp |0.00267826|
+|rsqrt+mul |0.00354966|
+|abs submax|0.00327047|
+|abs subnot|0.00300676|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276198|
+|rcp       |0.0034991|
+|sqrt      |0.00262798|
+|rsqrt+rcp |0.00270436|
+|rsqrt+mul |0.00333438|
+|abs submax|0.00325311|
+|abs subnot|0.0029586|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275374|
+|rcp       |0.0033873|
+|sqrt      |0.00260898|
+|rsqrt+rcp |0.002709|
+|rsqrt+mul |0.00351039|
+|abs submax|0.00324024|
+|abs subnot|0.0029269|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276765|
+|rcp       |0.00354567|
+|sqrt      |0.00260823|
+|rsqrt+rcp |0.00266896|
+|rsqrt+mul |0.00326864|
+|abs submax|0.00323198|
+|abs subnot|0.00292656|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00290913|
+|rcp       |0.00355336|
+|sqrt      |0.0026956|
+|rsqrt+rcp |0.00280878|
+|rsqrt+mul |0.00352873|
+|abs submax|0.00335393|
+|abs subnot|0.00297541|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00280884|
+|rcp       |0.00346528|
+|sqrt      |0.00260915|
+|rsqrt+rcp |0.00267391|
+|rsqrt+mul |0.00346098|
+|abs submax|0.00319851|
+|abs subnot|0.00290996|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.0028196|
+|rcp       |0.00337766|
+|sqrt      |0.0026152|
+|rsqrt+rcp |0.00268327|
+|rsqrt+mul |0.00326714|
+|abs submax|0.00325684|
+|abs subnot|0.00292951|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277825|
+|rcp       |0.0035701|
+|sqrt      |0.00261881|
+|rsqrt+rcp |0.00268861|
+|rsqrt+mul |0.00369447|
+|abs submax|0.00323086|
+|abs subnot|0.00295589|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00280612|
+|rcp       |0.00350824|
+|sqrt      |0.00264376|
+|rsqrt+rcp |0.00269997|
+|rsqrt+mul |0.0033318|
+|abs submax|0.00324951|
+|abs subnot|0.00293762|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277676|
+|rcp       |0.00351362|
+|sqrt      |0.00262448|
+|rsqrt+rcp |0.00269012|
+|rsqrt+mul |0.00334692|
+|abs submax|0.00322665|
+|abs subnot|0.00291095|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278698|
+|rcp       |0.00337501|
+|sqrt      |0.00261043|
+|rsqrt+rcp |0.0026841|
+|rsqrt+mul |0.00319694|
+|abs submax|0.00321612|
+|abs subnot|0.00304923|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278976|
+|rcp       |0.00344463|
+|sqrt      |0.00265927|
+|rsqrt+rcp |0.00269672|
+|rsqrt+mul |0.00369637|
+|abs submax|0.00336593|
+|abs subnot|0.00301833|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00297095|
+|rcp       |0.00347198|
+|sqrt      |0.00261666|
+|rsqrt+rcp |0.00268639|
+|rsqrt+mul |0.00345907|
+|abs submax|0.00319806|
+|abs subnot|0.00293316|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276686|
+|rcp       |0.00347973|
+|sqrt      |0.00261302|
+|rsqrt+rcp |0.00268323|
+|rsqrt+mul |0.00327162|
+|abs submax|0.00323107|
+|abs subnot|0.00298144|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276126|
+|rcp       |0.00333862|
+|sqrt      |0.00261564|
+|rsqrt+rcp |0.00268229|
+|rsqrt+mul |0.00369101|
+|abs submax|0.00397404|
+|abs subnot|0.00292804|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276435|
+|rcp       |0.00355386|
+|sqrt      |0.00262235|
+|rsqrt+rcp |0.00270312|
+|rsqrt+mul |0.00385414|
+|abs submax|0.00328606|
+|abs subnot|0.00294002|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00280464|
+|rcp       |0.00348101|
+|sqrt      |0.00266278|
+|rsqrt+rcp |0.0027379|
+|rsqrt+mul |0.00339755|
+|abs submax|0.00328792|
+|abs subnot|0.00298501|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276503|
+|rcp       |0.00348604|
+|sqrt      |0.00260937|
+|rsqrt+rcp |0.00267985|
+|rsqrt+mul |0.00330707|
+|abs submax|0.00322826|
+|abs subnot|0.00292788|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276144|
+|rcp       |0.0035628|
+|sqrt      |0.00261382|
+|rsqrt+rcp |0.00268865|
+|rsqrt+mul |0.00359418|
+|abs submax|0.00327151|
+|abs subnot|0.00291325|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279358|
+|rcp       |0.00343924|
+|sqrt      |0.00263304|
+|rsqrt+rcp |0.00274036|
+|rsqrt+mul |0.00387581|
+|abs submax|0.00326595|
+|abs subnot|0.00296973|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278634|
+|rcp       |0.00341018|
+|sqrt      |0.00264804|
+|rsqrt+rcp |0.0027186|
+|rsqrt+mul |0.00335834|
+|abs submax|0.00326678|
+|abs subnot|0.00294836|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276567|
+|rcp       |0.00349727|
+|sqrt      |0.0026033|
+|rsqrt+rcp |0.00264172|
+|rsqrt+mul |0.00317568|
+|abs submax|0.00322114|
+|abs subnot|0.002907|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00282567|
+|rcp       |0.00367688|
+|sqrt      |0.00264989|
+|rsqrt+rcp |0.00272644|
+|rsqrt+mul |0.00320081|
+|abs submax|0.00329735|
+|abs subnot|0.00308894|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278824|
+|rcp       |0.00345044|
+|sqrt      |0.00258481|
+|rsqrt+rcp |0.00266526|
+|rsqrt+mul |0.00331968|
+|abs submax|0.00320761|
+|abs subnot|0.00291483|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00287083|
+|rcp       |0.00354256|
+|sqrt      |0.00274644|
+|rsqrt+rcp |0.00281324|
+|rsqrt+mul |0.00340994|
+|abs submax|0.0034499|
+|abs subnot|0.00306657|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275382|
+|rcp       |0.00328619|
+|sqrt      |0.00260865|
+|rsqrt+rcp |0.00268199|
+|rsqrt+mul |0.00329281|
+|abs submax|0.00320898|
+|abs subnot|0.00292518|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277185|
+|rcp       |0.00339863|
+|sqrt      |0.00262217|
+|rsqrt+rcp |0.00267473|
+|rsqrt+mul |0.00337324|
+|abs submax|0.00323101|
+|abs subnot|0.00292543|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00280287|
+|rcp       |0.00385509|
+|sqrt      |0.00261184|
+|rsqrt+rcp |0.00266362|
+|rsqrt+mul |0.00339183|
+|abs submax|0.0031886|
+|abs subnot|0.00290808|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275614|
+|rcp       |0.00382641|
+|sqrt      |0.00267427|
+|rsqrt+rcp |0.00267138|
+|rsqrt+mul |0.0033133|
+|abs submax|0.00319806|
+|abs subnot|0.00291069|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275868|
+|rcp       |0.00334524|
+|sqrt      |0.00260885|
+|rsqrt+rcp |0.00267468|
+|rsqrt+mul |0.00336244|
+|abs submax|0.00319255|
+|abs subnot|0.00290558|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275264|
+|rcp       |0.00344393|
+|sqrt      |0.00261539|
+|rsqrt+rcp |0.00268915|
+|rsqrt+mul |0.00327713|
+|abs submax|0.00322565|
+|abs subnot|0.00290865|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00283727|
+|rcp       |0.0034183|
+|sqrt      |0.0026721|
+|rsqrt+rcp |0.0027034|
+|rsqrt+mul |0.00328934|
+|abs submax|0.00330251|
+|abs subnot|0.00292059|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00288369|
+|rcp       |0.00349922|
+|sqrt      |0.00263063|
+|rsqrt+rcp |0.00271213|
+|rsqrt+mul |0.00331619|
+|abs submax|0.0033279|
+|abs subnot|0.00299125|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275767|
+|rcp       |0.00341842|
+|sqrt      |0.00261985|
+|rsqrt+rcp |0.00267641|
+|rsqrt+mul |0.00333165|
+|abs submax|0.00324692|
+|abs subnot|0.00290992|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275752|
+|rcp       |0.00341523|
+|sqrt      |0.0026065|
+|rsqrt+rcp |0.00267207|
+|rsqrt+mul |0.00337672|
+|abs submax|0.00320364|
+|abs subnot|0.00290471|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.0027776|
+|rcp       |0.00342313|
+|sqrt      |0.00261999|
+|rsqrt+rcp |0.00269538|
+|rsqrt+mul |0.00327939|
+|abs submax|0.00329499|
+|abs subnot|0.00297542|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.0027803|
+|rcp       |0.00335484|
+|sqrt      |0.00274379|
+|rsqrt+rcp |0.00274614|
+|rsqrt+mul |0.0032497|
+|abs submax|0.00321896|
+|abs subnot|0.00292175|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277237|
+|rcp       |0.00340541|
+|sqrt      |0.00262043|
+|rsqrt+rcp |0.00267572|
+|rsqrt+mul |0.00322918|
+|abs submax|0.00325838|
+|abs subnot|0.00293858|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278143|
+|rcp       |0.00341477|
+|sqrt      |0.00262404|
+|rsqrt+rcp |0.00268349|
+|rsqrt+mul |0.00357996|
+|abs submax|0.0033073|
+|abs subnot|0.00308515|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00274525|
+|rcp       |0.00332708|
+|sqrt      |0.00257985|
+|rsqrt+rcp |0.00265306|
+|rsqrt+mul |0.00306632|
+|abs submax|0.00323679|
+|abs subnot|0.00302755|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00289198|
+|rcp       |0.0034636|
+|sqrt      |0.00261232|
+|rsqrt+rcp |0.00267211|
+|rsqrt+mul |0.00312691|
+|abs submax|0.00322245|
+|abs subnot|0.00292932|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279189|
+|rcp       |0.00345178|
+|sqrt      |0.00262481|
+|rsqrt+rcp |0.00268064|
+|rsqrt+mul |0.00329083|
+|abs submax|0.00326465|
+|abs subnot|0.00293781|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278716|
+|rcp       |0.00343654|
+|sqrt      |0.00263875|
+|rsqrt+rcp |0.00268587|
+|rsqrt+mul |0.00330181|
+|abs submax|0.00330352|
+|abs subnot|0.00307489|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278|
+|rcp       |0.00350024|
+|sqrt      |0.00261907|
+|rsqrt+rcp |0.00281134|
+|rsqrt+mul |0.00348004|
+|abs submax|0.00321464|
+|abs subnot|0.002921|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276784|
+|rcp       |0.00335057|
+|sqrt      |0.00261845|
+|rsqrt+rcp |0.00270649|
+|rsqrt+mul |0.00353107|
+|abs submax|0.00328557|
+|abs subnot|0.0029301|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00284126|
+|rcp       |0.00354015|
+|sqrt      |0.00260961|
+|rsqrt+rcp |0.00266393|
+|rsqrt+mul |0.00334552|
+|abs submax|0.00323235|
+|abs subnot|0.00292046|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00282588|
+|rcp       |0.00343689|
+|sqrt      |0.00260728|
+|rsqrt+rcp |0.0026823|
+|rsqrt+mul |0.00332162|
+|abs submax|0.00322716|
+|abs subnot|0.00292979|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00290796|
+|rcp       |0.00356046|
+|sqrt      |0.002662|
+|rsqrt+rcp |0.00269636|
+|rsqrt+mul |0.00343191|
+|abs submax|0.00332743|
+|abs subnot|0.00299512|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279938|
+|rcp       |0.00350253|
+|sqrt      |0.00262696|
+|rsqrt+rcp |0.00269356|
+|rsqrt+mul |0.00384412|
+|abs submax|0.00325544|
+|abs subnot|0.00303295|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275762|
+|rcp       |0.00345591|
+|sqrt      |0.00261201|
+|rsqrt+rcp |0.00296639|
+|rsqrt+mul |0.00348189|
+|abs submax|0.00367504|
+|abs subnot|0.00293181|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00281476|
+|rcp       |0.00347121|
+|sqrt      |0.0026363|
+|rsqrt+rcp |0.00268155|
+|rsqrt+mul |0.00334793|
+|abs submax|0.00324889|
+|abs subnot|0.00295139|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276676|
+|rcp       |0.00345169|
+|sqrt      |0.00261124|
+|rsqrt+rcp |0.00270608|
+|rsqrt+mul |0.00340629|
+|abs submax|0.0033595|
+|abs subnot|0.00290904|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00280192|
+|rcp       |0.00344094|
+|sqrt      |0.0026175|
+|rsqrt+rcp |0.00269102|
+|rsqrt+mul |0.00381479|
+|abs submax|0.00323116|
+|abs subnot|0.00297651|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278983|
+|rcp       |0.00375841|
+|sqrt      |0.00269031|
+|rsqrt+rcp |0.00267908|
+|rsqrt+mul |0.00325765|
+|abs submax|0.00321564|
+|abs subnot|0.00292471|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278551|
+|rcp       |0.00351837|
+|sqrt      |0.0026385|
+|rsqrt+rcp |0.00269614|
+|rsqrt+mul |0.00314033|
+|abs submax|0.00326983|
+|abs subnot|0.00295623|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00282481|
+|rcp       |0.0036335|
+|sqrt      |0.00262958|
+|rsqrt+rcp |0.00268344|
+|rsqrt+mul |0.00323827|
+|abs submax|0.00327669|
+|abs subnot|0.00294308|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00284859|
+|rcp       |0.00368724|
+|sqrt      |0.00262077|
+|rsqrt+rcp |0.00268762|
+|rsqrt+mul |0.00329002|
+|abs submax|0.0032546|
+|abs subnot|0.00294578|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279879|
+|rcp       |0.00356542|
+|sqrt      |0.0026257|
+|rsqrt+rcp |0.00270563|
+|rsqrt+mul |0.00320476|
+|abs submax|0.00324837|
+|abs subnot|0.00294946|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279348|
+|rcp       |0.0034595|
+|sqrt      |0.0026605|
+|rsqrt+rcp |0.00271425|
+|rsqrt+mul |0.00329207|
+|abs submax|0.00334993|
+|abs subnot|0.00301797|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00273988|
+|rcp       |0.00340799|
+|sqrt      |0.00259429|
+|rsqrt+rcp |0.00264851|
+|rsqrt+mul |0.00325372|
+|abs submax|0.00330053|
+|abs subnot|0.00290972|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277788|
+|rcp       |0.00346551|
+|sqrt      |0.00261872|
+|rsqrt+rcp |0.00267534|
+|rsqrt+mul |0.00328084|
+|abs submax|0.00323223|
+|abs subnot|0.00291836|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00299232|
+|rcp       |0.00356619|
+|sqrt      |0.00282547|
+|rsqrt+rcp |0.00284934|
+|rsqrt+mul |0.00346862|
+|abs submax|0.00358095|
+|abs subnot|0.00307292|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00278067|
+|rcp       |0.0034141|
+|sqrt      |0.00261935|
+|rsqrt+rcp |0.0026774|
+|rsqrt+mul |0.00331347|
+|abs submax|0.00322855|
+|abs subnot|0.00299453|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277576|
+|rcp       |0.00360235|
+|sqrt      |0.00261452|
+|rsqrt+rcp |0.0026906|
+|rsqrt+mul |0.00354767|
+|abs submax|0.003218|
+|abs subnot|0.00294027|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00280492|
+|rcp       |0.00348172|
+|sqrt      |0.00262423|
+|rsqrt+rcp |0.0026964|
+|rsqrt+mul |0.00340254|
+|abs submax|0.00325596|
+|abs subnot|0.00293527|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00281572|
+|rcp       |0.00347989|
+|sqrt      |0.00266102|
+|rsqrt+rcp |0.00273313|
+|rsqrt+mul |0.00316506|
+|abs submax|0.00329228|
+|abs subnot|0.00296539|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277549|
+|rcp       |0.00344827|
+|sqrt      |0.00261353|
+|rsqrt+rcp |0.00269287|
+|rsqrt+mul |0.00330034|
+|abs submax|0.00322824|
+|abs subnot|0.00291181|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279683|
+|rcp       |0.00347434|
+|sqrt      |0.00262523|
+|rsqrt+rcp |0.00270492|
+|rsqrt+mul |0.00683978|
+|abs submax|0.0033793|
+|abs subnot|0.0029464|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00355874|
+|rcp       |0.0034267|
+|sqrt      |0.00261011|
+|rsqrt+rcp |0.00267191|
+|rsqrt+mul |0.00327989|
+|abs submax|0.00325636|
+|abs subnot|0.00293805|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275401|
+|rcp       |0.00333144|
+|sqrt      |0.00259723|
+|rsqrt+rcp |0.00280852|
+|rsqrt+mul |0.00364857|
+|abs submax|0.00320481|
+|abs subnot|0.00293576|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276527|
+|rcp       |0.00389954|
+|sqrt      |0.00266663|
+|rsqrt+rcp |0.00268486|
+|rsqrt+mul |0.00333225|
+|abs submax|0.00322228|
+|abs subnot|0.00293097|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277204|
+|rcp       |0.00352547|
+|sqrt      |0.0026255|
+|rsqrt+rcp |0.0027591|
+|rsqrt+mul |0.00347071|
+|abs submax|0.00323827|
+|abs subnot|0.00293488|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276949|
+|rcp       |0.00346866|
+|sqrt      |0.00262766|
+|rsqrt+rcp |0.00268663|
+|rsqrt+mul |0.00335484|
+|abs submax|0.00327592|
+|abs subnot|0.00294363|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275007|
+|rcp       |0.00330822|
+|sqrt      |0.00260814|
+|rsqrt+rcp |0.00266167|
+|rsqrt+mul |0.0033056|
+|abs submax|0.00325061|
+|abs subnot|0.00291782|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277852|
+|rcp       |0.0033838|
+|sqrt      |0.00262241|
+|rsqrt+rcp |0.00269771|
+|rsqrt+mul |0.0033252|
+|abs submax|0.0032718|
+|abs subnot|0.00307786|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00289474|
+|rcp       |0.00364676|
+|sqrt      |0.00266138|
+|rsqrt+rcp |0.00272603|
+|rsqrt+mul |0.00362683|
+|abs submax|0.00328221|
+|abs subnot|0.00298382|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275805|
+|rcp       |0.00343943|
+|sqrt      |0.00261523|
+|rsqrt+rcp |0.00267763|
+|rsqrt+mul |0.00320276|
+|abs submax|0.00325241|
+|abs subnot|0.00291598|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00305748|
+|rcp       |0.0035372|
+|sqrt      |0.00274748|
+|rsqrt+rcp |0.00278442|
+|rsqrt+mul |0.0033286|
+|abs submax|0.00342857|
+|abs subnot|0.00306676|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279792|
+|rcp       |0.00347111|
+|sqrt      |0.00271562|
+|rsqrt+rcp |0.00267892|
+|rsqrt+mul |0.00338644|
+|abs submax|0.00328436|
+|abs subnot|0.00293569|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00276412|
+|rcp       |0.00336194|
+|sqrt      |0.00261241|
+|rsqrt+rcp |0.00265425|
+|rsqrt+mul |0.00334899|
+|abs submax|0.00320609|
+|abs subnot|0.00294107|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277689|
+|rcp       |0.0034709|
+|sqrt      |0.00262963|
+|rsqrt+rcp |0.00269048|
+|rsqrt+mul |0.00333801|
+|abs submax|0.0032458|
+|abs subnot|0.00292817|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00286446|
+|rcp       |0.00343748|
+|sqrt      |0.00261701|
+|rsqrt+rcp |0.0026877|
+|rsqrt+mul |0.00319743|
+|abs submax|0.00322213|
+|abs subnot|0.00292388|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00275409|
+|rcp       |0.00342534|
+|sqrt      |0.00261618|
+|rsqrt+rcp |0.00269408|
+|rsqrt+mul |0.00332001|
+|abs submax|0.00322252|
+|abs subnot|0.00292227|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00279245|
+|rcp       |0.00354398|
+|sqrt      |0.00264004|
+|rsqrt+rcp |0.002697|
+|rsqrt+mul |0.00337916|
+|abs submax|0.00325888|
+|abs subnot|0.00296607|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00274684|
+|rcp       |0.00369733|
+|sqrt      |0.00260412|
+|rsqrt+rcp |0.00265008|
+|rsqrt+mul |0.00405805|
+|abs submax|0.00324788|
+|abs subnot|0.00290278|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.0027661|
+|rcp       |0.00346385|
+|sqrt      |0.00261811|
+|rsqrt+rcp |0.00267835|
+|rsqrt+mul |0.00319895|
+|abs submax|0.00322235|
+|abs subnot|0.00293883|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.0027494|
+|rcp       |0.00338707|
+|sqrt      |0.00260691|
+|rsqrt+rcp |0.00266721|
+|rsqrt+mul |0.00335863|
+|abs submax|0.00319998|
+|abs subnot|0.00291093|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00277326|
+|rcp       |0.0034104|
+|sqrt      |0.00262727|
+|rsqrt+rcp |0.00267614|
+|rsqrt+mul |0.00335003|
+|abs submax|0.00328234|
+|abs subnot|0.002928|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64
+exercise 23: loop = 1000000, size = 64
+
+|method    |time [ms]|
+|----------|---------|
+|div       |0.00286066|
+|rcp       |0.00366195|
+|sqrt      |0.00268228|
+|rsqrt+rcp |0.00271171|
+|rsqrt+mul |0.00332533|
+|abs submax|0.00331395|
+|abs subnot|0.00292964|
+
+info:
+default parameter: default_loop = 1000000, default_size = 64

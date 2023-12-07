@@ -1,0 +1,1111 @@
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.03574|$0.814362$
+|float |0.0357343|$0.814363$
+|hadd  |0.0189196|$0.814362$
+|dp    |0.0133327|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357355|$0.814362$
+|float |0.0357111|$0.814363$
+|hadd  |0.018992|$0.814362$
+|dp    |0.0132797|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357769|$0.814362$
+|float |0.0357781|$0.814363$
+|hadd  |0.0189984|$0.814362$
+|dp    |0.0132458|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357914|$0.814362$
+|float |0.0357893|$0.814363$
+|hadd  |0.0189922|$0.814362$
+|dp    |0.013269|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357778|$0.814362$
+|float |0.0357773|$0.814363$
+|hadd  |0.0190471|$0.814362$
+|dp    |0.0133985|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357867|$0.814362$
+|float |0.0358092|$0.814363$
+|hadd  |0.0190442|$0.814362$
+|dp    |0.0132613|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357746|$0.814362$
+|float |0.0357791|$0.814363$
+|hadd  |0.0190429|$0.814362$
+|dp    |0.0133968|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357961|$0.814362$
+|float |0.0358056|$0.814363$
+|hadd  |0.0437961|$0.814362$
+|dp    |0.0132787|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.035792|$0.814362$
+|float |0.0357867|$0.814363$
+|hadd  |0.0191106|$0.814362$
+|dp    |0.0133581|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0358051|$0.814362$
+|float |0.0358264|$0.814363$
+|hadd  |0.0191213|$0.814362$
+|dp    |0.0134534|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357791|$0.814362$
+|float |0.0357775|$0.814363$
+|hadd  |0.0191309|$0.814362$
+|dp    |0.0134503|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357833|$0.814362$
+|float |0.0357926|$0.814363$
+|hadd  |0.0191403|$0.814362$
+|dp    |0.0133712|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357818|$0.814362$
+|float |0.0357755|$0.814363$
+|hadd  |0.0191322|$0.814362$
+|dp    |0.0134948|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0356303|$0.814362$
+|float |0.0356665|$0.814363$
+|hadd  |0.0188278|$0.814362$
+|dp    |0.0132421|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0358067|$0.814362$
+|float |0.0357924|$0.814363$
+|hadd  |0.0191386|$0.814362$
+|dp    |0.0134933|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357851|$0.814362$
+|float |0.0357836|$0.814363$
+|hadd  |0.0191343|$0.814362$
+|dp    |0.0133587|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357934|$0.814362$
+|float |0.0357884|$0.814363$
+|hadd  |0.0191436|$0.814362$
+|dp    |0.0135126|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357842|$0.814362$
+|float |0.0357845|$0.814363$
+|hadd  |0.0191414|$0.814362$
+|dp    |0.0133314|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357983|$0.814362$
+|float |0.0357901|$0.814363$
+|hadd  |0.0191055|$0.814362$
+|dp    |0.0133473|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357798|$0.814362$
+|float |0.0357758|$0.814363$
+|hadd  |0.0188037|$0.814362$
+|dp    |0.013319|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357914|$0.814362$
+|float |0.0357963|$0.814363$
+|hadd  |0.0199154|$0.814362$
+|dp    |0.0134055|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357799|$0.814362$
+|float |0.0357798|$0.814363$
+|hadd  |0.0191234|$0.814362$
+|dp    |0.0134391|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357969|$0.814362$
+|float |0.0357977|$0.814363$
+|hadd  |0.0191143|$0.814362$
+|dp    |0.013458|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357785|$0.814362$
+|float |0.0360266|$0.814363$
+|hadd  |0.0201262|$0.814362$
+|dp    |0.013532|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0358322|$0.814362$
+|float |0.035817|$0.814363$
+|hadd  |0.0191693|$0.814362$
+|dp    |0.0133971|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357905|$0.814362$
+|float |0.0357867|$0.814363$
+|hadd  |0.019252|$0.814362$
+|dp    |0.0134817|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357937|$0.814362$
+|float |0.0357891|$0.814363$
+|hadd  |0.019118|$0.814362$
+|dp    |0.0135176|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357891|$0.814362$
+|float |0.0357737|$0.814363$
+|hadd  |0.0191286|$0.814362$
+|dp    |0.0135864|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357287|$0.814362$
+|float |0.0357082|$0.814363$
+|hadd  |0.0189152|$0.814362$
+|dp    |0.013156|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357318|$0.814362$
+|float |0.0356966|$0.814363$
+|hadd  |0.0188989|$0.814362$
+|dp    |0.0131955|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357833|$0.814362$
+|float |0.0357315|$0.814363$
+|hadd  |0.0191562|$0.814362$
+|dp    |0.013433|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0356533|$0.814362$
+|float |0.0357227|$0.814363$
+|hadd  |0.0189008|$0.814362$
+|dp    |0.013163|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357946|$0.814362$
+|float |0.0357916|$0.814363$
+|hadd  |0.0191453|$0.814362$
+|dp    |0.0134041|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357937|$0.814362$
+|float |0.035788|$0.814363$
+|hadd  |0.0190182|$0.814362$
+|dp    |0.0133889|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357926|$0.814362$
+|float |0.0357868|$0.814363$
+|hadd  |0.0191408|$0.814362$
+|dp    |0.0133377|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357883|$0.814362$
+|float |0.0357861|$0.814363$
+|hadd  |0.0191116|$0.814362$
+|dp    |0.0134659|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357729|$0.814362$
+|float |0.035774|$0.814363$
+|hadd  |0.0199127|$0.814362$
+|dp    |0.0134689|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.035791|$0.814362$
+|float |0.0357866|$0.814363$
+|hadd  |0.0190823|$0.814362$
+|dp    |0.0135242|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357812|$0.814362$
+|float |0.0357716|$0.814363$
+|hadd  |0.0191175|$0.814362$
+|dp    |0.0134692|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357745|$0.814362$
+|float |0.0357683|$0.814363$
+|hadd  |0.0191384|$0.814362$
+|dp    |0.013348|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357178|$0.814362$
+|float |0.0356822|$0.814363$
+|hadd  |0.0188982|$0.814362$
+|dp    |0.0132469|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0356985|$0.814362$
+|float |0.0356949|$0.814363$
+|hadd  |0.0188855|$0.814362$
+|dp    |0.0132942|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357231|$0.814362$
+|float |0.0357121|$0.814363$
+|hadd  |0.0189033|$0.814362$
+|dp    |0.0131572|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0356946|$0.814362$
+|float |0.0356925|$0.814363$
+|hadd  |0.0189092|$0.814362$
+|dp    |0.0131563|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357148|$0.814362$
+|float |0.0357177|$0.814363$
+|hadd  |0.018901|$0.814362$
+|dp    |0.0131585|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357822|$0.814362$
+|float |0.0357933|$0.814363$
+|hadd  |0.0191285|$0.814362$
+|dp    |0.0133379|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357937|$0.814362$
+|float |0.0357943|$0.814363$
+|hadd  |0.0191236|$0.814362$
+|dp    |0.0134788|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357672|$0.814362$
+|float |0.0357733|$0.814363$
+|hadd  |0.0190643|$0.814362$
+|dp    |0.0133283|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.035784|$0.814362$
+|float |0.035785|$0.814363$
+|hadd  |0.0190479|$0.814362$
+|dp    |0.0133873|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0360562|$0.814362$
+|float |0.0357715|$0.814363$
+|hadd  |0.0195042|$0.814362$
+|dp    |0.0136424|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357866|$0.814362$
+|float |0.0357955|$0.814363$
+|hadd  |0.0189334|$0.814362$
+|dp    |0.0133953|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357884|$0.814362$
+|float |0.0357704|$0.814363$
+|hadd  |0.019836|$0.814362$
+|dp    |0.0133552|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357785|$0.814362$
+|float |0.0357765|$0.814363$
+|hadd  |0.019049|$0.814362$
+|dp    |0.0132504|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357911|$0.814362$
+|float |0.0357812|$0.814363$
+|hadd  |0.115068|$0.814362$
+|dp    |0.0861662|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357977|$0.814362$
+|float |0.0357759|$0.814363$
+|hadd  |0.0190754|$0.814362$
+|dp    |0.013313|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357738|$0.814362$
+|float |0.0357794|$0.814363$
+|hadd  |0.0190801|$0.814362$
+|dp    |0.0133415|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357933|$0.814362$
+|float |0.0358017|$0.814363$
+|hadd  |0.0203246|$0.814362$
+|dp    |0.0134207|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357806|$0.814362$
+|float |0.0357757|$0.814363$
+|hadd  |0.0190821|$0.814362$
+|dp    |0.0134293|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357915|$0.814362$
+|float |0.0357931|$0.814363$
+|hadd  |0.0190505|$0.814362$
+|dp    |0.013282|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357794|$0.814362$
+|float |0.0357799|$0.814363$
+|hadd  |0.0190715|$0.814362$
+|dp    |0.0134191|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357918|$0.814362$
+|float |0.0357937|$0.814363$
+|hadd  |0.0181043|$0.814362$
+|dp    |0.0133875|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357841|$0.814362$
+|float |0.0357827|$0.814363$
+|hadd  |0.0190675|$0.814362$
+|dp    |0.0134048|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357885|$0.814362$
+|float |0.0357883|$0.814363$
+|hadd  |0.0190454|$0.814362$
+|dp    |0.0134021|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357932|$0.814362$
+|float |0.0357771|$0.814363$
+|hadd  |0.0190482|$0.814362$
+|dp    |0.0132755|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.035796|$0.814362$
+|float |0.0357875|$0.814363$
+|hadd  |0.0190515|$0.814362$
+|dp    |0.0133672|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357964|$0.814362$
+|float |0.0357816|$0.814363$
+|hadd  |0.0190617|$0.814362$
+|dp    |0.0132589|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0358001|$0.814362$
+|float |0.0358057|$0.814363$
+|hadd  |0.0190784|$0.814362$
+|dp    |0.0134267|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357965|$0.814362$
+|float |0.0357949|$0.814363$
+|hadd  |0.0190559|$0.814362$
+|dp    |0.0132773|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357779|$0.814362$
+|float |0.0357808|$0.814363$
+|hadd  |0.0190459|$0.814362$
+|dp    |0.0132715|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357841|$0.814362$
+|float |0.0357899|$0.814363$
+|hadd  |0.0190514|$0.814362$
+|dp    |0.0132672|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357786|$0.814362$
+|float |0.0357733|$0.814363$
+|hadd  |0.0190586|$0.814362$
+|dp    |0.0132622|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357898|$0.814362$
+|float |0.0357915|$0.814363$
+|hadd  |0.0190452|$0.814362$
+|dp    |0.0134246|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357782|$0.814362$
+|float |0.0357716|$0.814363$
+|hadd  |0.0190722|$0.814362$
+|dp    |0.0133021|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0358063|$0.814362$
+|float |0.0357828|$0.814363$
+|hadd  |0.0191438|$0.814362$
+|dp    |0.0136911|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357905|$0.814362$
+|float |0.035774|$0.814363$
+|hadd  |0.0190449|$0.814362$
+|dp    |0.0133538|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357828|$0.814362$
+|float |0.0357782|$0.814363$
+|hadd  |0.0189373|$0.814362$
+|dp    |0.0133764|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357942|$0.814362$
+|float |0.0357893|$0.814363$
+|hadd  |0.0191468|$0.814362$
+|dp    |0.0134723|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357257|$0.814362$
+|float |0.0357545|$0.814363$
+|hadd  |0.0190727|$0.814362$
+|dp    |0.0134092|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357945|$0.814362$
+|float |0.0357966|$0.814363$
+|hadd  |0.0190347|$0.814362$
+|dp    |0.0134098|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357801|$0.814362$
+|float |0.0357805|$0.814363$
+|hadd  |0.0190673|$0.814362$
+|dp    |0.0132779|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357932|$0.814362$
+|float |0.0357939|$0.814363$
+|hadd  |0.0190583|$0.814362$
+|dp    |0.013335|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0358192|$0.814362$
+|float |0.0358112|$0.814363$
+|hadd  |0.0191152|$0.814362$
+|dp    |0.0133193|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357892|$0.814362$
+|float |0.0357853|$0.814363$
+|hadd  |0.0189364|$0.814362$
+|dp    |0.0132981|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357731|$0.814362$
+|float |0.0357774|$0.814363$
+|hadd  |0.019065|$0.814362$
+|dp    |0.0132578|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357844|$0.814362$
+|float |0.0357868|$0.814363$
+|hadd  |0.0190365|$0.814362$
+|dp    |0.0133894|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357934|$0.814362$
+|float |0.0357775|$0.814363$
+|hadd  |0.0190819|$0.814362$
+|dp    |0.0133937|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357867|$0.814362$
+|float |0.0357822|$0.814363$
+|hadd  |0.0190451|$0.814362$
+|dp    |0.0134059|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357992|$0.814362$
+|float |0.0357904|$0.814363$
+|hadd  |0.0188422|$0.814362$
+|dp    |0.01336|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357824|$0.814362$
+|float |0.0357793|$0.814363$
+|hadd  |0.0191314|$0.814362$
+|dp    |0.0134648|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357903|$0.814362$
+|float |0.0357888|$0.814363$
+|hadd  |0.0191178|$0.814362$
+|dp    |0.0135085|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357772|$0.814362$
+|float |0.0357769|$0.814363$
+|hadd  |0.0190327|$0.814362$
+|dp    |0.0134084|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357912|$0.814362$
+|float |0.0357927|$0.814363$
+|hadd  |0.0190446|$0.814362$
+|dp    |0.0133894|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357775|$0.814362$
+|float |0.0357804|$0.814363$
+|hadd  |0.0190365|$0.814362$
+|dp    |0.0133914|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357858|$0.814362$
+|float |0.0357889|$0.814363$
+|hadd  |0.0190383|$0.814362$
+|dp    |0.0132832|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357793|$0.814362$
+|float |0.035786|$0.814363$
+|hadd  |0.0190538|$0.814362$
+|dp    |0.0135621|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0358277|$0.814362$
+|float |0.0358207|$0.814363$
+|hadd  |0.0190778|$0.814362$
+|dp    |0.013284|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357946|$0.814362$
+|float |0.0357769|$0.814363$
+|hadd  |0.019055|$0.814362$
+|dp    |0.0132722|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357818|$0.814362$
+|float |0.0357825|$0.814363$
+|hadd  |0.019044|$0.814362$
+|dp    |0.0132655|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357939|$0.814362$
+|float |0.0357864|$0.814363$
+|hadd  |0.0190717|$0.814362$
+|dp    |0.0134117|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357774|$0.814362$
+|float |0.0357475|$0.814363$
+|hadd  |0.0190647|$0.814362$
+|dp    |0.0133855|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128
+exercise 24: loop = 100000, size = 128
+
+|method|time [ms]|, [total  |
+|------|---------|-------|
+|double|0.0357621|$0.814362$
+|float |0.0357888|$0.814363$
+|hadd  |0.0190602|$0.814362$
+|dp    |0.0133925|$0.814362$
+
+info:
+default parameter: default_loop = 100000, default_size = 128

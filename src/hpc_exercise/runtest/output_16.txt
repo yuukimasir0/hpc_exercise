@@ -1,0 +1,505 @@
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.227658|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223791|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.221725|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224206|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.22578|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.225116|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222698|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223397|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223329|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224164|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.228968|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.220709|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223596|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223841|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223185|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222383|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.221375|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.22741|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224014|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223499|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222495|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224443|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223812|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222368|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222512|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222016|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222475|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223175|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222481|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222672|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224115|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223462|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223281|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223851|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223019|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223717|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222909|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.227213|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224122|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223262|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.220346|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.225807|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.220411|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.221165|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.22107|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.229184|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.2308|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.228724|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.220112|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.220641|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.228426|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.232283|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.226124|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.22671|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223611|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.2257|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224315|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.239799|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222882|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222788|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223828|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.232494|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.225353|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224531|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224999|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.227277|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.227311|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224463|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224022|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223713|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223821|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224804|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224158|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.2244|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224546|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222745|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222999|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223755|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223998|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.22341|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224435|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222969|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223594|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222557|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223988|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223048|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224359|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224215|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.222809|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.221778|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224385|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224764|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224812|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223314|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224338|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224455|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223587|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223758|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.223786|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.224473|
+exercise 16: loop = 1000, size = 65535
+
+|method   |time [ms]|
+|---------|---------|
+|original |0.225236|

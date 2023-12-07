@@ -1,0 +1,1414 @@
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107473|
+|unroll  2|0.121387|
+|unroll  4|0.115013|
+|unroll  8|0.111793|
+|unroll 16|0.112622|
+|unroll 32|0.117265|
+|unroll 64|0.127942|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106612|
+|unroll  2|0.114651|
+|unroll  4|0.113914|
+|unroll  8|0.109038|
+|unroll 16|0.108057|
+|unroll 32|0.12266|
+|unroll 64|0.121367|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107627|
+|unroll  2|0.11598|
+|unroll  4|0.109291|
+|unroll  8|0.109989|
+|unroll 16|0.108722|
+|unroll 32|0.116458|
+|unroll 64|0.11942|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106345|
+|unroll  2|0.113547|
+|unroll  4|0.10789|
+|unroll  8|0.107969|
+|unroll 16|0.108596|
+|unroll 32|0.115131|
+|unroll 64|0.118508|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.109958|
+|unroll  2|0.113904|
+|unroll  4|0.108734|
+|unroll  8|0.109469|
+|unroll 16|0.108485|
+|unroll 32|0.115147|
+|unroll 64|0.119512|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107447|
+|unroll  2|0.120289|
+|unroll  4|0.109386|
+|unroll  8|0.109426|
+|unroll 16|0.108524|
+|unroll 32|0.115326|
+|unroll 64|0.119121|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107596|
+|unroll  2|0.122481|
+|unroll  4|0.109173|
+|unroll  8|0.109161|
+|unroll 16|0.112422|
+|unroll 32|0.115792|
+|unroll 64|0.119669|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106435|
+|unroll  2|0.115757|
+|unroll  4|0.108253|
+|unroll  8|0.10831|
+|unroll 16|0.107575|
+|unroll 32|0.116723|
+|unroll 64|0.118905|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.105431|
+|unroll  2|0.113455|
+|unroll  4|0.107478|
+|unroll  8|0.108185|
+|unroll 16|0.107365|
+|unroll 32|0.114816|
+|unroll 64|0.11801|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106132|
+|unroll  2|0.111539|
+|unroll  4|0.107277|
+|unroll  8|0.108338|
+|unroll 16|0.107636|
+|unroll 32|0.114479|
+|unroll 64|0.118164|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.105489|
+|unroll  2|0.110694|
+|unroll  4|0.106882|
+|unroll  8|0.107449|
+|unroll 16|0.106692|
+|unroll 32|0.113601|
+|unroll 64|0.116896|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10659|
+|unroll  2|0.112651|
+|unroll  4|0.108671|
+|unroll  8|0.108589|
+|unroll 16|0.108242|
+|unroll 32|0.115232|
+|unroll 64|0.118791|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106477|
+|unroll  2|0.114754|
+|unroll  4|0.120198|
+|unroll  8|0.110484|
+|unroll 16|0.111238|
+|unroll 32|0.116405|
+|unroll 64|0.120006|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106382|
+|unroll  2|0.110401|
+|unroll  4|0.107994|
+|unroll  8|0.1083|
+|unroll 16|0.10827|
+|unroll 32|0.115066|
+|unroll 64|0.118283|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106475|
+|unroll  2|0.110666|
+|unroll  4|0.108153|
+|unroll  8|0.108243|
+|unroll 16|0.109057|
+|unroll 32|0.115761|
+|unroll 64|0.120008|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106739|
+|unroll  2|0.11333|
+|unroll  4|0.108561|
+|unroll  8|0.108343|
+|unroll 16|0.10772|
+|unroll 32|0.114815|
+|unroll 64|0.118087|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107181|
+|unroll  2|0.115981|
+|unroll  4|0.111719|
+|unroll  8|0.109715|
+|unroll 16|0.110549|
+|unroll 32|0.116137|
+|unroll 64|0.123689|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106074|
+|unroll  2|0.113505|
+|unroll  4|0.108695|
+|unroll  8|0.109611|
+|unroll 16|0.108007|
+|unroll 32|0.114504|
+|unroll 64|0.118279|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107293|
+|unroll  2|0.113878|
+|unroll  4|0.110354|
+|unroll  8|0.111534|
+|unroll 16|0.110223|
+|unroll 32|0.117207|
+|unroll 64|0.12081|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107859|
+|unroll  2|0.11534|
+|unroll  4|0.109121|
+|unroll  8|0.108827|
+|unroll 16|0.107913|
+|unroll 32|0.114823|
+|unroll 64|0.118398|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10559|
+|unroll  2|0.111747|
+|unroll  4|0.107232|
+|unroll  8|0.108049|
+|unroll 16|0.107345|
+|unroll 32|0.114142|
+|unroll 64|0.117363|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107113|
+|unroll  2|0.113358|
+|unroll  4|0.109268|
+|unroll  8|0.109269|
+|unroll 16|0.119671|
+|unroll 32|0.133104|
+|unroll 64|0.137848|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107158|
+|unroll  2|0.11785|
+|unroll  4|0.109403|
+|unroll  8|0.110465|
+|unroll 16|0.10874|
+|unroll 32|0.115479|
+|unroll 64|0.119387|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106512|
+|unroll  2|0.114405|
+|unroll  4|0.108482|
+|unroll  8|0.108209|
+|unroll 16|0.108446|
+|unroll 32|0.114164|
+|unroll 64|0.117668|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106498|
+|unroll  2|0.113744|
+|unroll  4|0.10886|
+|unroll  8|0.109192|
+|unroll 16|0.107979|
+|unroll 32|0.116828|
+|unroll 64|0.118709|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107905|
+|unroll  2|0.114306|
+|unroll  4|0.108937|
+|unroll  8|0.109786|
+|unroll 16|0.108583|
+|unroll 32|0.115456|
+|unroll 64|0.118889|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.108011|
+|unroll  2|0.111726|
+|unroll  4|0.114967|
+|unroll  8|0.112151|
+|unroll 16|0.117331|
+|unroll 32|0.11564|
+|unroll 64|0.121223|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107027|
+|unroll  2|0.114338|
+|unroll  4|0.109719|
+|unroll  8|0.11011|
+|unroll 16|0.108412|
+|unroll 32|0.115086|
+|unroll 64|0.119222|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107506|
+|unroll  2|0.113836|
+|unroll  4|0.110099|
+|unroll  8|0.115492|
+|unroll 16|0.109104|
+|unroll 32|0.113976|
+|unroll 64|0.117766|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.104807|
+|unroll  2|0.10969|
+|unroll  4|0.106843|
+|unroll  8|0.106934|
+|unroll 16|0.10647|
+|unroll 32|0.113129|
+|unroll 64|0.117157|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107261|
+|unroll  2|0.116529|
+|unroll  4|0.109596|
+|unroll  8|0.110175|
+|unroll 16|0.108958|
+|unroll 32|0.116779|
+|unroll 64|0.120255|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10733|
+|unroll  2|0.118041|
+|unroll  4|0.109494|
+|unroll  8|0.109788|
+|unroll 16|0.107886|
+|unroll 32|0.115094|
+|unroll 64|0.118519|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107472|
+|unroll  2|0.117813|
+|unroll  4|0.109897|
+|unroll  8|0.110309|
+|unroll 16|0.108404|
+|unroll 32|0.115409|
+|unroll 64|0.118903|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.1054|
+|unroll  2|0.115331|
+|unroll  4|0.107819|
+|unroll  8|0.107666|
+|unroll 16|0.106818|
+|unroll 32|0.113447|
+|unroll 64|0.117257|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.104681|
+|unroll  2|0.111996|
+|unroll  4|0.106937|
+|unroll  8|0.10712|
+|unroll 16|0.10632|
+|unroll 32|0.112903|
+|unroll 64|0.116577|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106033|
+|unroll  2|0.113954|
+|unroll  4|0.107454|
+|unroll  8|0.107236|
+|unroll 16|0.106556|
+|unroll 32|0.115308|
+|unroll 64|0.117802|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10653|
+|unroll  2|0.113693|
+|unroll  4|0.119068|
+|unroll  8|0.109079|
+|unroll 16|0.115889|
+|unroll 32|0.116591|
+|unroll 64|0.119011|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107405|
+|unroll  2|0.119176|
+|unroll  4|0.108888|
+|unroll  8|0.1104|
+|unroll 16|0.108219|
+|unroll 32|0.115405|
+|unroll 64|0.118878|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106744|
+|unroll  2|0.110443|
+|unroll  4|0.107318|
+|unroll  8|0.107494|
+|unroll 16|0.106896|
+|unroll 32|0.114198|
+|unroll 64|0.117478|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.105307|
+|unroll  2|0.11298|
+|unroll  4|0.107098|
+|unroll  8|0.108031|
+|unroll 16|0.107275|
+|unroll 32|0.114968|
+|unroll 64|0.118677|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107083|
+|unroll  2|0.115661|
+|unroll  4|0.108937|
+|unroll  8|0.109|
+|unroll 16|0.108554|
+|unroll 32|0.115326|
+|unroll 64|0.119191|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106188|
+|unroll  2|0.111629|
+|unroll  4|0.110979|
+|unroll  8|0.107957|
+|unroll 16|0.108247|
+|unroll 32|0.115003|
+|unroll 64|0.118394|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.104671|
+|unroll  2|0.111644|
+|unroll  4|0.106477|
+|unroll  8|0.106575|
+|unroll 16|0.106414|
+|unroll 32|0.113388|
+|unroll 64|0.11714|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.104888|
+|unroll  2|0.111587|
+|unroll  4|0.106767|
+|unroll  8|0.107047|
+|unroll 16|0.106551|
+|unroll 32|0.114667|
+|unroll 64|0.11681|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106909|
+|unroll  2|0.112456|
+|unroll  4|0.108222|
+|unroll  8|0.108204|
+|unroll 16|0.107998|
+|unroll 32|0.114885|
+|unroll 64|0.118765|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.110214|
+|unroll  2|0.118068|
+|unroll  4|0.109573|
+|unroll  8|0.111367|
+|unroll 16|0.110272|
+|unroll 32|0.125633|
+|unroll 64|0.119517|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106492|
+|unroll  2|0.11239|
+|unroll  4|0.108301|
+|unroll  8|0.108592|
+|unroll 16|0.10809|
+|unroll 32|0.115112|
+|unroll 64|0.119073|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106398|
+|unroll  2|0.111331|
+|unroll  4|0.107559|
+|unroll  8|0.107529|
+|unroll 16|0.107409|
+|unroll 32|0.114856|
+|unroll 64|0.117733|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.115664|
+|unroll  2|0.119223|
+|unroll  4|0.112581|
+|unroll  8|0.110634|
+|unroll 16|0.110201|
+|unroll 32|0.115606|
+|unroll 64|0.119627|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.109596|
+|unroll  2|0.114445|
+|unroll  4|0.10894|
+|unroll  8|0.10891|
+|unroll 16|0.107903|
+|unroll 32|0.115975|
+|unroll 64|0.118445|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10832|
+|unroll  2|0.113201|
+|unroll  4|0.110027|
+|unroll  8|0.108732|
+|unroll 16|0.109134|
+|unroll 32|0.115925|
+|unroll 64|0.119506|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.120457|
+|unroll  2|0.121111|
+|unroll  4|0.112966|
+|unroll  8|0.117529|
+|unroll 16|0.109714|
+|unroll 32|0.116248|
+|unroll 64|0.13081|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107736|
+|unroll  2|0.113386|
+|unroll  4|0.108466|
+|unroll  8|0.108827|
+|unroll 16|0.108408|
+|unroll 32|0.115132|
+|unroll 64|0.118638|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.115871|
+|unroll  2|0.116627|
+|unroll  4|0.113014|
+|unroll  8|0.10966|
+|unroll 16|0.109379|
+|unroll 32|0.115949|
+|unroll 64|0.119848|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107369|
+|unroll  2|0.114379|
+|unroll  4|0.110281|
+|unroll  8|0.111635|
+|unroll 16|0.112318|
+|unroll 32|0.120642|
+|unroll 64|0.122162|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.108815|
+|unroll  2|0.115598|
+|unroll  4|0.114002|
+|unroll  8|0.117263|
+|unroll 16|0.109243|
+|unroll 32|0.116572|
+|unroll 64|0.120783|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.110279|
+|unroll  2|0.116401|
+|unroll  4|0.109837|
+|unroll  8|0.110397|
+|unroll 16|0.109345|
+|unroll 32|0.116173|
+|unroll 64|0.118931|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.108253|
+|unroll  2|0.11595|
+|unroll  4|0.109906|
+|unroll  8|0.109641|
+|unroll 16|0.108807|
+|unroll 32|0.116867|
+|unroll 64|0.120247|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106353|
+|unroll  2|0.115549|
+|unroll  4|0.108749|
+|unroll  8|0.108748|
+|unroll 16|0.10798|
+|unroll 32|0.114808|
+|unroll 64|0.118767|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107548|
+|unroll  2|0.114798|
+|unroll  4|0.110124|
+|unroll  8|0.109741|
+|unroll 16|0.108965|
+|unroll 32|0.116055|
+|unroll 64|0.121595|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.108762|
+|unroll  2|0.114762|
+|unroll  4|0.10937|
+|unroll  8|0.112301|
+|unroll 16|0.114915|
+|unroll 32|0.11573|
+|unroll 64|0.119019|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106917|
+|unroll  2|0.118829|
+|unroll  4|0.109292|
+|unroll  8|0.110519|
+|unroll 16|0.108551|
+|unroll 32|0.115733|
+|unroll 64|0.118575|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.112681|
+|unroll  2|0.114048|
+|unroll  4|0.111767|
+|unroll  8|0.108044|
+|unroll 16|0.107231|
+|unroll 32|0.115466|
+|unroll 64|0.117633|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106972|
+|unroll  2|0.116803|
+|unroll  4|0.110911|
+|unroll  8|0.114506|
+|unroll 16|0.112692|
+|unroll 32|0.115968|
+|unroll 64|0.118443|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107416|
+|unroll  2|0.117688|
+|unroll  4|0.11063|
+|unroll  8|0.110879|
+|unroll 16|0.108875|
+|unroll 32|0.116276|
+|unroll 64|0.120497|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106849|
+|unroll  2|0.115891|
+|unroll  4|0.108609|
+|unroll  8|0.108802|
+|unroll 16|0.10797|
+|unroll 32|0.114974|
+|unroll 64|0.119219|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107434|
+|unroll  2|0.11438|
+|unroll  4|0.108864|
+|unroll  8|0.110428|
+|unroll 16|0.110382|
+|unroll 32|0.115797|
+|unroll 64|0.119798|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106899|
+|unroll  2|0.115923|
+|unroll  4|0.109109|
+|unroll  8|0.110666|
+|unroll 16|0.108164|
+|unroll 32|0.115098|
+|unroll 64|0.118483|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.126277|
+|unroll  2|0.118981|
+|unroll  4|0.109894|
+|unroll  8|0.115903|
+|unroll 16|0.117449|
+|unroll 32|0.120129|
+|unroll 64|0.129363|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.109278|
+|unroll  2|0.113857|
+|unroll  4|0.113176|
+|unroll  8|0.109767|
+|unroll 16|0.108788|
+|unroll 32|0.115203|
+|unroll 64|0.118939|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10562|
+|unroll  2|0.111847|
+|unroll  4|0.107324|
+|unroll  8|0.108579|
+|unroll 16|0.10865|
+|unroll 32|0.116413|
+|unroll 64|0.118316|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107051|
+|unroll  2|0.11857|
+|unroll  4|0.1098|
+|unroll  8|0.111875|
+|unroll 16|0.114915|
+|unroll 32|0.120473|
+|unroll 64|0.123251|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106142|
+|unroll  2|0.117374|
+|unroll  4|0.108579|
+|unroll  8|0.109625|
+|unroll 16|0.108092|
+|unroll 32|0.114982|
+|unroll 64|0.118434|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10693|
+|unroll  2|0.117942|
+|unroll  4|0.109096|
+|unroll  8|0.116067|
+|unroll 16|0.117842|
+|unroll 32|0.116455|
+|unroll 64|0.119115|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.113929|
+|unroll  2|0.116557|
+|unroll  4|0.110068|
+|unroll  8|0.10966|
+|unroll 16|0.110527|
+|unroll 32|0.120662|
+|unroll 64|0.11913|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107273|
+|unroll  2|0.116194|
+|unroll  4|0.109709|
+|unroll  8|0.111176|
+|unroll 16|0.108706|
+|unroll 32|0.115566|
+|unroll 64|0.118582|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107726|
+|unroll  2|0.11393|
+|unroll  4|0.110203|
+|unroll  8|0.110923|
+|unroll 16|0.10972|
+|unroll 32|0.116218|
+|unroll 64|0.119689|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106626|
+|unroll  2|0.115109|
+|unroll  4|0.108945|
+|unroll  8|0.109493|
+|unroll 16|0.108414|
+|unroll 32|0.115131|
+|unroll 64|0.118656|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.104895|
+|unroll  2|0.115845|
+|unroll  4|0.10678|
+|unroll  8|0.106508|
+|unroll 16|0.107214|
+|unroll 32|0.114117|
+|unroll 64|0.117412|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106638|
+|unroll  2|0.1128|
+|unroll  4|0.108357|
+|unroll  8|0.109441|
+|unroll 16|0.108785|
+|unroll 32|0.11526|
+|unroll 64|0.118984|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107516|
+|unroll  2|0.119059|
+|unroll  4|0.10953|
+|unroll  8|0.109532|
+|unroll 16|0.108368|
+|unroll 32|0.131176|
+|unroll 64|0.127618|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.113146|
+|unroll  2|0.114285|
+|unroll  4|0.107584|
+|unroll  8|0.108219|
+|unroll 16|0.107087|
+|unroll 32|0.11368|
+|unroll 64|0.118264|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.104995|
+|unroll  2|0.110331|
+|unroll  4|0.106573|
+|unroll  8|0.106525|
+|unroll 16|0.107114|
+|unroll 32|0.113713|
+|unroll 64|0.117017|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106511|
+|unroll  2|0.113273|
+|unroll  4|0.109119|
+|unroll  8|0.110009|
+|unroll 16|0.108231|
+|unroll 32|0.114832|
+|unroll 64|0.118141|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.105238|
+|unroll  2|0.110597|
+|unroll  4|0.107001|
+|unroll  8|0.107025|
+|unroll 16|0.107259|
+|unroll 32|0.113874|
+|unroll 64|0.117791|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.104474|
+|unroll  2|0.109655|
+|unroll  4|0.10649|
+|unroll  8|0.106363|
+|unroll 16|0.106617|
+|unroll 32|0.113513|
+|unroll 64|0.11672|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.105371|
+|unroll  2|0.111462|
+|unroll  4|0.117274|
+|unroll  8|0.110291|
+|unroll 16|0.107403|
+|unroll 32|0.114504|
+|unroll 64|0.119161|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10798|
+|unroll  2|0.115833|
+|unroll  4|0.109441|
+|unroll  8|0.109977|
+|unroll 16|0.109998|
+|unroll 32|0.130496|
+|unroll 64|0.12053|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.11266|
+|unroll  2|0.129994|
+|unroll  4|0.109847|
+|unroll  8|0.119585|
+|unroll 16|0.108136|
+|unroll 32|0.122477|
+|unroll 64|0.122096|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10701|
+|unroll  2|0.119067|
+|unroll  4|0.115672|
+|unroll  8|0.111133|
+|unroll 16|0.110375|
+|unroll 32|0.116258|
+|unroll 64|0.132509|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.10802|
+|unroll  2|0.116486|
+|unroll  4|0.109551|
+|unroll  8|0.110068|
+|unroll 16|0.110356|
+|unroll 32|0.117627|
+|unroll 64|0.121112|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.105737|
+|unroll  2|0.11119|
+|unroll  4|0.107531|
+|unroll  8|0.107534|
+|unroll 16|0.107249|
+|unroll 32|0.114206|
+|unroll 64|0.117764|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107918|
+|unroll  2|0.116535|
+|unroll  4|0.110964|
+|unroll  8|0.111247|
+|unroll 16|0.108651|
+|unroll 32|0.116672|
+|unroll 64|0.118894|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106507|
+|unroll  2|0.115563|
+|unroll  4|0.108584|
+|unroll  8|0.10898|
+|unroll 16|0.107968|
+|unroll 32|0.11524|
+|unroll 64|0.119078|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106453|
+|unroll  2|0.111933|
+|unroll  4|0.108146|
+|unroll  8|0.109338|
+|unroll 16|0.108487|
+|unroll 32|0.114913|
+|unroll 64|0.118612|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106804|
+|unroll  2|0.113643|
+|unroll  4|0.10891|
+|unroll  8|0.111311|
+|unroll 16|0.108745|
+|unroll 32|0.115393|
+|unroll 64|0.119132|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.107807|
+|unroll  2|0.116741|
+|unroll  4|0.109738|
+|unroll  8|0.110202|
+|unroll 16|0.108723|
+|unroll 32|0.116205|
+|unroll 64|0.12439|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.119077|
+|unroll  2|0.117108|
+|unroll  4|0.116909|
+|unroll  8|0.121712|
+|unroll 16|0.120986|
+|unroll 32|0.126482|
+|unroll 64|0.120633|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.108685|
+|unroll  2|0.113161|
+|unroll  4|0.108938|
+|unroll  8|0.109569|
+|unroll 16|0.108447|
+|unroll 32|0.115049|
+|unroll 64|0.119035|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.106854|
+|unroll  2|0.115293|
+|unroll  4|0.108537|
+|unroll  8|0.109119|
+|unroll 16|0.108148|
+|unroll 32|0.115077|
+|unroll 64|0.11868|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536
+exercise 15: loop = 1000, size = 65536
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.108765|
+|unroll  2|0.120816|
+|unroll  4|0.109378|
+|unroll  8|0.110837|
+|unroll 16|0.108295|
+|unroll 32|0.116133|
+|unroll 64|0.118699|
+
+info:
+default parameter: default_loop = 1000, default_size = 65536

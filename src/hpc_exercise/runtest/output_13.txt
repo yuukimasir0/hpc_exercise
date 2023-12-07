@@ -1,0 +1,909 @@
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.01463|
+|inplace|6.8341|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.12763|
+|inplace|6.76289|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.00241|
+|inplace|6.62614|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04658|
+|inplace|6.70687|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03149|
+|inplace|6.68638|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03456|
+|inplace|6.72296|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.00068|
+|inplace|6.6174|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.90413|
+|inplace|6.64639|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.9919|
+|inplace|6.61792|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03293|
+|inplace|6.67242|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.94569|
+|inplace|6.64325|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.98619|
+|inplace|6.69367|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.9742|
+|inplace|6.68516|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.9762|
+|inplace|6.66326|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.96462|
+|inplace|6.66949|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.98882|
+|inplace|6.62745|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.00304|
+|inplace|6.65798|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.9644|
+|inplace|6.66592|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.97408|
+|inplace|6.5871|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.00632|
+|inplace|6.80212|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03606|
+|inplace|6.77782|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0283|
+|inplace|6.75339|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0309|
+|inplace|6.75809|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03614|
+|inplace|6.75831|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04232|
+|inplace|6.77062|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02675|
+|inplace|6.75499|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04225|
+|inplace|6.76625|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.08111|
+|inplace|6.75752|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04542|
+|inplace|6.78593|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0424|
+|inplace|6.76764|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02639|
+|inplace|6.75982|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03612|
+|inplace|6.78281|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02134|
+|inplace|6.80188|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.14108|
+|inplace|6.71395|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |6.9938|
+|inplace|6.70331|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.00858|
+|inplace|6.6999|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02981|
+|inplace|6.70164|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.00509|
+|inplace|6.708|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02272|
+|inplace|6.71809|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.01678|
+|inplace|6.67636|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0165|
+|inplace|6.71018|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.00118|
+|inplace|6.68412|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04314|
+|inplace|6.69464|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03076|
+|inplace|6.7081|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.01485|
+|inplace|6.71213|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02666|
+|inplace|6.71653|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.01022|
+|inplace|6.67701|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04376|
+|inplace|6.71418|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03457|
+|inplace|6.76237|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0364|
+|inplace|6.77502|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02598|
+|inplace|6.77038|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02468|
+|inplace|6.75315|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0299|
+|inplace|6.68784|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.01542|
+|inplace|6.75205|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02592|
+|inplace|6.75276|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03163|
+|inplace|6.76138|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.05922|
+|inplace|6.7828|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.07933|
+|inplace|6.86692|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.05436|
+|inplace|6.77289|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.05889|
+|inplace|6.77294|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.06203|
+|inplace|6.7699|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.06459|
+|inplace|6.79333|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.06386|
+|inplace|6.78853|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03895|
+|inplace|6.76214|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.06475|
+|inplace|6.78815|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.07016|
+|inplace|6.77415|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04824|
+|inplace|6.75784|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.06224|
+|inplace|6.78258|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04683|
+|inplace|6.78528|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03347|
+|inplace|6.76253|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04423|
+|inplace|6.7118|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.05035|
+|inplace|6.75282|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02044|
+|inplace|6.74811|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02937|
+|inplace|6.76375|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03098|
+|inplace|6.70572|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03032|
+|inplace|6.74996|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02485|
+|inplace|6.76042|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03781|
+|inplace|6.69614|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02772|
+|inplace|6.76106|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03904|
+|inplace|6.75331|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04959|
+|inplace|6.74323|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.05559|
+|inplace|6.7212|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02815|
+|inplace|6.74656|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02606|
+|inplace|6.74234|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03753|
+|inplace|6.76703|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02647|
+|inplace|6.73523|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03598|
+|inplace|6.72897|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04659|
+|inplace|6.7626|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04497|
+|inplace|6.768|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03618|
+|inplace|6.76919|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.07464|
+|inplace|6.74209|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.02251|
+|inplace|6.71928|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.05839|
+|inplace|6.75144|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.04419|
+|inplace|6.74941|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.11003|
+|inplace|6.74163|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03024|
+|inplace|6.76485|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0133|
+|inplace|6.75543|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03853|
+|inplace|6.75491|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03085|
+|inplace|6.76284|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.03232|
+|inplace|6.75445|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024
+exercise 13: loop = 1000, size = 1024
+
+|method|time[ms]|
+|-------|---------|
+|alloc  |7.0377|
+|inplace|6.75946|
+
+info:
+default parameter: default_loop = 1000, default_size = 1024

@@ -1,0 +1,505 @@
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0933665|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936351|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0938269|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0922478|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935979|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0927029|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935673|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932638|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0927457|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.09293|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0934237|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0922446|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0954845|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0929478|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928169|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935931|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0931955|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0925968|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0937057|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0930012|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932199|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0933869|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0929418|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0933328|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0934639|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0931637|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928631|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0943371|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0927712|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935375|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936387|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0933292|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928567|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928819|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0926843|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932696|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0931568|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0934562|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0937866|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0924969|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.093594|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935511|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935428|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.094074|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.093845|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.092747|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0938172|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0930933|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0940744|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0934705|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936265|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0940079|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928609|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932226|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0925438|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935726|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0931974|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0927313|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932366|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.092474|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936122|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0931619|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932141|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0925894|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.093027|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936251|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0929116|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0930236|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936121|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936176|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0921349|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0938187|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0924805|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0937501|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.09272|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928933|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0940851|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0936228|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0950816|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0933408|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0926819|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0939541|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935121|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0938311|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935452|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0947598|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0949224|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928344|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932087|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935447|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0938923|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0940381|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0935005|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0945416|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0937573|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0937435|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0938307|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0928476|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0932884|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0934108|
+exercise 26: loop = 100000, size = 128
+
+|method   |time [ms]|
+|---------|---------|
+|no unroll|0.0933339|
