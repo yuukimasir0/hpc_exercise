@@ -1080,7 +1080,7 @@ int main(const int argc, const char** argv)
 			const int size = ret_32f.cols * ret_32f.rows;
 			for (int i = 0; i < size; i++)
 			{
-				ans_32f.data[i] *= 3.141f;
+				ans_32f.data[i] = x_32f.data[i] * 3.141f;
 			}
 			t.end();
 		}
@@ -1100,7 +1100,7 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				ret_32s.data[i] *= 3.141f;
+				x_32s.data[i] = x_32f.data[i] * 3.141f;
 			}
 			t.end();
 		}
@@ -1114,7 +1114,7 @@ int main(const int argc, const char** argv)
 			const int size = ret_32s.cols * ret_32s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				ret_32s.data[i] *= 201;
+				ret_32s.data[i] = x_32f.data[i] * 201;
 				ret_32s.data[i] >>= 6;
 			}
 			t.end();
@@ -1134,13 +1134,12 @@ int main(const int argc, const char** argv)
 			const int size = ret_16s.cols * ret_16s.rows;
 			for (int i = 0; i < size; i++)
 			{
-				ret_16s.data[i] *= 201;
+				ret_16s.data[i] = x_32f.data[i] * 201;
 				ret_16s.data[i] >>= 6;
 			}
 			t.end();
 		}
 		std::cout << "|16S mul fix|" << t.getAvgTime() << "|" << std::endl;
-
 
 		std::cout << std::endl << "info:" << std::endl;
 		std::cout << "default parameter: default_loop = " << default_loop << ", default_size = " << default_size << std::endl;
@@ -1150,6 +1149,7 @@ int main(const int argc, const char** argv)
 		std::cout << "16S diff from ans: " << mat_diff(ans_32f, temp) / double(ans_32f.cols * ans_32f.rows) << std::endl << std::endl;
 		return 0;
 	}
+
 #endif
 #ifdef EX11
 	//課題11
@@ -2154,7 +2154,7 @@ int main(const int argc, const char** argv)
 		{
 			t.start();
 			y[0] = (x[0] + x[1]) / 2.f;
-			for (int i = 0; i < size; ++i)
+			for (int i = 1; i < size - 1; ++i)
 			{
 				y[i] = (x[i - 1] + x[i] + x[i + 1]) / 3.f;
 				

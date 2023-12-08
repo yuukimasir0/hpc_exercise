@@ -1,12 +1,5 @@
-exercise 9: loop = 1000, size = 1024
-
-|method      |time [ms]|
-|------------|---------|
-|2 mul  (32S)|1.88306|
-|2 mul  (32F)|1.99615|
-|1 shift(32S)|1.88277|
-|------------|---------|
-exercise 9: loop = 1000, size = 1024
+info:
+default parameter: default_loop = 1000, default_size = 1024
 
 |method      |time [ms]|
 |------------|---------|
@@ -22,9 +15,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67322|
 |0.5 mul(32F)|1.99409|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -40,9 +31,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.56168|
 |0.5 mul(32F)|2.00373|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -58,9 +47,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66528|
 |0.5 mul(32F)|2.01446|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -76,9 +63,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.5953|
 |0.5 mul(32F)|1.99018|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -94,9 +79,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67736|
 |0.5 mul(32F)|2.00946|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -112,9 +95,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67292|
 |0.5 mul(32F)|2.01141|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -130,9 +111,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68877|
 |0.5 mul(32F)|2.00396|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -148,9 +127,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6475|
 |0.5 mul(32F)|2.01752|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -166,9 +143,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.61513|
 |0.5 mul(32F)|2.01269|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -184,9 +159,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68256|
 |0.5 mul(32F)|1.99779|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -202,9 +175,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66554|
 |0.5 mul(32F)|2.01069|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -220,9 +191,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64392|
 |0.5 mul(32F)|1.99994|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -238,9 +207,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64809|
 |0.5 mul(32F)|2.00747|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -256,9 +223,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66878|
 |0.5 mul(32F)|2.01014|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -274,9 +239,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.60833|
 |0.5 mul(32F)|1.99219|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -292,9 +255,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.52909|
 |0.5 mul(32F)|1.9886|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -310,9 +271,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.63617|
 |0.5 mul(32F)|1.98446|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -328,9 +287,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.57758|
 |0.5 mul(32F)|1.98973|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -346,9 +303,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.51998|
 |0.5 mul(32F)|1.97731|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -364,9 +319,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67174|
 |0.5 mul(32F)|2.01312|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -382,9 +335,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.57696|
 |0.5 mul(32F)|1.99704|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -400,9 +351,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68158|
 |0.5 mul(32F)|2.01317|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -418,9 +367,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.70802|
 |0.5 mul(32F)|2.02527|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -436,9 +383,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.56554|
 |0.5 mul(32F)|2.00956|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -454,9 +399,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66583|
 |0.5 mul(32F)|2.00007|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -472,9 +415,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65939|
 |0.5 mul(32F)|2.0118|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -490,9 +431,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65698|
 |0.5 mul(32F)|2.01329|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -508,9 +447,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.59661|
 |0.5 mul(32F)|2.01422|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -526,9 +463,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67557|
 |0.5 mul(32F)|2.01467|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -544,9 +479,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67396|
 |0.5 mul(32F)|1.99764|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -562,9 +495,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66489|
 |0.5 mul(32F)|2.0124|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -580,9 +511,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68981|
 |0.5 mul(32F)|2.00567|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -598,9 +527,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66625|
 |0.5 mul(32F)|2.01103|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -616,9 +543,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.63291|
 |0.5 mul(32F)|1.99895|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -634,9 +559,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.55505|
 |0.5 mul(32F)|2.00043|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -652,9 +575,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.61079|
 |0.5 mul(32F)|2.00128|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -670,9 +591,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.61354|
 |0.5 mul(32F)|2.01145|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -688,9 +607,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.63656|
 |0.5 mul(32F)|1.98952|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -706,9 +623,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66099|
 |0.5 mul(32F)|1.99216|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -724,9 +639,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.53371|
 |0.5 mul(32F)|1.99796|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -742,9 +655,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65315|
 |0.5 mul(32F)|1.98419|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -760,9 +671,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6339|
 |0.5 mul(32F)|1.99789|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -778,9 +687,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64235|
 |0.5 mul(32F)|1.98815|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -796,9 +703,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.57613|
 |0.5 mul(32F)|1.98568|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -814,9 +719,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64356|
 |0.5 mul(32F)|1.9774|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -832,9 +735,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64243|
 |0.5 mul(32F)|1.97999|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -850,9 +751,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.61503|
 |0.5 mul(32F)|1.97937|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -868,9 +767,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65488|
 |0.5 mul(32F)|1.99068|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -886,9 +783,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67569|
 |0.5 mul(32F)|1.9986|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -904,9 +799,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.56228|
 |0.5 mul(32F)|2.01024|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -922,9 +815,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64569|
 |0.5 mul(32F)|1.99734|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -940,9 +831,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.55697|
 |0.5 mul(32F)|1.9988|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -958,9 +847,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68881|
 |0.5 mul(32F)|2.01085|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -976,9 +863,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66177|
 |0.5 mul(32F)|1.99772|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -994,9 +879,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67631|
 |0.5 mul(32F)|2.00907|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1012,9 +895,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.56976|
 |0.5 mul(32F)|2.00439|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1030,9 +911,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6539|
 |0.5 mul(32F)|1.99745|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1048,9 +927,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6281|
 |0.5 mul(32F)|2.01388|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1066,9 +943,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.60812|
 |0.5 mul(32F)|2.0071|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1084,9 +959,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6486|
 |0.5 mul(32F)|2.01611|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1102,9 +975,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.62877|
 |0.5 mul(32F)|1.97505|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1120,9 +991,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.59747|
 |0.5 mul(32F)|1.98457|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1138,9 +1007,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.56175|
 |0.5 mul(32F)|2.0125|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1156,9 +1023,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.69114|
 |0.5 mul(32F)|2.00006|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1174,9 +1039,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68134|
 |0.5 mul(32F)|2.00397|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1192,9 +1055,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68482|
 |0.5 mul(32F)|2.01175|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1210,9 +1071,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66806|
 |0.5 mul(32F)|1.99688|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1228,9 +1087,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65205|
 |0.5 mul(32F)|2.00721|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1246,9 +1103,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.56425|
 |0.5 mul(32F)|2.00665|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1264,9 +1119,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67885|
 |0.5 mul(32F)|2.01293|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1282,9 +1135,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.61029|
 |0.5 mul(32F)|2.00638|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1300,9 +1151,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68025|
 |0.5 mul(32F)|2.01005|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1318,9 +1167,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.672|
 |0.5 mul(32F)|2.01081|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1336,9 +1183,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.55737|
 |0.5 mul(32F)|2.01141|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1354,9 +1199,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.54167|
 |0.5 mul(32F)|2.01042|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1372,9 +1215,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.55571|
 |0.5 mul(32F)|1.99824|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1390,9 +1231,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.67381|
 |0.5 mul(32F)|2.00689|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1408,9 +1247,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.55642|
 |0.5 mul(32F)|1.99933|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1426,9 +1263,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6738|
 |0.5 mul(32F)|2.00064|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1444,9 +1279,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68519|
 |0.5 mul(32F)|1.99881|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1462,9 +1295,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6864|
 |0.5 mul(32F)|2.01257|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1480,9 +1311,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68717|
 |0.5 mul(32F)|2.00354|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1498,9 +1327,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.60895|
 |0.5 mul(32F)|1.99682|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1516,9 +1343,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65978|
 |0.5 mul(32F)|1.99716|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1534,9 +1359,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65558|
 |0.5 mul(32F)|2.00763|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1552,9 +1375,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.63552|
 |0.5 mul(32F)|2.01019|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1570,9 +1391,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6831|
 |0.5 mul(32F)|1.99596|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1588,9 +1407,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66727|
 |0.5 mul(32F)|2.00564|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1606,9 +1423,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6725|
 |0.5 mul(32F)|2.01198|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1624,9 +1439,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.5618|
 |0.5 mul(32F)|2.01237|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1642,9 +1455,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64383|
 |0.5 mul(32F)|1.99844|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1660,9 +1471,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.63317|
 |0.5 mul(32F)|1.98323|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1678,9 +1487,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.52692|
 |0.5 mul(32F)|1.99083|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1696,9 +1503,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.6196|
 |0.5 mul(32F)|1.99248|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1714,9 +1519,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.55112|
 |0.5 mul(32F)|1.99936|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1732,9 +1535,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.68939|
 |0.5 mul(32F)|2.00772|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1750,9 +1551,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.66246|
 |0.5 mul(32F)|1.99989|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1768,9 +1567,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.64728|
 |0.5 mul(32F)|2.03762|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1786,9 +1583,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.53245|
 |0.5 mul(32F)|1.9854|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1804,9 +1599,7 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.56314|
 |0.5 mul(32F)|2.01763|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
-exercise 9: loop = 1000, size = 1024
+
 
 |method      |time [ms]|
 |------------|---------|
@@ -1822,5 +1615,3 @@ exercise 9: loop = 1000, size = 1024
 |2 div  (32F)|2.65736|
 |0.5 mul(32F)|2.00039|
 
-info:
-default parameter: default_loop = 1000, default_size = 1024
